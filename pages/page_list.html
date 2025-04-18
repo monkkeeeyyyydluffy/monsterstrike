@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>Monkeydluffy476985 Monster Strike</title>
+    <script>
+      // inline to prevent state flashing
+      if (
+        localStorage.theme === 'dark' ||
+        (!('theme' in localStorage) &&
+          window.matchMedia('(prefers-color-scheme: dark)').matches)
+      ) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <script src="js/themeToggle.js"></script>
+  </head>
+  <body
+    class="bg-gray-100 font-sans text-gray-800 transition-colors duration-300 dark:bg-gray-900 dark:text-gray-100"
+  >
+    <button
+      id="themeToggle"
+      class="fixed top-4 right-4 z-50 rounded-full bg-gray-200 p-3 text-gray-800 shadow-lg transition-colors duration-300 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600"
+      aria-label="Toggle Dark Mode"
+    >
+      <!-- Sun Icon -->
+      <svg
+        id="iconLight"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m16.95-6.95l-1.061 1.061M6.111 17.889l-1.061 1.061m13.9 0l-1.061-1.061M6.111 6.111 5.05 5.05M12 8.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z"
+        />
+      </svg>
+
+      <!-- Moon Icon -->
+      <svg
+        id="iconDark"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="hidden h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M21.752 15.002A9.718 9.718 0 0112.75 21C7.477 21 3.25 16.523 3.25 11.25c0-3.089 1.5-5.843 3.977-7.5a.75.75 0 01.987.987 7.5 7.5 0 0010.289 10.29.75.75 0 01.986.975z"
+        />
+      </svg>
+    </button>
+
+    <div
+      class="mb-4 rounded-md p-2 shadow-md transition-colors duration-300 md:top-4 md:left-4 md:mb-0 dark:bg-gray-800"
+    >
+      <a href="../index.html" class="text-blue-500 hover:underline"
+        >Go back home</a
+      >
+    </div>
+
+    <div class="container mx-auto p-8">
+      <h1 class="mb-4 text-3xl font-bold">Page List</h1>
+
+      <h2 class="mt-6 mb-2 text-xl font-semibold">Misc</h2>
+      <!-- <p class="mb-2">My youtube homepage/playlists:</p> -->
+      <ul class="mb-4 list-disc pl-5">
+        <li>
+          <a href="reroll.html" class="text-blue-500 hover:underline"
+            >Should i reroll?</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

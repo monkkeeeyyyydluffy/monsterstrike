@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>Monkeydluffy476985 Monster Strike</title>
+    <script>
+      // inline to prevent state flashing
+      if (
+        localStorage.theme === 'dark' ||
+        (!('theme' in localStorage) &&
+          window.matchMedia('(prefers-color-scheme: dark)').matches)
+      ) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <script src="js/themeToggle.js"></script>
+  </head>
+  <body
+    class="bg-gray-100 font-sans text-gray-800 transition-colors duration-300 dark:bg-gray-900 dark:text-gray-100"
+  >
+    <button
+      id="themeToggle"
+      class="fixed top-4 right-4 z-50 rounded-full bg-gray-200 p-3 text-gray-800 shadow-lg transition-colors duration-300 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600"
+      aria-label="Toggle Dark Mode"
+    >
+      <!-- Sun Icon -->
+      <svg
+        id="iconLight"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m16.95-6.95l-1.061 1.061M6.111 17.889l-1.061 1.061m13.9 0l-1.061-1.061M6.111 6.111 5.05 5.05M12 8.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z"
+        />
+      </svg>
+
+      <!-- Moon Icon -->
+      <svg
+        id="iconDark"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="hidden h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M21.752 15.002A9.718 9.718 0 0112.75 21C7.477 21 3.25 16.523 3.25 11.25c0-3.089 1.5-5.843 3.977-7.5a.75.75 0 01.987.987 7.5 7.5 0 0010.289 10.29.75.75 0 01.986.975z"
+        />
+      </svg>
+    </button>
+
+    <div
+      class="mb-4 rounded-md p-2 shadow-md transition-colors duration-300 md:top-4 md:left-4 md:mb-0 dark:bg-gray-800"
+    >
+      <a href="../index.html" class="text-blue-500 hover:underline"
+        >Go back home</a
+      >
+    </div>
+
+    <div class="container mx-auto p-8">
+      <h1 class="mb-4 text-3xl font-bold">
+        Should I Re-roll? Is this re-roll good?
+      </h1>
+
+      <p class="mb-2">
+        <b class="font-semibold">Short answer</b> is get at least one lucy or
+        masamune. BUT, if you are willing to spend time re-rolling, get 2-3+
+        good units.
+      </p>
+      <p class="mb-4">
+        <b class="font-semibold">Long answer...</b> MS unit evaluation and
+        philosphy on how to pull banners is tricky and very subjective.
+      </p>
+
+      <p class="mb-2">
+        Either go to GW page
+        <a
+          href="https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/286"
+          class="text-blue-500 hover:underline"
+          >GW re-roll ranking</a
+        >
+        or the
+        <a
+          href="https://discord.com/channels/267853822003642369/778379677660217365"
+          class="text-blue-500 hover:underline"
+          >Discords #ms-guide</a
+        >
+        (look for re-roll tier list) if you need names/pictures of units
+      </p>
+
+      <p class="mb-4">
+        Discord invite link:
+        <a
+          href="https://discord.gg/QWvbWAj"
+          class="text-blue-500 hover:underline"
+          >https://discord.gg/QWvbWAj</a
+        >
+      </p>
+
+      <p class="mb-2">
+        <b class="font-semibold">Get units from bad banners first philosophy:</b
+        ><br />
+        I would vote getting 1 lucy first is preferred over 1 masamune.<br />
+        Some people vote Lucy first, because her banner is bad (beginners should
+        not pull, old 2015 banner, most units are bad). <br />
+        AND... beginners should pull legends banner, so you will (probably) get
+        masamune eventually.
+      </p>
+
+      <p class="mb-4">
+        <b class="font-semibold">Get high spec units first philosophy:</b><br />
+        Going masamune first is also a great choice, because shes MUCH better at
+        going to high difficulty quests than lucy. Masamune has a top tier kit,
+        strong bump, strong abilities, strong strikeshot(SS).<br />
+        Some background, she is the legends unit released on new years (January
+        1, 2024); while Lucy is a former legends NY unit from 2015, but her
+        newest form was released 2023. NY units have some of the best kits.<br />
+      </p>
+
+      <p class="mb-4">
+        <b class="font-semibold"
+          >Is two masamune good? Or lucy masamune? Or masamune anastasia? Or
+          masamune+3 others?.. etc...?</b
+        ><br />
+        Each unit is good at different things and have their own roles. I go
+        into detail in next bolded section below.<br />
+        As a new player, you first want unit thats good at general content,
+        where strong bump combos are important. (Note high difficulty content,
+        they tune the quests so direct damage, NOT bump combos, are the way to
+        win.)<br />
+        MS is played with 4 units in a team, and even one unit with strong bump
+        combo is sufficient. The other 3 units in the team can have different
+        roles and bump the unit with strong bump combo every turn. IE. having 2
+        or 3 lucy is a bit redundant.<br /><br />
+        To keep it simple, go to
+        <a
+          href="https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/26730"
+          class="text-blue-500 hover:underline"
+          >GW Tier list</a
+        >, and don't pay too much attention to the naming of S/A/B/C tiers. If
+        you see a unit on this tier list, its either top tier in a particular
+        quest, or very strong and use-able in particular quest. Looking at S/A/B
+        tier, some of the units with more impressive kits are here versus C
+        tier.<br />
+        So all units are good, but C tier may be more niche and specific, but
+        still good. Evaluate your re-roll based on how many units you have that
+        are in the tier list. Or just ask on the discord.
+      </p>
+
+      <p class="mb-4">
+        <b class="font-semibold"
+          >Each unit is good at different things and have their own roles:</b
+        ><br />
+        So masamune is MUCH better at going to high difficulty. If masamune
+        sounds so great, why does anyone want Lucy?<br />
+        MS is a game with a lot of unit/quest variety (gimmicks). Masamune will
+        have some things and quests shes good at, and Lucy will have some things
+        and quests shes good at.<br />
+      </p>
+      <p class="mb-4">
+        This applies to ALMOST ALL MS UNITS, they all do different things, and
+        if you stick around discord long enough people will hate on GW tier list
+        because of this fact. Its not simple so say Unit 1 is S Tier and Unit 2
+        is C Tier.<br />
+        This is like trying to ask whats better, a hammer, screwdriver, or
+        wrench? It depends on the situation (quest), and you'd have to crawl
+        over my dead body before you took those out of my toolbox (monster
+        box).<br />
+        GW has Masamune S tier, while Yakumo (2022 NY legends unit) is not. BUT,
+        they are both EXTREMELY strong in the quests they belong in. (If you
+        wanted to speculate, I think GW put masamune at S tier soley because her
+        quest is one where the best hardcore players farm non-stop every month
+        to get a rare spawn.)
+      </p>
+
+      <p class="mb-4">
+        I will say the MS devs put better kits on legends NY units. IE. they'll
+        get abilities/bump combos/strikeshots no other monster has, they have
+        MORE abilities than your average monster. So a Legends NY unit may be
+        able to go to more quests because of this impressive kit. While a
+        general pool (genpool) mon, may be designed to precisely counter one
+        quest, and thus only strong in that one quest.<br />
+        Every once in awhile a monster shows up in collab/alpha/element( and
+        etc...) banner that rivals a legends/guardians.<br />
+        Right now (as of 2025), the only genpool with a strong general use bump
+        combo is Martha, otherwise the good genpool kits are very specific to
+        counter a single quest.
+      </p>
+
+      <p class="mb-4">
+        For extra reading, can read GW talk about the game.
+        <a
+          href="https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/285839"
+          class="text-blue-500 hover:underline"
+          >Characteristics of characters you should draw</a
+        ><br />
+        The article is old from 2022, but the general advice is sound. It
+        recommends strong bump combo mons for low difficulty. <br />
+        Corrections - Do not refer to their list of mons, this article is
+        outdated with the list.<br />
+        Corrections - It says gouzetsu is highest difficulty, but reizetsu is
+        newer and higher difficulty. Gouzetsu ML can still be useful though.<br />
+        Corrections - it shows uncharted lands, but this is obsolete and removed
+        from monthly quests. <br />
+      </p>
+
+      <p class="mb-6">
+        So all units do different things, MS devs do not really create exact
+        copies of monsters, always subtle differences. Legends/guardians usually
+        have impressive kits, but once in awhile you'll see an impressive kit in
+        collab/alpha/element( and etc...) also.
+      </p>
+    </div>
+  </body>
+</html>
