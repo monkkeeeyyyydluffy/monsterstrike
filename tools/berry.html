@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berry Simulator Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6 font-sans">
+    <div class="mb-4 md:absolute md:top-4 md:left-4 md:mb-0">
+      <a href="../index.html" class="text-blue-500 hover:underline"
+        >Go back home</a
+      >
+    </div>
+    <div class="max-w-3xl mx-auto bg-white shadow-md rounded-md p-6">
+        <h2 class="text-2xl font-semibold mb-4 text-gray-800">Berry Simulator Tool</h2>
+
+        <form id="inputForm" class="space-y-8">
+            <section class="space-y-4">
+                <h3 class="text-lg font-semibold text-gray-700">Section 1</h3>
+                <div class="grid grid-cols-1">
+                    <label class="text-gray-700 font-semibold">Unit 1</label>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="unit1SlingType" class="block text-gray-700 text-sm font-bold mb-2">Sling Type</label>
+                        <select id="unit1SlingType" name="unit1SlingType" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="bounce">bounce</option>
+                            <option value="pierce">pierce</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit1Class" class="block text-gray-700 text-sm font-bold mb-2">Class</label>
+                        <select id="unit1Class" name="unit1Class" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="demi-human">demi-human</option>
+                            <option value="robot">robot</option>
+                            <option value="bird">bird</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit1Bias" class="block text-gray-700 text-sm font-bold mb-2">Bias</label>
+                        <select id="unit1Bias" name="unit1Bias" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="balanced">balanced</option>
+                            <option value="blast">blast</blast></option>
+                            <option value="power">power</option>
+                            <option value="speed">speed</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="unit1Berry1" class="block text-gray-700 text-sm font-bold mb-2">Berry 1</label>
+                        <select id="unit1Berry1" name="unit1Berry1" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk" selected>Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit1Berry2" class="block text-gray-700 text-sm font-bold mb-2">Berry 2</label>
+                        <select id="unit1Berry2" name="unit1Berry2" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp" selected>Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit1Berry3" class="block text-gray-700 text-sm font-bold mb-2">Berry 3</label>
+                        <select id="unit1Berry3" name="unit1Berry3" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd" selected>Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-4">
+            </section>
+
+            <section class="space-y-4">
+                <h3 class="text-lg font-semibold text-gray-700">Section 2</h3>
+                <div class="grid grid-cols-1">
+                    <label class="text-gray-700 font-semibold">Unit 2</label>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="unit2SlingType" class="block text-gray-700 text-sm font-bold mb-2">Sling Type</label>
+                        <select id="unit2SlingType" name="unit2SlingType" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="bounce">bounce</option>
+                            <option value="pierce">pierce</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit2Class" class="block text-gray-700 text-sm font-bold mb-2">Class</label>
+                        <select id="unit2Class" name="unit2Class" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="demi-human">demi-human</option>
+                            <option value="robot" selected>robot</option>
+                            <option value="bird">bird</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit2Bias" class="block text-gray-700 text-sm font-bold mb-2">Bias</label>
+                        <select id="unit2Bias" name="unit2Bias" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="balanced">balanced</option>
+                            <option value="blast">blast</blast></option>
+                            <option value="power">power</option>
+                            <option value="speed">speed</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="unit2Berry1" class="block text-gray-700 text-sm font-bold mb-2">Berry 1</label>
+                        <select id="unit2Berry1" name="unit2Berry1" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk" selected>Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit2Berry2" class="block text-gray-700 text-sm font-bold mb-2">Berry 2</label>
+                        <select id="unit2Berry2" name="unit2Berry2" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp" selected>Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit2Berry3" class="block text-gray-700 text-sm font-bold mb-2">Berry 3</label>
+                        <select id="unit2Berry3" name="unit2Berry3" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd" selected>Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-4">
+            </section>
+
+            <section class="space-y-4">
+                <h3 class="text-lg font-semibold text-gray-700">Section 3</h3>
+                <div class="grid grid-cols-1">
+                    <label class="text-gray-700 font-semibold">Unit 3</label>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="unit3SlingType" class="block text-gray-700 text-sm font-bold mb-2">Sling Type</label>
+                        <select id="unit3SlingType" name="unit3SlingType" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="bounce">bounce</option>
+                            <option value="pierce">pierce</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit3Class" class="block text-gray-700 text-sm font-bold mb-2">Class</label>
+                        <select id="unit3Class" name="unit3Class" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="demi-human">demi-human</option>
+                            <option value="robot">robot</option>
+                            <option value="bird" selected>bird</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit3Bias" class="block text-gray-700 text-sm font-bold mb-2">Bias</label>
+                        <select id="unit3Bias" name="unit3Bias" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="balanced">balanced</option>
+                            <option value="blast">blast</blast></option>
+                            <option value="power">power</option>
+                            <option value="speed">speed</speed></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="unit3Berry1" class="block text-gray-700 text-sm font-bold mb-2">Berry 1</label>
+                        <select id="unit3Berry1" name="unit3Berry1" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk" selected>Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit3Berry2" class="block text-gray-700 text-sm font-bold mb-2">Berry 2</label>
+                        <select id="unit3Berry2" name="unit3Berry2" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp" selected>Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit3Berry3" class="block text-gray-700 text-sm font-bold mb-2">Berry 3</label>
+                        <select id="unit3Berry3" name="unit3Berry3" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd" selected>Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-4">
+            </section>
+
+            <section class="space-y-4">
+                <h3 class="text-lg font-semibold text-gray-700">Section 4</h3>
+                <div class="grid grid-cols-1">
+                    <label class="text-gray-700 font-semibold">Unit 4</label>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="unit4SlingType" class="block text-gray-700 text-sm font-bold mb-2">Sling Type</label>
+                        <select id="unit4SlingType" name="unit4SlingType" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="bounce">bounce</option>
+                            <option value="pierce">pierce</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit4Class" class="block text-gray-700 text-sm font-bold mb-2">Class</label>
+                        <select id="unit4Class" name="unit4Class" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="demi-human">demi-human</option>
+                            <option value="robot">robot</option>
+                            <option value="bird">bird</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit4Bias" class="block text-gray-700 text-sm font-bold mb-2">Bias</label>
+                        <select id="unit4Bias" name="unit4Bias" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="balanced">balanced</option>
+                            <option value="blast">blast</blast></option>
+                            <option value="power">power</option>
+                            <option value="speed">speed</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="unit4Berry1" class="block text-gray-700 text-sm font-bold mb-2">Berry 1</label>
+                        <select id="unit4Berry1" name="unit4Berry1" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius" selected>Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit4Berry2" class="block text-gray-700 text-sm font-bold mb-2">Berry 2</label>
+                        <select id="unit4Berry2" name="unit4Berry2" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick" selected>Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat">Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="unit4Berry3" class="block text-gray-700 text-sm font-bold mb-2">Berry 3</label>
+                        <select id="unit4Berry3" name="unit4Berry3" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300">
+                            <option value="Class Atk">Class Atk</option>
+                            <option value="Class Atk/Hp">Class Atk/Hp</option>
+                            <option value="Class Atk/Spd">Class Atk/Spd</option>
+                            <option value="Sling Atk">Sling Atk</option>
+                            <option value="Sling Atk/Hp">Sling Atk/Hp</option>
+                            <option value="Sling Atk/Spd">Sling Atk/Spd</option>
+                            <option value="Bias Atk">Bias Atk</option>
+                            <option value="Bias Atk/Hp">Bias Atk/Hp</option>
+                            <option value="Bias Atk/Spd">Bias Atk/Spd</option>
+                            <option value="Sidekick">Sidekick</option>
+                            <option value="Genius">Genius</option>
+                            <option value="Boss Cutthroat" selected>Boss Cutthroat</option>
+                            <option value="Mob Cutthroat">Mob Cutthroat</option>
+                            <option value="Haste">Haste</option>
+                            <option value="noberry">No Berry</option>
+
+                        </select>
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-4">
+            </section>
+
+            <button type="button" onclick="gatherInputs()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Calculate</button>
+
+            <div class="flex items-center mt-4">
+                <input type="checkbox" id="verboseOutput" name="verbose" class="form-checkbox h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                <label for="verboseOutput" class="ml-2 text-gray-700">Verbose</label>
+            </div>
+
+        </form>
+
+        <div id="results" class="mt-6 space-y-2">
+            <h3 class="text-xl font-semibold text-gray-800">Results Summary</h3>
+            <p id="unit1Summary" class="text-gray-700"></p>
+            <p id="unit2Summary" class="text-gray-700"></p>
+            <p id="unit3Summary" class="text-gray-700"></p>
+            <p id="unit4Summary" class="text-gray-700"></p>
+        </div>
+    </div>
+
+    <script>
+        function convertPythonLogic() {
+          const unit1_raw_json = `{
+            "unit1SlingType": "bounce",
+            "unit1Class": "demi-human",
+            "unit1Bias": "balanced",
+            "unit1Berry1": "Sling Atk",
+            "unit1Berry2": "Sling Atk/Hp",
+            "unit1Berry3": "Sling Atk/Spd"
+          }`;
+
+          const unit2_raw_json = `{
+            "unit2SlingType": "bounce",
+            "unit2Class": "demi-human",
+            "unit2Bias": "balanced",
+            "unit2Berry1": "Bias Atk",
+            "unit2Berry2": "Bias Atk/Hp",
+            "unit2Berry3": "Bias Atk/Spd"
+          }`;
+
+          const unit3_raw_json = `{
+            "unit3SlingType": "bounce",
+            "unit3Class": "demi-human",
+            "unit3Bias": "balanced",
+            "unit3Berry1": "Class Atk",
+            "unit3Berry2": "Class Atk/Hp",
+            "unit3Berry3": "Class Atk/Spd"
+          }`;
+
+          const unit4_raw_json = `{
+            "unit4SlingType": "bounce",
+            "unit4Class": "demi-human",
+            "unit4Bias": "balanced",
+            "unit4Berry1": "Genius",
+            "unit4Berry2": "Haste",
+            "unit4Berry3": "Boss Cutthroat"
+          }`;
+
+          const test1 = JSON.parse(unit1_raw_json);
+          const test2 = JSON.parse(unit2_raw_json);
+          const test3 = JSON.parse(unit3_raw_json);
+          const test4 = JSON.parse(unit4_raw_json);
+
+          const summarized = {
+            demihuman: [],
+            robot: [],
+            bird: [],
+            bounce: [],
+            pierce: [],
+            balanced: [],
+            blast: [],
+            power: [],
+            speed: [],
+            unit1: [],
+            unit2: [],
+            unit3: [],
+            unit4: [],
+            team: [],
+          };
+
+          function standardizeLabels(test_json) {
+            const new_dict = {};
+            for (const key in test_json) {
+              if (key.includes('SlingType')) {
+                new_dict['sling'] = test_json[key];
+              } else if (key.includes('Class')) {
+                new_dict['class'] = test_json[key];
+              } else if (key.includes('Bias')) {
+                new_dict['bias'] = test_json[key];
+              } else if (key.includes('Berry1')) {
+                new_dict['berry1'] = test_json[key];
+              } else if (key.includes('Berry2')) {
+                new_dict['berry2'] = test_json[key];
+              } else if (key.includes('Berry3')) {
+                new_dict['berry3'] = test_json[key];
+              }
+
+              if (key.includes('unit1')) {
+                new_dict['unit_num'] = 'unit1';
+              } else if (key.includes('unit2')) {
+                new_dict['unit_num'] = 'unit2';
+              } else if (key.includes('unit3')) {
+                new_dict['unit_num'] = 'unit3';
+              } else if (key.includes('unit4')) {
+                new_dict['unit_num'] = 'unit4';
+              }
+            }
+
+            if (new_dict['class'] === 'demi-human') {
+              new_dict['class'] = 'demihuman';
+            }
+
+            return new_dict;
+          }
+
+          function addToSummarized(test_json, summarized) {
+            const new_dict = standardizeLabels(test_json);
+
+            const berry1 = new_dict['berry1'];
+            const berry2 = new_dict['berry2'];
+            const berry3 = new_dict['berry3'];
+
+            const berries = [berry1, berry2, berry3];
+            for (const berry of berries) {
+              if (['Class Atk', 'Class Atk/Hp', 'Class Atk/Spd'].includes(berry)) {
+                summarized[new_dict['class']].push(berry);
+              } else if (['Bias Atk', 'Bias Atk/Hp', 'Bias Atk/Spd'].includes(berry)) {
+                summarized[new_dict['bias']].push(berry);
+              } else if (['Sling Atk', 'Sling Atk/Hp', 'Sling Atk/Spd'].includes(berry)) {
+                summarized[new_dict['sling']].push(berry);
+              } else if (['Sidekick', 'Haste'].includes(berry)) {
+                summarized[new_dict['unit_num']].push(berry);
+              } else if (['Genius', 'Boss Cutthroat', 'Mob Cutthroat'].includes(berry)) {
+                summarized['team'].push(berry);
+              }
+            }
+          }
+
+          function calculateAndPrintSummarized2(json_unit1, json_unit2, json_unit3, json_unit4, summarized) {
+
+            const output = [];
+            const resultsDiv = document.getElementById("results");
+            resultsDiv.innerHTML = ""; // Clear previous results
+            const verboseOutput = document.getElementById('verboseOutput')
+
+            if (summarized["team"].length > 0) {
+              output.push("Effects for the team:");
+
+              if (summarized["team"].includes('Genius')) {
+                output.push("Genius Berry +60% exp");
+              }
+
+              if (summarized["team"].includes('Boss Cutthroat')) {
+                output.push("Boss Cuttthroat shave 16% HP off boss at start of the start.");
+              }
+
+              if (summarized["team"].includes('Mob Cutthroat')) {
+                output.push("Mob Cuttthroat shave 16% HP off mobs at start of the start.");
+              }
+
+              output.push("");
+              output.push("");
+            }
+
+            function printPerUnit(json_obj, unitDivId) {
+              const new_dict = standardizeLabels(json_obj);
+              output.push(`Effects for ${new_dict['unit_num']}; ${new_dict['class']} - ${new_dict['sling']} - ${new_dict['bias']}:`);
+
+              let total_atk = 0;
+              let total_spd = 0.0;
+              let total_hp = 0;
+
+              if (summarized[new_dict['class']].length > 0) {
+                const msg = [];
+                if (summarized[new_dict['class']].includes('Class Atk')) {
+                  msg.push('Class Atk +3000atk');
+                  total_atk += 3000;
+                }
+
+                if (summarized[new_dict['class']].includes('Class Atk/Hp')) {
+                  msg.push('Class Atk/Hp +2000atk +2000hp');
+                  total_atk += 2000;
+                  total_hp += 2000;
+                }
+
+                if (summarized[new_dict['class']].includes('Class Atk/Spd')) {
+                  msg.push('Class Atk/Spd +2000atk +26.6');
+                  total_atk += 2000;
+                  total_spd += 26.6;
+                }
+
+                if (verboseOutput.checked) {
+                    if (msg.length > 0) output.push(msg.join(';'));
+                }
+              }
+
+              if (summarized[new_dict['sling']].length > 0) {
+                const msg = [];
+                if (summarized[new_dict['sling']].includes('Sling Atk')) {
+                  msg.push('Sling Atk +1500atk');
+                  total_atk += 1500;
+                }
+
+                if (summarized[new_dict['sling']].includes('Sling Atk/Hp')) {
+                  msg.push('Sling Atk/Hp +1000atk +1000hp');
+                  total_atk += 1000;
+                  total_hp += 1000;
+                }
+
+                if (summarized[new_dict['sling']].includes('Sling Atk/Spd')) {
+                  msg.push('Sling Atk/Spd +1000atk +13.2spd');
+                  total_atk += 1000;
+                  total_spd += 13.2;
+                }
+                if (verboseOutput.checked) {
+                    if (msg.length > 0) output.push(msg.join(';'));
+                }
+              }
+
+              if (summarized[new_dict['bias']].length > 0) {
+                const msg = [];
+                if (summarized[new_dict['bias']].includes('Bias Atk')) {
+                  msg.push('Bias Atk +1500atk');
+                  total_atk += 1500;
+                }
+
+                if (summarized[new_dict['bias']].includes('Bias Atk/Hp')) {
+                  msg.push('Bias Atk/Hp +1000atk +1000hp');
+                  total_atk += 1000;
+                  total_hp += 1000;
+                }
+
+                if (summarized[new_dict['bias']].includes('Bias Atk/Spd')) {
+                  msg.push('Bias Atk/Spd +1000atk +13.2spd');
+                  total_atk += 1000;
+                  total_spd += 13.2;
+                }
+                if (verboseOutput.checked) {
+                    if (msg.length > 0) output.push(msg.join(';'));
+                }
+              }
+
+              output.push(`Stat bonuses. Atk +${total_atk}. Hp +${total_hp}. Spd +${total_spd}`);
+
+              if (summarized[new_dict['unit_num']].length > 0) {
+                const msg = [];
+                if (summarized[new_dict['unit_num']].includes('Sidekick')) {
+                  msg.push('Sidekick +25% bump dmg');
+                }
+
+                if (summarized[new_dict['unit_num']].includes('Haste')) {
+                  msg.push('Haste-Reduce first ss by 5 turns');
+                }
+                output.push(msg.join(';'));
+              }
+
+              output.push("");
+            }
+
+
+            printPerUnit(json_unit1, "unit1Summary");
+            printPerUnit(json_unit2, "unit2Summary");
+            printPerUnit(json_unit3, "unit3Summary");
+            printPerUnit(json_unit4, "unit4Summary");
+
+            resultsDiv.innerHTML = output.join('<br>');
+            console.log(output.join('\n')); // For console output as well
+          }
+
+          // Call this function when the "Calculate" button is clicked
+          window.gatherInputs = function() {
+            // Get the selected values from the HTML form
+            const unit1SlingType = document.getElementById("unit1SlingType").value;
+            const unit1Class = document.getElementById("unit1Class").value;
+            const unit1Bias = document.getElementById("unit1Bias").value;
+            const unit1Berry1 = document.getElementById("unit1Berry1").value;
+            const unit1Berry2 = document.getElementById("unit1Berry2").value;
+            const unit1Berry3 = document.getElementById("unit1Berry3").value;
+
+            const unit2SlingType = document.getElementById("unit2SlingType").value;
+            const unit2Class = document.getElementById("unit2Class").value;
+            const unit2Bias = document.getElementById("unit2Bias").value;
+            const unit2Berry1 = document.getElementById("unit2Berry1").value;
+            const unit2Berry2 = document.getElementById("unit2Berry2").value;
+            const unit2Berry3 = document.getElementById("unit2Berry3").value;
+
+            const unit3SlingType = document.getElementById("unit3SlingType").value;
+            const unit3Class = document.getElementById("unit3Class").value;
+            const unit3Bias = document.getElementById("unit3Bias").value;
+            const unit3Berry1 = document.getElementById("unit3Berry1").value;
+            const unit3Berry2 = document.getElementById("unit3Berry2").value;
+            const unit3Berry3 = document.getElementById("unit3Berry3").value;
+
+            const unit4SlingType = document.getElementById("unit4SlingType").value;
+            const unit4Class = document.getElementById("unit4Class").value;
+            const unit4Bias = document.getElementById("unit4Bias").value;
+            const unit4Berry1 = document.getElementById("unit4Berry1").value;
+            const unit4Berry2 = document.getElementById("unit4Berry2").value;
+            const unit4Berry3 = document.getElementById("unit4Berry3").value;
+
+            // Create JavaScript objects mimicking the JSON structure
+            const currentTestData1 = {
+              unit1SlingType: unit1SlingType,
+              unit1Class: unit1Class,
+              unit1Bias: unit1Bias,
+              unit1Berry1: unit1Berry1,
+              unit1Berry2: unit1Berry2,
+              unit1Berry3: unit1Berry3,
+            };
+
+            const currentTestData2 = {
+              unit2SlingType: unit2SlingType,
+              unit2Class: unit2Class,
+              unit2Bias: unit2Bias,
+              unit2Berry1: unit2Berry1,
+              unit2Berry2: unit2Berry2,
+              unit2Berry3: unit2Berry3,
+            };
+
+            const currentTestData3 = {
+              unit3SlingType: unit3SlingType,
+              unit3Class: unit3Class,
+              unit3Bias: unit3Bias,
+              unit3Berry1: unit3Berry1,
+              unit3Berry2: unit3Berry2,
+              unit3Berry3: unit3Berry3,
+            };
+
+            const currentTestData4 = {
+              unit4SlingType: unit4SlingType,
+              unit4Class: unit4Class,
+              unit4Bias: unit4Bias,
+              unit4Berry1: unit4Berry1,
+              unit4Berry2: unit4Berry2,
+              unit4Berry3: unit4Berry3,
+            };
+
+            // Reset the summarized object
+            for (const key in summarized) {
+              summarized[key] = [];
+            }
+
+            console.log('im inside the button click.'); // For console output as well
+            console.log(unit3SlingType); // For console output as well
+
+            // Process the currently selected values
+            addToSummarized(currentTestData1, summarized);
+            addToSummarized(currentTestData2, summarized);
+            addToSummarized(currentTestData3, summarized);
+            addToSummarized(currentTestData4, summarized);
+            calculateAndPrintSummarized2(currentTestData1, currentTestData2, currentTestData3, currentTestData4, summarized);
+          };
+
+          // Initial call to process the default JSON data (optional)
+          // calculateAndPrintSummarized2(summarized);
+        }
+
+        // Call the main function to set up the logic
+        convertPythonLogic();
+    </script>
+
+</body>
+</html>
