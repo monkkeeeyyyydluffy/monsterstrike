@@ -4,22 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exp Calculator Tool</title>
+    <script type="module" src="../js/themeInit.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <script src="../js/themeToggle.js"></script>
   </head>
-  <body class="bg-gray-100 p-6 font-sans">
+  <body
+    class="bg-gray-100 p-6 font-sans text-gray-800 transition-colors duration-300 dark:bg-gray-900 dark:text-gray-100"
+  >
+    <button
+      id="themeToggle"
+      class="fixed top-4 right-4 z-50 rounded-full bg-gray-200 p-3 text-gray-800 shadow-lg transition-colors duration-300 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600"
+      aria-label="Toggle Dark Mode"
+    >
+      <!-- Sun Icon -->
+      <svg
+        id="iconLight"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m16.95-6.95l-1.061 1.061M6.111 17.889l-1.061 1.061m13.9 0l-1.061-1.061M6.111 6.111 5.05 5.05M12 8.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z"
+        />
+      </svg>
+
+      <!-- Moon Icon -->
+      <svg
+        id="iconDark"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="hidden h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M21.752 15.002A9.718 9.718 0 0112.75 21C7.477 21 3.25 16.523 3.25 11.25c0-3.089 1.5-5.843 3.977-7.5a.75.75 0 01.987.987 7.5 7.5 0 0010.289 10.29.75.75 0 01.986.975z"
+        />
+      </svg>
+    </button>
+
     <div class="mb-4 md:absolute md:top-4 md:left-4 md:mb-0">
       <a href="../index.html" class="text-blue-500 hover:underline"
         >Go back home</a
       >
     </div>
-    <div class="mx-auto max-w-lg rounded-md bg-white p-6 shadow-md">
-      <h2 class="mb-4 text-2xl font-semibold text-gray-800">
+    <div
+      class="mx-auto max-w-lg rounded-md bg-white p-6 shadow-md transition-colors duration-300 dark:bg-gray-800"
+    >
+      <h2 class="mb-4 text-2xl font-semibold text-gray-800 dark:text-gray-100">
         Exp Calculator Tool
       </h2>
 
       <form id="calculationForm" class="space-y-4">
         <div class="flex flex-wrap items-start gap-2 sm:items-center">
-          <label class="w-40 text-left font-bold text-gray-700"
+          <label
+            class="w-40 text-left font-bold text-gray-700 dark:text-gray-300"
             >Genius Berry</label
           >
           <div class="flex flex-wrap gap-x-4 gap-y-2">
@@ -32,7 +84,9 @@
                 class="form-radio h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
                 onclick="calculateProduct()"
               />
-              <label for="row1Option1" class="ml-2 text-gray-700"
+              <label
+                for="row1Option1"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >S (+50%)</label
               >
             </div>
@@ -45,7 +99,9 @@
                 class="form-radio h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
                 onclick="calculateProduct()"
               />
-              <label for="row1Option2" class="ml-2 text-gray-700"
+              <label
+                for="row1Option2"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >S+ (+55%)</label
               >
             </div>
@@ -58,7 +114,9 @@
                 class="form-radio h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
                 onclick="calculateProduct()"
               />
-              <label for="row1Option3" class="ml-2 text-gray-700"
+              <label
+                for="row1Option3"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >S++ (+60%)</label
               >
             </div>
@@ -72,7 +130,9 @@
                 onclick="calculateProduct()"
                 checked
               />
-              <label for="row1Option4" class="ml-2 text-gray-700"
+              <label
+                for="row1Option4"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >EL (+65%)</label
               >
             </div>
@@ -80,7 +140,7 @@
         </div>
 
         <div class="flex flex-wrap items-start gap-2 sm:items-center">
-          <label class="w-40 text-left text-gray-700"
+          <label class="w-40 text-left text-gray-700 dark:text-gray-300"
             >Bell or 2x EXP event:</label
           >
           <div class="flex flex-wrap gap-x-4 gap-y-2">
@@ -94,7 +154,9 @@
                 onclick="calculateProduct()"
                 checked
               />
-              <label for="row2Option1" class="ml-2 text-gray-700"
+              <label
+                for="row2Option1"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >3x Bell</label
               >
             </div>
@@ -107,7 +169,9 @@
                 class="form-radio h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
                 onclick="calculateProduct()"
               />
-              <label for="row2Option2" class="ml-2 text-gray-700"
+              <label
+                for="row2Option2"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >2x event</label
               >
             </div>
@@ -115,7 +179,10 @@
         </div>
 
         <div class="flex flex-wrap items-start gap-2 sm:items-center">
-          <label class="w-40 text-left font-bold text-gray-700">Monspot:</label>
+          <label
+            class="w-40 text-left font-bold text-gray-700 dark:text-gray-300"
+            >Monspot:</label
+          >
           <div class="flex flex-wrap gap-x-4 gap-y-2">
             <div class="flex items-center">
               <input
@@ -126,7 +193,9 @@
                 class="form-radio h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
                 onclick="calculateProduct()"
               />
-              <label for="row3Option1" class="ml-2 text-gray-700"
+              <label
+                for="row3Option1"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >exp spot (+50%)</label
               >
             </div>
@@ -140,7 +209,9 @@
                 onclick="calculateProduct()"
                 checked
               />
-              <label for="row3Option2" class="ml-2 text-gray-700"
+              <label
+                for="row3Option2"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >exp+ spot (+75%)</label
               >
             </div>
@@ -153,7 +224,9 @@
                 class="form-radio h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
                 onclick="calculateProduct()"
               />
-              <label for="row3Option3" class="ml-2 text-gray-700"
+              <label
+                for="row3Option3"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >no spot</label
               >
             </div>
@@ -161,7 +234,10 @@
         </div>
 
         <div class="flex flex-wrap items-start gap-2 sm:items-center">
-          <label class="w-40 text-left font-bold text-gray-700">Seele:</label>
+          <label
+            class="w-40 text-left font-bold text-gray-700 dark:text-gray-300"
+            >Seele:</label
+          >
           <div class="flex items-center">
             <div class="mr-4 flex items-center">
               <input
@@ -173,7 +249,9 @@
                 onclick="calculateProduct()"
                 checked
               />
-              <label for="row4Option1" class="ml-2 text-gray-700"
+              <label
+                for="row4Option1"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >ML Seele (+50%)</label
               >
             </div>
@@ -186,7 +264,9 @@
                 class="form-radio h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
                 onchange="toggleCustomInput(); calculateProduct();"
               />
-              <label for="row4Option2" class="ml-2 text-gray-700"
+              <label
+                for="row4Option2"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >Enter Value (NOT ML):</label
               >
               <div id="customTextInputContainer" class="ml-2">
@@ -202,12 +282,14 @@
         </div>
 
         <div class="flex flex-wrap items-start gap-2 sm:items-center">
-          <label for="comboBox" class="w-40 text-left font-bold text-gray-700"
+          <label
+            for="comboBox"
+            class="w-40 text-left font-bold text-gray-700 dark:text-gray-300"
             >Lucky Bonus (675ML reward):</label
           >
           <select
             id="comboBox"
-            class="w-full rounded-md border border-gray-300 bg-white px-3 py-2 shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none sm:w-auto sm:text-sm"
+            class="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-gray-800 shadow-sm transition-colors duration-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none sm:w-auto sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
             onchange="calculateProduct()"
           >
             <option value="1" selected>1 No ML bonus</option>
@@ -220,7 +302,8 @@
         </div>
 
         <div class="flex flex-wrap items-start gap-2 sm:items-center">
-          <label class="w-40 text-left font-bold text-gray-700"
+          <label
+            class="w-40 text-left font-bold text-gray-700 dark:text-gray-300"
             >Monpass multi:</label
           >
           <div class="flex flex-wrap gap-x-4 gap-y-2">
@@ -234,7 +317,9 @@
                 onclick="calculateProduct()"
                 checked
               />
-              <label for="row6Option1" class="ml-2 text-gray-700"
+              <label
+                for="row6Option1"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >No monpass/playing solo</label
               >
             </div>
@@ -247,7 +332,9 @@
                 class="form-radio h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
                 onclick="calculateProduct()"
               />
-              <label for="row6Option2" class="ml-2 text-gray-700"
+              <label
+                for="row6Option2"
+                class="ml-2 text-gray-700 dark:text-gray-300"
                 >monpass/playing coop (+5%)</label
               >
             </div>
@@ -255,17 +342,19 @@
         </div>
       </form>
 
-      <h3 class="mt-6 text-xl font-semibold text-gray-800">Results</h3>
-      <p id="actualMultiplier" class="text-gray-700">
+      <h3 class="mt-6 text-xl font-semibold text-gray-800 dark:text-gray-100">
+        Results
+      </h3>
+      <p id="actualMultiplier" class="text-gray-700 dark:text-gray-300">
         <span class="font-semibold">Actual Multiplier:</span>
       </p>
-      <p id="shownMultiplier" class="text-gray-700">
+      <p id="shownMultiplier" class="text-gray-700 dark:text-gray-300">
         <span class="font-semibold">Shown Multiplier:</span>
       </p>
-      <p id="expPerRun" class="text-gray-700">
+      <p id="expPerRun" class="text-gray-700 dark:text-gray-300">
         <span class="font-semibold">Exp per run:</span>
       </p>
-      <p id="expPerBonus" class="text-gray-700">
+      <p id="expPerBonus" class="text-gray-700 dark:text-gray-300">
         <span class="font-semibold">Exp per bonus:</span>
       </p>
     </div>

@@ -3,34 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
     <title>Monkeydluffy476985 Monster Strike</title>
     <script type="module" src="js/themeInit.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
     <script src="js/themeToggle.js"></script>
   </head>
-  <body class="bg-gray-100 font-sans text-gray-800">
-    <div class="absolute top-4 right-4">
-      <button
-        id="themeToggle"
-        class="rounded-md bg-white p-2 text-gray-800 shadow transition hover:shadow-md dark:bg-gray-700 dark:text-white"
+  <body
+    class="bg-gray-100 font-sans text-gray-800 transition-colors duration-300 dark:bg-gray-900 dark:text-gray-100"
+  >
+    <button
+      id="themeToggle"
+      class="fixed top-4 right-4 z-50 rounded-full bg-gray-200 p-3 text-gray-800 shadow-lg transition-colors duration-300 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600"
+      aria-label="Toggle Dark Mode"
+    >
+      <!-- Sun Icon -->
+      <svg
+        id="iconLight"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6"
       >
-        <svg
-          id="bulbIcon"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          class="h-6 w-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 3c-2.485 0-4.5 2.015-4.5 4.5 0 1.385.635 2.632 1.637 3.456A3.5 3.5 0 0010.5 16h3a3.5 3.5 0 001.363-5.544A4.478 4.478 0 0016.5 7.5C16.5 5.015 14.485 3 12 3zM9 18h6m-6 2h6"
-          />
-        </svg>
-      </button>
-    </div>
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m16.95-6.95l-1.061 1.061M6.111 17.889l-1.061 1.061m13.9 0l-1.061-1.061M6.111 6.111 5.05 5.05M12 8.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z"
+        />
+      </svg>
+
+      <!-- Moon Icon -->
+      <svg
+        id="iconDark"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="hidden h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M21.752 15.002A9.718 9.718 0 0112.75 21C7.477 21 3.25 16.523 3.25 11.25c0-3.089 1.5-5.843 3.977-7.5a.75.75 0 01.987.987 7.5 7.5 0 0010.289 10.29.75.75 0 01.986.975z"
+        />
+      </svg>
+    </button>
     <div class="container mx-auto p-8">
       <h1 class="mb-4 text-3xl font-bold">
         Monkeydluffy476985 Monster Strike Page
