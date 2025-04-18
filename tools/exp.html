@@ -1,296 +1,200 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Complex Input Form with Labels</title>
-<style>
-  .row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px; /* Increased margin for better spacing */
-  }
-
-  .row > label {
-    width: 150px; /* Adjust width as needed */
-    margin-right: 10px;
-    text-align: left;
-  }
-
-  .radio-group {
-    display: flex;
-    align-items: center;
-  }
-
-  .radio-container {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-  }
-
-  .radio-input {
-    appearance: none;
-    width: 16px;
-    height: 16px;
-    border: 2px solid #333;
-    border-radius: 50%;
-    outline: none;
-    cursor: pointer;
-    margin-right: 5px;
-    position: relative;
-  }
-
-  .radio-input:checked::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 8px;
-    height: 8px;
-    background-color: #007bff;
-    border-radius: 50%;
-  }
-
-  .radio-label {
-    cursor: pointer;
-  }
-
-  #customTextInput {
-    margin-left: 10px;
-  }
-
-  #customTextInputContainer {
-    display: none;
-    align-items: center;
-  }
-
-  #customTextInputContainer > label {
-    width: auto;
-    margin-right: 5px;
-  }
-
-  #comboBoxContainer {
-    display: flex;
-    align-items: center;
-  }
-
-  #comboBoxContainer > label {
-    width: 150px;
-    margin-right: 10px;
-    text-align: left;
-  }
-
-  #comboBox {
-    flex-grow: 1; /* Allow combobox to take up more space */
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exp Calculator Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-100 p-6 font-sans">
+    <div class="max-w-lg mx-auto bg-white shadow-md rounded-md p-6">
+        <h2 class="text-2xl font-semibold mb-4 text-gray-800">Exp Calculator Tool</h2>
 
-  <h2>Exp Calculator Tool</h2>
+        <form id="calculationForm" class="space-y-4">
+            <div class="flex items-center">
+                <label class="w-40 text-left text-gray-700">Genius Berry</label>
+                <div class="flex space-x-4">
+                    <div class="flex items-center">
+                        <input type="radio" id="row1Option1" name="row1" value="1.5" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()">
+                        <label for="row1Option1" class="ml-2 text-gray-700">S (+50%)</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="row1Option2" name="row1" value="1.55" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()">
+                        <label for="row1Option2" class="ml-2 text-gray-700">S+ (+55%)</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="row1Option3" name="row1" value="1.6" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()">
+                        <label for="row1Option3" class="ml-2 text-gray-700">S++ (+60%)</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="row1Option4" name="row1" value="1.65" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()" checked>
+                        <label for="row1Option4" class="ml-2 text-gray-700">EL (+65%)</label>
+                    </div>
+                </div>
+            </div>
 
-  <form id="calculationForm">
-    <div class="row">
-      <label>Genius Berry</label>
-      <div class="radio-group">
-        <div class="radio-container">
-          <input type="radio" id="row1Option1" name="row1" value="1.5" class="radio-input" onclick="calculateProduct()">
-          <label for="row1Option1" class="radio-label">S (+50%)</label>
-        </div>
-        <div class="radio-container">
-          <input type="radio" id="row1Option2" name="row1" value="1.55" class="radio-input" onclick="calculateProduct()">
-          <label for="row1Option2" class="radio-label">S+ (+55%)</label>
-        </div>
-        <div class="radio-container">
-          <input type="radio" id="row1Option3" name="row1" value="1.6" class="radio-input" onclick="calculateProduct()">
-          <label for="row1Option3" class="radio-label">S++ (+60%)</label>
-        </div>
-        <div class="radio-container">
-          <input type="radio" id="row1Option4" name="row1" value="1.65" class="radio-input" onclick="calculateProduct()" checked>
-          <label for="row1Option4" class="radio-label">EL (+65%)</label>
-        </div>
-      </div>
+            <div class="flex items-center">
+                <label class="w-40 text-left text-gray-700">Bell or 2x EXP event:</label>
+                <div class="flex space-x-4">
+                    <div class="flex items-center">
+                        <input type="radio" id="row2Option1" name="row2" value="3" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()" checked>
+                        <label for="row2Option1" class="ml-2 text-gray-700">3x Bell</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="row2Option2" name="row2" value="2" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()">
+                        <label for="row2Option2" class="ml-2 text-gray-700">2x event</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center">
+                <label class="w-40 text-left text-gray-700">Monspot:</label>
+                <div class="flex space-x-4">
+                    <div class="flex items-center">
+                        <input type="radio" id="row3Option1" name="row3" value="1.5" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()">
+                        <label for="row3Option1" class="ml-2 text-gray-700">exp spot (+50%)</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="row3Option2" name="row3" value="1.75" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()" checked>
+                        <label for="row3Option2" class="ml-2 text-gray-700">exp+ spot (+75%)</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="row3Option3" name="row3" value="1" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()">
+                        <label for="row3Option3" class="ml-2 text-gray-700">no spot</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center">
+                <label class="w-40 text-left text-gray-700">Seele:</label>
+                <div class="flex items-center">
+                    <div class="flex items-center mr-4">
+                        <input type="radio" id="row4Option1" name="row4" value="1.5" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()" checked>
+                        <label for="row4Option1" class="ml-2 text-gray-700">ML Seele (+50%)</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="row4Option2" name="row4" value="custom" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onchange="toggleCustomInput(); calculateProduct();">
+                        <label for="row4Option2" class="ml-2 text-gray-700">Enter Value (NOT ML):</label>
+                        <div id="customTextInputContainer" class="ml-2">
+                            <input type="number" id="customTextInput" class="form-input w-24 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300" onchange="calculateProduct()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center">
+                <label for="comboBox" class="w-40 text-left text-gray-700">Lucky Bonus (675ML reward):</label>
+                <select id="comboBox" class="form-select block w-full rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300" onchange="calculateProduct()">
+                    <option value="1" selected>1 No ML bonus</option>
+                    <option value="1.01">1.01 (550 MLs)</option>
+                    <option value="1.02">1.02 (575 MLs)</option>
+                    <option value="1.03">1.03 (625 MLs)</option>
+                    <option value="1.04">1.04 (650 MLs)</option>
+                    <option value="1.05">1.05 (675 MLs)</option>
+                </select>
+            </div>
+
+            <div class="flex items-center">
+                <label class="w-40 text-left text-gray-700">Monpass multi:</label>
+                <div class="flex space-x-4">
+                    <div class="flex items-center">
+                        <input type="radio" id="row6Option1" name="row6" value="1" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()" checked>
+                        <label for="row6Option1" class="ml-2 text-gray-700">No monpass/playing solo</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="row6Option2" name="row6" value="1.05" class="form-radio h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300" onclick="calculateProduct()">
+                        <label for="row6Option2" class="ml-2 text-gray-700">monpass/playing coop (+5%)</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <h3 class="text-xl font-semibold mt-6 text-gray-800">Results</h3>
+        <p id="actualMultiplier" class="text-gray-700"><span class="font-semibold">Actual Multiplier:</span></p>
+        <p id="shownMultiplier" class="text-gray-700"><span class="font-semibold">Shown Multiplier:</span></p>
+        <p id="expPerRun" class="text-gray-700"><span class="font-semibold">Exp per run:</span></p>
+        <p id="expPerBonus" class="text-gray-700"><span class="font-semibold">Exp per bonus:</span></p>
     </div>
-
-    <div class="row">
-      <label>Bell or 2x EXP event:</label>
-      <div class="radio-group">
-        <div class="radio-container">
-          <input type="radio" id="row2Option1" name="row2" value="3" class="radio-input" onclick="calculateProduct()" checked>
-          <label for="row2Option1" class="radio-label">3x Bell</label>
-        </div>
-        <div class="radio-container">
-          <input type="radio" id="row2Option2" name="row2" value="2" class="radio-input" onclick="calculateProduct()">
-          <label for="row2Option2" class="radio-label">2x event</label>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <label>Monspot:</label>
-      <div class="radio-group">
-        <div class="radio-container">
-          <input type="radio" id="row3Option1" name="row3" value="1.5" class="radio-input" onclick="calculateProduct()">
-          <label for="row3Option1" class="radio-label">exp spot (+50%)</label>
-        </div>
-        <div class="radio-container">
-          <input type="radio" id="row3Option2" name="row3" value="1.75" class="radio-input" onclick="calculateProduct()" checked>
-          <label for="row3Option2" class="radio-label">exp+ spot (+75%)</label>
-        </div>
-        <div class="radio-container">
-          <input type="radio" id="row3Option3" name="row3" value="1" class="radio-input" onclick="calculateProduct()">
-          <label for="row3Option3" class="radio-label">no spot</label>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <label>Seele:</label>
-      <div style="display: flex; align-items: center;">
-        <div class="radio-container">
-          <input type="radio" id="row4Option1" name="row4" value="1.5" class="radio-input" onclick="calculateProduct()" checked>
-          <label for="row4Option1" class="radio-label">ML Seele (+50%)</label>
-        </div>
-
-        <div class="radio-container">
-          <input type="radio" id="row4Option2" name="row4" value="custom" class="radio-input" onchange="toggleCustomInput(); calculateProduct();">
-          <label for="row4Option2" class="radio-label">Enter Value (NOT ML):</label>
-          <div id="customTextInputContainer">
-            <input type="number" id="customTextInput" onchange="calculateProduct()">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row" id="comboBoxContainer">
-      <label for="comboBox">Lucky Bonus (675ML reward):</label>
-      <select id="comboBox" onchange="calculateProduct()">
-        <option value="1" selected>1 No ML bonus</option>
-        <option value="1.01">1.01 (550 MLs)</option>
-        <option value="1.02">1.02 (575 MLs)</option>
-        <option value="1.03">1.03 (625 MLs)</option>
-        <option value="1.04">1.04 (650 MLs)</option>
-        <option value="1.05">1.05 (675 MLs)</option>
-      </select>
-    </div>
-
-    <div class="row">
-      <label>Monpass multi:</label>
-      <div class="radio-group">
-        <div class="radio-container">
-          <input type="radio" id="row6Option1" name="row6" value="1" class="radio-input" onchange="calculateProduct()" checked>
-          <label for="row6Option1" class="radio-label">No monpass/playing solo</label>
-        </div>
-        <div class="radio-container">
-          <input type="radio" id="row6Option2" name="row6" value="1.05" class="radio-input" onchange="calculateProduct()">
-          <label for="row6Option2" class="radio-label">monpass/playing coop</label>
-        </div>
-      </div>
-    </div>
-
-  </form>
-
-  <h3>Results</h2>
-  <p id="actualMultiplier"></p>
-  <p id="shownMultiplier"></p>
-  <p id="expPerRun"></p>
-  <p id="expPerBonus"></p>
 
     <script>
-      function toggleCustomInput() {
-        const customTextInputContainer = document.getElementById("customTextInputContainer");
-        const row4Radio = document.getElementById("row4Option2");
-        customTextInputContainer.style.display = row4Radio.checked ? "inline-flex" : "none";
-      }
-
-      function calculateProduct() {
-        let product = 1;
-        let shownproduct = 1;
-        let expperrun = 40000;
-        let expperbonus = 700000;
-        let allValuesPresent = true;
-        let message = "";
-
-        // Row 1
-        const row1Selected = document.querySelector('input[name="row1"]:checked');
-        if (row1Selected) {
-          product *= parseFloat(row1Selected.value);
-        } else {
-          product = NaN; // Indicate missing value
+        function toggleCustomInput() {
+            const customTextInputContainer = document.getElementById("customTextInputContainer");
+            const row4Radio = document.getElementById("row4Option2");
+            customTextInputContainer.style.display = row4Radio.checked ? "inline-flex" : "none";
         }
 
-        // Row 2
-        const row2Selected = document.querySelector('input[name="row2"]:checked');
-        if (row2Selected) {
-          product *= parseFloat(row2Selected.value);
-        } else {
-          product = NaN;
+        function calculateProduct() {
+            let product = 1;
+            let shownproduct = 1;
+            let expperrun = 40000;
+            let expperbonus = 700000;
+
+            // Row 1
+            const row1Selected = document.querySelector('input[name="row1"]:checked');
+            if (row1Selected) product *= parseFloat(row1Selected.value); else product = NaN;
+
+            // Row 2
+            const row2Selected = document.querySelector('input[name="row2"]:checked');
+            if (row2Selected) product *= parseFloat(row2Selected.value); else product = NaN;
+
+            // Row 3
+            const row3Selected = document.querySelector('input[name="row3"]:checked');
+            if (row3Selected) product *= parseFloat(row3Selected.value); else product = NaN;
+
+            // Row 4 (Two Radio Buttons, Second with Text Input)
+            const row4Option1Selected = document.getElementById("row4Option1").checked;
+            const customInputValue = document.getElementById("customTextInput").value;
+            let row4Value;
+            if (row4Option1Selected) {
+                row4Value = parseFloat(document.getElementById("row4Option1").value);
+            } else if (document.getElementById("row4Option2").checked) {
+                const customNumber = parseFloat(customInputValue);
+                if (!isNaN(customNumber)) {
+                    row4Value = customNumber;
+                } else {
+                    row4Value = NaN;
+                }
+            } else {
+                row4Value = NaN;
+            }
+            if (!isNaN(row4Value)) product *= row4Value; else product = NaN;
+
+            shownproduct = product;
+            // Row 5 (Combobox)
+            const comboBox = document.getElementById("comboBox");
+            const selectedComboBoxValue = comboBox.value;
+            product *= parseFloat(selectedComboBoxValue);
+
+            // Row 6
+            const row6Selected = document.querySelector('input[name="row6"]:checked');
+            if (row6Selected) product *= parseFloat(row6Selected.value); else product = NaN;
+
+            if (!isNaN(product)) {
+                const formattedProduct = product.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+                const formattedShownProduct = shownproduct.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+                expperrun = expperrun * product;
+                expperbonus = expperbonus * product;
+                const formattedexpperrun = expperrun.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+                const formattedexpperbonus = expperbonus.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+
+                document.getElementById("actualMultiplier").textContent = "Actual Multiplier: " + formattedProduct;
+                document.getElementById("shownMultiplier").textContent = "Shown Multiplier: " + formattedShownProduct;
+                document.getElementById("expPerRun").textContent = "Exp per run: " + formattedexpperrun;
+                document.getElementById("expPerBonus").textContent = "Exp per bonus: " + formattedexpperbonus;
+            } else {
+                document.getElementById("actualMultiplier").textContent = "Please select/enter a value in each row.";
+                document.getElementById("shownMultiplier").textContent = "";
+                document.getElementById("expPerRun").textContent = "";
+                document.getElementById("expPerBonus").textContent = "";
+            }
         }
 
-        // Row 3
-        const row3Selected = document.querySelector('input[name="row3"]:checked');
-        if (row3Selected) {
-          product *= parseFloat(row3Selected.value);
-        } else {
-          product = NaN;
-        }
-
-        // Row 4 (Two Radio Buttons, Second with Text Input)
-        const row4Option1Selected = document.getElementById("row4Option1").checked;
-        const customInputValue = document.getElementById("customTextInput").value;
-        let row4Value;
-        if (row4Option1Selected) {
-          row4Value = parseFloat(document.getElementById("row4Option1").value);
-        } else if (document.getElementById("row4Option2").checked) {
-          const customNumber = parseFloat(customInputValue);
-          if (!isNaN(customNumber)) {
-            row4Value = customNumber;
-          } else {
-            row4Value = NaN;
-          }
-        } else {
-          row4Value = NaN;
-        }
-        if (!isNaN(row4Value)) product *= row4Value; else product = NaN;
-
-        shownproduct = product;
-        // Row 5 (Combobox)
-        const comboBox = document.getElementById("comboBox");
-        const selectedComboBoxValue = comboBox.value;
-        product *= parseFloat(selectedComboBoxValue);
-
-        // Row 6
-        const row6Selected = document.querySelector('input[name="row6"]:checked');
-        if (row6Selected) {
-          product *= parseFloat(row6Selected.value);
-        } else {
-          product = NaN;
-        }
-
-        if (!isNaN(product)) {
-          document.getElementById("actualMultiplier").textContent = "Actual Multiplier: " + product.toFixed(2);
-          document.getElementById("shownMultiplier").textContent = "Shown Multiplier: " + shownproduct.toFixed(2);
-
-          expperrun = expperrun * product;
-          expperbonus = expperbonus * product;
-          const formattedexpperrun = expperrun.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
-          const formattedexpperbonus = expperbonus.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
-
-          document.getElementById("expPerRun").textContent = "Exp per run: " + formattedexpperrun;
-          document.getElementById("expPerBonus").textContent = "Exp per bonus: " + formattedexpperbonus;
-        } else {
-          document.getElementById("actualMultiplier").textContent = "Please select/enter a value in each row.";
-          document.getElementById("shownMultiplier").textContent = "";
-          document.getElementById("expPerRun").textContent = "";
-          document.getElementById("expPerBonus").textContent = "";
-        }
-      }
-
-      // Initial setup: hide the text input and calculate
-      document.addEventListener('DOMContentLoaded', function() {
-        toggleCustomInput();
-        calculateProduct();
-      });
+        // Initial setup: hide the text input and calculate
+        document.addEventListener('DOMContentLoaded', function() {
+            toggleCustomInput();
+            calculateProduct();
+        });
     </script>
 
 </body>
