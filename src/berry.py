@@ -204,7 +204,7 @@ def calculate_and_print_summarized2(summarized):
                 total_hp += 2000
 
             if 'Class Atk/Spd' in summarized[new_dict['class']]:
-                msg.append('Class Atk/Spd +2000atk +26.6')
+                msg.append('Class Atk/Spd +2000atk +26.6spd')
                 total_atk += 2000
                 total_spd += 26.6
 
