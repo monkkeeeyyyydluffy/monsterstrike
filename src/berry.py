@@ -172,10 +172,10 @@ def calculate_and_print_summarized2(summarized):
             output.append(r"Genius Berry +60% exp")
 
         if 'Boss Cutthroat' in summarized["team"]:
-            output.append(r"Boss Cuttthroat shave 16% HP off boss at start of the start.")
+            output.append(r"Boss Cutthroat shave 16% HP off boss at start of the stage.")
 
         if 'Mob Cutthroat' in summarized["team"]:
-            output.append(r"Mob Cuttthroat shave 16% HP off mobs at start of the start.")
+            output.append(r"Mob Cutthroat shave 16% HP off mobs at start of the stage.")
 
         output.append("")
         output.append("")
