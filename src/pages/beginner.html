@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>MS Beginner</title>
+    <script>
+      // inline to prevent state flashing
+      if (
+        localStorage.theme === 'dark' ||
+        (!('theme' in localStorage) &&
+          window.matchMedia('(prefers-color-scheme: dark)').matches)
+      ) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <script src="../assets/js/themeToggle.js"></script>
+  </head>
+  <body
+    class="bg-gray-100 font-sans text-gray-800 transition-colors duration-300 dark:bg-gray-900 dark:text-gray-100"
+  >
+    <button
+      id="themeToggle"
+      class="fixed top-4 right-4 z-50 rounded-full bg-gray-200 p-3 text-gray-800 shadow-lg transition-colors duration-300 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600"
+      aria-label="Toggle Dark Mode"
+    >
+      <!-- Sun Icon -->
+      <svg
+        id="iconLight"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m16.95-6.95l-1.061 1.061M6.111 17.889l-1.061 1.061m13.9 0l-1.061-1.061M6.111 6.111 5.05 5.05M12 8.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z"
+        />
+      </svg>
+
+      <!-- Moon Icon -->
+      <svg
+        id="iconDark"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="hidden h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M21.752 15.002A9.718 9.718 0 0112.75 21C7.477 21 3.25 16.523 3.25 11.25c0-3.089 1.5-5.843 3.977-7.5a.75.75 0 01.987.987 7.5 7.5 0 0010.289 10.29.75.75 0 01.986.975z"
+        />
+      </svg>
+    </button>
+
+    <!-- Go Back Button -->
+    <a
+      href="page_list.html"
+      class="fixed top-4 right-16 z-50 mr-1 rounded-full bg-gray-200 p-3 text-gray-800 shadow-lg transition-colors duration-300 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600"
+      aria-label="Go Back Home"
+    >
+      <!-- Left Arrow Icon -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 19.5L8.25 12l7.5-7.5"
+        />
+      </svg>
+    </a>
+
+    <div class="container mx-auto p-8">
+      <h1 class="mb-4 text-3xl font-bold">Beginner Quick Start</h1>
+
+      <h2 class="mt-6 mb-2 text-xl font-semibold">Purpose</h2>
+      <p class="mb-2">
+        Wanted to write a very simple start to playing for a new beginner or new
+        account.<br />
+        Summarizing and leaving out details; for full details see
+        GW/wiki/discord links.<br />
+      </p>
+
+      <p class="mb-4">
+        Gamewith (GW) link:
+        <a
+          href="https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/"
+          class="text-blue-500 hover:underline"
+          >https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/</a
+        >
+        <br />
+        Discord invite link:
+        <a
+          href="https://discord.gg/QWvbWAj"
+          class="text-blue-500 hover:underline"
+          >https://discord.gg/QWvbWAj</a
+        >
+        <br />
+        Wiki link
+        <a
+          href="https://monster-strike-enjp.fandom.com/wiki/Monster_Strike_Wiki"
+          class="text-blue-500 hover:underline"
+          >https://monster-strike-enjp.fandom.com/wiki/Monster_Strike_Wiki</a
+        >
+      </p>
+
+      <h2 class="mt-6 mb-2 text-xl font-semibold">First things to learn</h2>
+      <ul class="mb-4 list-disc pl-5">
+        <li>
+          Play welcome quests
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/welcome.png"
+            alt="welcome"
+          />
+        </li>
+        <li>A bounce unit (orange arrow) will bounce OFF enemies.</li>
+        <li>A pierce unit (blue arrow) will pierce THROUGH enemies.</li>
+        <li>
+          Strikeshot (SS) is a special attack. You can use SS when you see "OK"
+          on top-left of portrait then tap portrait to use.
+        </li>
+        <li>
+          Do your re-rolls aiming for at least one lucy, anastasia, or masamune.
+        </li>
+        <li>
+          Do your normal quests, BUT SAVE YOUR 1STAMINA BONUS quests.
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/normal.avif"
+            alt="normal"
+          />
+        </li>
+        <li>
+          Do your step up missions
+          <a
+            href="https://cdn.discordapp.com/attachments/267853822003642369/1271031052240027659/image.png?ex=680ca169&is=680b4fe9&hm=dd0ec810aa7153ad5e2e4ab4e443904dd510fb4d80bf47e813a9be01c38754e5&"
+            class="text-blue-500 hover:underline"
+            >Discord image from Scott. (General Chat -> Pinned messages)</a
+          >
+        </li>
+        <li>
+          Youtube:
+          <a
+            href="https://www.youtube.com/watch?v=oaFBN9W23us&list=PL8S0lLkEdNXTfBpb8QWYct1ahuC7TaRVT&index=1"
+            class="text-blue-500 hover:underline"
+            >Youtube beginner essentials 1</a
+          >
+        </li>
+      </ul>
+
+      <h2 class="mt-6 mb-2 text-xl font-semibold">
+        ML sanc dragon. online coop
+      </h2>
+      <ul class="mb-4 list-disc pl-5">
+        <li>After your normal quests are done, you should have sanc dragon.</li>
+        <li>
+          Evolve sanc dragon to his highest form (Monster ID 7358)
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/7358.webp"
+            alt="sancdragon"
+          />
+        </li>
+        <li>
+          Max lucks (ML) get two reward chests. Fuse 99 copies of 6* monster
+          together to create ML.
+        </li>
+        <li>
+          Use ML sanc dragon in slot1 and play some quests/quick multi online
+          coop.
+        </li>
+        <li>
+          Youtube:
+          <a
+            href="https://www.youtube.com/watch?v=xlfDkovv2Cw&list=PL8S0lLkEdNXTfBpb8QWYct1ahuC7TaRVT&index=2"
+            class="text-blue-500 hover:underline"
+            >Youtube beginner essentials ML sanc dragon. online coop</a
+          >
+        </li>
+      </ul>
+
+      <h2 class="mt-6 mb-2 text-xl font-semibold">Next things to do?</h2>
+      <ul class="mb-4 list-disc pl-5">
+        <li>Game is free flowing and fluid after normals.</li>
+        <li>
+          Focus on clearing monthlies every month, these are best rewards in the
+          game.
+        </li>
+        <li>
+          do tower first (low difficulty) for 68 orbs
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/tower.png"
+            alt="tower"
+          />
+        </li>
+        <li>
+          then abyss (higher difficulty) for 55 orbs
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/abyss.png"
+            alt="abyss"
+          />
+        </li>
+        <li>
+          also try uncharted dunes for 10 orbs
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/dunes.png"
+            alt="dunes"
+          />
+        </li>
+        <li>
+          and tournament for 30orbs.
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/tournament.png"
+            alt="tournament"
+          />
+        </li>
+        <li>
+          skip tenma, its end game content and very strict on box and strategy.
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/tenma.png"
+            alt="tenma"
+          />
+        </li>
+        <li>the following are not monthlies:</li>
+        <li>clear collab quests/missions</li>
+        <li>
+          starting to level up gouzetsu bonuses (high difficulty)
+          <a
+            href="https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/111439"
+            class="text-blue-500 hover:underline"
+            >GW gouzetsu bonuses</a
+          >
+        </li>
+        <li>
+          ML dokesokotori (high difficulty)
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/7277.webp"
+            alt="dokesokotori"
+          />
+          <a
+            href="https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/418984"
+            class="text-blue-500 hover:underline"
+            >GW dokesokotori strategy guide</a
+          >
+        </li>
+        <li>
+          Youtube:
+          <a
+            href="https://www.youtube.com/watch?v=rQtGOqTQhBM&list=PL8S0lLkEdNXTfBpb8QWYct1ahuC7TaRVT&index=3"
+            class="text-blue-500 hover:underline"
+            >beginner essentials - monthlies (tower, abyss, dunes,
+            tournament)</a
+          >
+        </li>
+      </ul>
+
+      <h2 class="mt-6 mb-2 text-xl font-semibold">Misc - more UI questions</h2>
+      <ul class="mb-4 list-disc pl-5">
+        <li>
+          Quest UI translated picture available here: go to
+          <a
+            href="https://discord.com/channels/267853822003642369/299343162244202507/1350815140559323216"
+            class="text-blue-500 hover:underline"
+            >Discord bot playground channel</a
+          >, then type ".quest-nav"
+        </li>
+        <li>
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/eventquests.avif"
+            alt="eventquests"
+          />
+          Event Quests. All newer quests here, including collab quests.
+          Scheduled into time slots, so NOT available 24/7
+        </li>
+        <li>
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/library.avif"
+            alt="library"
+          />
+          Library Quests. Older quests here and available 24/7, but they cost
+          library (book icon) points.
+        </li>
+        <li>
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/guardianbeastforest.png"
+            alt="guardianbeastforest"
+          />
+          Guardian Beast Forest. pet with special effect. This is a MUST have,
+          but you can skip it until you're intermediate.
+        </li>
+        <li>
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/temple.webp"
+            alt="temple"
+          />
+          Temple/Berries. Berries provide bonuses to your team, this is MUST
+          have for clearing high difficulty, but also VERY HIGH time investment.
+          I would skip if you are still only playing low difficulty.
+        </li>
+
+        <li>
+          Evo Materials (turtles, morlings, coins, etc..). Mats to evolve and
+          max out stats. Skip this... until you run out of materials.
+        </li>
+
+        <li>
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/playground.jpg"
+            alt="playground"
+          />
+          Playgrounds. Easy orbs, and 0 stamina to play. The strategy is more
+          focused on puzzles and being tricky. Released as sets of five, the
+          first 1-3 in each set is easy. 4-5 can be very tricky and need to look
+          up a guide. Can play this if you have spare time.
+        </li>
+
+        <li>
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/sancbeasts.png"
+            alt="sancbeasts"
+          />
+          Sacred Gounds/Sanctuary of Beasts. High difficulty, low rewards. Skip
+          it.
+        </li>
+
+        <li>
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/unchartedlands.webp"
+            alt="unchartedlands"
+          />
+          Uncharted Lands (UL). High difficulty, horrible rewards. Skip it.
+        </li>
+
+        <li>
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/historical.jpg"
+            alt="historical"
+          />
+          Historical - VERY high difficulty, horrible rewards. Skip it.
+        </li>
+        <li>
+          <img
+            class="inline w-8 md:w-16 lg:w-16"
+            src="../assets/img/icons/deepabyss.png"
+            alt="deepabyss"
+          />
+          Deep Abyss/Shinen - high difficulty, okay reward . Skip it until you
+          are intermediate/advanced.
+        </li>
+        <li>
+          Scramble Universe - "mario kart", online time attack sort of mode, low
+          rewards and some cosmetics. I would skip until you are intermediate,
+          then you can decide if cosmetics are worth it to you.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
