@@ -129,7 +129,7 @@
                 name="Berries"
                 class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
               >
-                <option value="None">None</option>
+                <option value="None">No berries</option>
                 <option value="14000" selected>+14,000</option>
                 <option value="15400">+15,400</option>
               </select>
@@ -212,7 +212,7 @@
                 <option value="1.5">Slayer (1.5)</option>
                 <option value="2">Slayer M (2)</option>
                 <option value="2.5">Slayer L (2.5)</option>
-                <option value="3" selected>Slayer EL (3)</option>
+                <option value="3">Slayer EL (3)</option>
                 <option value="1.25">Slayer S (1.25)</option>
               </select>
             </div>
@@ -307,6 +307,166 @@
               </select>
             </div>
           </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <label
+              for="buffSS"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >buffSS</label
+            >
+            <div>
+              <select
+                id="buffSS"
+                name="buffSS"
+                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
+              >
+                <option value="1" selected>No buff ss</option>
+                <option value="1.4">1.4</option>
+                <option value="1.6">1.6</option>
+                <option value="1.8">1.8</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <label
+              for="attackAura"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >attackAura</label
+            >
+            <div>
+              <select
+                id="attackAura"
+                name="attackAura"
+                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
+              >
+                <option value="1" selected>No attack aura</option>
+                <option value="1.5">1.5</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <label
+              for="powerMode"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >powerMode</label
+            >
+            <div>
+              <select
+                id="powerMode"
+                name="powerMode"
+                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
+              >
+                <option value="1" selected>No power mode</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <label
+              for="wpEnhance"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >WP UP</label
+            >
+            <div>
+              <select
+                id="wpEnhance"
+                name="wpEnhance"
+                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
+              >
+                <option value="1" selected>No WP UP</option>
+                <option value="1.33">WP UP (1.33)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <label
+              for="defDown"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >defDown</label
+            >
+            <div>
+              <select
+                id="defDown"
+                name="defDown"
+                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
+              >
+                <option value="1" selected>No def down</option>
+                <option value="1.25">1.25</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <label
+              for="criticalHit"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >criticalHit</label
+            >
+            <div>
+              <select
+                id="criticalHit"
+                name="criticalHit"
+                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
+              >
+                <option value="1" selected>No crit</option>
+                <option value="7.5">7.5</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <label
+              for="customUnit1"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >custom 1</label
+            >
+            <div>
+              <input
+                type="text"
+                id="customUnit1"
+                class="form-input w-24 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:text-gray-700"
+                value=""
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <label
+              for="customUnit2"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >custom 2</label
+            >
+            <div>
+              <input
+                type="text"
+                id="customUnit2"
+                class="form-input w-24 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:text-gray-700"
+                value=""
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <label
+              for="customUnit3"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >custom 3</label
+            >
+            <div>
+              <input
+                type="text"
+                id="customUnit3"
+                class="form-input w-24 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:text-gray-700"
+                value=""
+              />
+            </div>
+          </div>
+
           <hr class="my-4 border-t border-gray-300" />
         </section>
 
@@ -616,7 +776,7 @@
           <hr class="my-4 border-t border-gray-300" />
         </section>
 
-        <section class="space-y-4">
+        <!--         <section class="space-y-4">
           <h3 class="text-lg font-semibold text-gray-700 dark:text-gray-300">
             Section: Stage
           </h3>
@@ -638,22 +798,6 @@
                 <option value="2">Effect Super UP (2)</option>
                 <option value="3">Effect Super UP (3)</option>
               </select>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <label
-              for="MiscGimmick"
-              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
-              >Misc Gimmick (IE. PUW)</label
-            >
-            <div>
-              <input
-                type="text"
-                id="MiscGimmick"
-                class="form-input w-24 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:text-gray-700"
-                value="1"
-              />
             </div>
           </div>
 
@@ -679,6 +823,76 @@
 
           <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
             <label
+              for="swordItem"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >swordItem</label
+            >
+            <div>
+              <select
+                id="swordItem"
+                name="swordItem"
+                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
+              >
+                <option value="1" selected>No sword</option>
+                <option value="1.5" selected>1.5</option>
+              </select>
+            </div>
+          </div>
+
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <label
+              for="MiscGimmick1"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >Misc Gimmick 1(IE. PUW)</label
+            >
+            <div>
+              <input
+                type="text"
+                id="MiscGimmick1"
+                class="form-input w-24 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:text-gray-700"
+                value=""
+              />
+            </div>
+          </div>
+
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <label
+              for="MiscGimmick2"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >Misc Gimmick 2</label
+            >
+            <div>
+              <input
+                type="text"
+                id="MiscGimmick2"
+                class="form-input w-24 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:text-gray-700"
+                value=""
+              />
+            </div>
+          </div>
+
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <label
+              for="MiscGimmick3"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >Misc Gimmick 3</label
+            >
+            <div>
+              <input
+                type="text"
+                id="MiscGimmick3"
+                class="form-input w-24 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:text-gray-700"
+                value=""
+              />
+            </div>
+          </div>
+
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <label
               for="hiddenMultiplier"
               class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
               >Hidden Multiplier</label
@@ -695,143 +909,7 @@
           </div>
 
           <hr class="my-4 border-t border-gray-300" />
-        </section>
-
-        <section class="space-y-4">
-          <h3 class="text-lg font-semibold text-gray-700 dark:text-gray-300">
-            Section: Other
-          </h3>
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-            <label
-              for="wpEnhance"
-              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
-              >WP Enhance</label
-            >
-            <div>
-              <select
-                id="wpEnhance"
-                name="wpEnhance"
-                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
-              >
-                <option value="1" selected>None</option>
-                <option value="1.33">WP UP (1.33)</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-            <label
-              for="defDown"
-              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
-              >defDown</label
-            >
-            <div>
-              <select
-                id="defDown"
-                name="defDown"
-                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
-              >
-                <option value="1" selected>None</option>
-                <option value="1.25">1.25</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-            <label
-              for="swordItem"
-              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
-              >swordItem</label
-            >
-            <div>
-              <select
-                id="swordItem"
-                name="swordItem"
-                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
-              >
-                <option value="1" selected>None</option>
-                <option value="1.5" selected>1.5</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-            <label
-              for="criticalHit"
-              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
-              >criticalHit</label
-            >
-            <div>
-              <select
-                id="criticalHit"
-                name="criticalHit"
-                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
-              >
-                <option value="1" selected>None</option>
-                <option value="7.5">7.5</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-            <label
-              for="buffSS"
-              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
-              >buffSS</label
-            >
-            <div>
-              <select
-                id="buffSS"
-                name="buffSS"
-                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
-              >
-                <option value="1" selected>None</option>
-                <option value="1.4">1.4</option>
-                <option value="1.6">1.6</option>
-                <option value="1.8">1.8</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-            <label
-              for="attackAura"
-              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
-              >attackAura</label
-            >
-            <div>
-              <select
-                id="attackAura"
-                name="attackAura"
-                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
-              >
-                <option value="1" selected>None</option>
-                <option value="1.5">1.5</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-            <label
-              for="powerMode"
-              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
-              >powerMode</label
-            >
-            <div>
-              <select
-                id="powerMode"
-                name="powerMode"
-                class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
-              >
-                <option value="1" selected>None</option>
-                <option value="3">3</option>
-              </select>
-            </div>
-          </div>
-
-          <hr class="my-4 border-t border-gray-300" />
-        </section>
+        </section> -->
 
         <button
           type="button"
@@ -852,7 +930,7 @@
           <label
             for="verboseOutput"
             class="ml-2 text-gray-700 dark:text-gray-300"
-            >Verbose</label
+            >Developer Logging</label
           >
         </div>
       </form>
@@ -894,6 +972,13 @@
                 } else if (element.type === 'radio' && element.checked) {
                   attackStat.push(attackValue)
                 }
+              } else if (
+                element.id === 'Berries' ||
+                element.id === 'monSpot1' ||
+                element.id === 'monSpot2' ||
+                element.id === 'monSpot3'
+              ) {
+                //do nothing. allow berries and monspot to be empty value.
               } else {
                 resultsSummary.textContent =
                   'Error: Attack Stat must be an integer.'
@@ -930,11 +1015,11 @@
         // My calculation
         let unitMultipliers = []
         let badgeMultipliers = []
-        let otherMultipliers = []
+        //let otherMultipliers = []
         let stageMultipliers = []
         let unitKeys = []
         let badgeKeys = []
-        let otherKeys = []
+        //let otherKeys = []
         let stageKeys = []
         let powerUp
         let followUp
@@ -950,7 +1035,17 @@
               key === 'Slayer2' ||
               key === 'Slayer3' ||
               key === 'SuperBalance' ||
-              key === 'SuperWarp'
+              key === 'SuperWarp' ||
+              key === 'buffSS' ||
+              key === 'attackAura' ||
+              key === 'powerMode' ||
+              key === 'wpEnhance' ||
+              key === 'defDown' ||
+              key === 'criticalHit' ||
+              key === 'swordItem' ||
+              key === 'customUnit1' ||
+              key === 'customUnit2' ||
+              key === 'customUnit3'
             ) {
               unitMultipliers.push(numValue)
               unitKeys.push(key)
@@ -968,47 +1063,36 @@
               followUp = numValue
             } else if (
               key === 'AttributeEffect' ||
-              key === 'MiscGimmick' ||
               key === 'bossRage' ||
-              key === 'hiddenMultiplier'
+              key === 'hiddenMultiplier' ||
+              key === 'MiscGimmick1' ||
+              key === 'MiscGimmick2' ||
+              key === 'MiscGimmick3'
             ) {
               stageMultipliers.push(numValue)
               stageKeys.push(key)
-            } else if (key === 'swordItem' || key === 'criticalHit') {
-              otherMultipliers.push(numValue)
-              otherKeys.push(key)
-            } else if (
-              key === 'wpEnhance' ||
-              key === 'defDown' ||
-              key === 'buffSS' ||
-              key === 'attackAura' ||
-              key === 'powerMode'
-            ) {
-              unitMultipliers.push(numValue)
-              unitKeys.push(key)
             }
           }
         }
 
         // attack
-        //the old way
         baseAttack = attackStat.reduce((acc, curr) => acc + curr)
         inputValues['Attack Stat'] = baseAttack
 
-        // Display individual input values
-        let summaryText = 'Input Values:<br>'
-        for (const key in inputValues) {
-          summaryText += `${key}: ${inputValues[key]}<br>`
-        }
+        // // Display individual input values
+        // let summaryText = 'Input Values:<br>'
+        // for (const key in inputValues) {
+        //   summaryText += `${key}: ${inputValues[key]}<br>`
+        // }
 
         if (verboseOutput) {
           console.log('unitMultipliers: ', unitMultipliers)
           console.log('badgeMultipliers: ', badgeMultipliers)
-          console.log('otherMultipliers: ', otherMultipliers)
+          //console.log('otherMultipliers: ', otherMultipliers)
           console.log('stageMultipliers: ', stageMultipliers)
           console.log('unitKeys: ', unitKeys)
           console.log('badgeKeys: ', badgeKeys)
-          console.log('otherKeys: ', otherKeys)
+          //console.log('otherKeys: ', otherKeys)
           console.log('stageKeys: ', stageKeys)
           console.log('powerUp: ', powerUp)
           console.log('followUp: ', followUp)
@@ -1016,93 +1100,86 @@
 
         // Calculate the final damage
         // AND SUMMARIZE
-        // let finalUnitMultipliers
-        // if (unitMultipliers.length != 0) {
-        //   finalUnitMultipliers = unitMultipliers.reduce(
-        //     (acc, curr) => acc * curr,
-        //   )
-        // } else {
-        //   finalUnitMultipliers = null
-        // }
-
-        // const finalBadgeMultipliers = badgeMultipliers.reduce(
-        //   (acc, curr) => acc * curr,
-        // )
-        // const finalOtherMultipliers = otherMultipliers.reduce(
-        //   (acc, curr) => acc * curr,
-        // )
-        // const finalStageMultipliers = stageMultipliers.reduce(
-        //   (acc, curr) => acc * curr,
-        // )
-
-        // const finalDuringSS =
-        //   finalUnitMultipliers *
-        //   finalBadgeMultipliers *
-        //   finalOtherMultipliers *
-        //   powerUp
-
-        // const finalDuringSSFollowUp =
-        //   finalUnitMultipliers *
-        //   finalBadgeMultipliers *
-        //   finalOtherMultipliers *
-        //   followUp
-
-        // const finalStageCombined =
-        //   finalUnitMultipliers *
-        //   finalBadgeMultipliers *
-        //   finalOtherMultipliers *
-        //   finalStageMultipliers
-
-        // let summaryText = 'Damage Calculation: <br />'
-        // summaryText += `Unit Multipliers: ${finalUnitMultipliers}<br>`
-        // summaryText += `unit details: ${unitKeys}<br>`
-
-        // summaryText += `Other Keys: ${otherKeys}<br>`
-        // summaryText += `Other Multipliers ${finalOtherMultipliers}<br>`
-        // summaryText += `Badge Keys: ${badgeKeys}<br>`
-        // summaryText += `Badge Multipliers: ${finalBadgeMultipliers}<br>`
-
-        // summaryText += `During SS, power up ${powerUp} multiplied by unit+other+badge...<br>`
-        // summaryText += `will be ${finalDuringSS}.<br><br>`
-
-        // summaryText += `Followup SS, follow up ${followUp} multiplied by unit+other+badge...<br>`
-        // summaryText += `will be ${finalDuringSSFollowUp}.<br><br>`
-
-        // summaryText += `Stage Multipliers ${stageKeys}<br>`
-        // summaryText += `Stage Multipliers ${finalStageMultipliers}<br>`
-
-        // summaryText += `Putting Stage multiplied by unit+other+badge...<br>`
-        // summaryText += `will be ${finalStageCombined}.<br><br>`
-
-        // summaryText += `Putting Stage multiplied by unit+other+badge...<br>`
-        // summaryText += `will be ${finalStageCombined}.<br><br>`
-
-        //old
-
-        const textMultipliers = multipliers.reduce((acc, curr) => acc * curr)
-        summaryText += `<br>All multipliers Damage: ${textMultipliers.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
-
-        if (typeof baseAttack === 'number') {
-          const finalDamage = multipliers.reduce(
+        let finalUnitMultipliers
+        if (unitMultipliers.length != 0) {
+          finalUnitMultipliers = unitMultipliers.reduce(
             (acc, curr) => acc * curr,
-            baseAttack,
           )
-          summaryText += `<br>Calculated Damage: ${finalDamage.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
         } else {
-          summaryText += '<br>Error: Could not calculate damage.'
+          finalUnitMultipliers = 1
         }
 
-        summaryText += `<br>THIS PAGE IS STILL A WORK IN PROGRESS. THE CALCULATION IS INCORRECT AND WILL BE FIXED LATER.`
+        let finalBadgeMultipliers
+        if (badgeMultipliers.length != 0) {
+          finalBadgeMultipliers = badgeMultipliers.reduce(
+            (acc, curr) => acc * curr,
+          )
+        } else {
+          finalBadgeMultipliers = 1
+        }
+
+        let finalStageMultipliers
+        if (stageMultipliers.length != 0) {
+          finalStageMultipliers = stageMultipliers.reduce(
+            (acc, curr) => acc * curr,
+          )
+        } else {
+          finalStageMultipliers = 1
+        }
+
+        const finalDuringSS =
+          finalUnitMultipliers * finalBadgeMultipliers * powerUp
+
+        const finalDuringSSFollowUp =
+          finalUnitMultipliers * finalBadgeMultipliers * followUp
+
+        const finalStageCombined =
+          finalUnitMultipliers * finalBadgeMultipliers * finalStageMultipliers
+
+        // //attack with unit
+        // if (typeof baseAttack === 'number') {
+        //   const finalDamageAfterUnit =
+        //     baseAttack *
+        //     finalUnitMultipliers
+
+        //   summaryText += `<br>Attack after unit multipliers: ${finalDamageAfterUnit.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        // } else {
+        //   summaryText += '<br>Error: Could not calculate damage.'
+        // }
+
+        const finalDamageAfterUnit = baseAttack * finalUnitMultipliers
+
+        const finalDamageAfterUnitBadge =
+          baseAttack * finalUnitMultipliers * finalBadgeMultipliers
+
+        const finalDamageAfterUnitBadgeSS =
+          baseAttack * finalUnitMultipliers * finalBadgeMultipliers * powerUp
+
+        const finalDamageAfterUnitBadgeSSFollowup =
+          baseAttack * finalUnitMultipliers * finalBadgeMultipliers * followUp
+
+        let summaryText = `Damage Calculation:`
+        //summaryText += `Damage Calculation: `
+        summaryText += `<br>Base Attack Stat: ${baseAttack}`
+        summaryText += `<br>Attack after unit multipliers: ${finalDamageAfterUnit.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        summaryText += `<br>Attack after unit and badge multipliers: ${finalDamageAfterUnitBadge.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+
+        summaryText += `<br><br>During SS: ${finalDamageAfterUnitBadgeSS.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        summaryText += `<br>During SS followup: ${finalDamageAfterUnitBadgeSSFollowup.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+
+        //attack during ss
+        //attack during ss followup
+
+        //Multipiliers
+        summaryText += `<br><br>Multiplers Only`
+        summaryText += `<br>Unit Multipliers Only: ${finalUnitMultipliers.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        summaryText += `<br>Badge Multipliers  Only: ${finalBadgeMultipliers.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        summaryText += `<br>During SS power up, total Multipliers: ${finalDuringSS.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        summaryText += `<br>During SS follow up, total Multipliers: ${finalDuringSSFollowUp.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+
+        summaryText += `<br><br>DISCLAIMER: Damage calculation is only for experimenting and may not be accurate.  These are not official numbers from mixi.`
 
         resultsSummary.innerHTML = summaryText // Use innerHTML to render <br> tags
-
-        // if (verboseOutput) {
-        //   console.log('attackStat Array:', attackStat)
-        //   console.log('Individual Input Values:', inputValues)
-        //   console.log('Multipliers Array:', multipliers)
-        //   console.log('multipliersCombined:', multipliersCombined)
-        //   console.log('Base Attack:', baseAttack)
-        // }
       }
     </script>
   </body>
