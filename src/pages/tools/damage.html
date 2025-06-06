@@ -178,7 +178,7 @@
                 type="radio"
                 id="monSpot3"
                 name="monSpot"
-                value="1"
+                value="None"
                 class="form-radio h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
               />
               <label
@@ -776,7 +776,7 @@
           <hr class="my-4 border-t border-gray-300" />
         </section>
 
-        <!--         <section class="space-y-4">
+        <section class="space-y-4">
           <h3 class="text-lg font-semibold text-gray-700 dark:text-gray-300">
             Section: Stage
           </h3>
@@ -784,7 +784,7 @@
             <label
               for="AttributeEffect"
               class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
-              >Attribute Effect</label
+              >Element Advantage</label
             >
             <div>
               <select
@@ -792,8 +792,8 @@
                 name="AttributeEffect"
                 class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
               >
-                <option value="1" selected>Neutral</option>
-                <option value="1.33">Default</option>
+                <option value="1" selected>No Element Advantage</option>
+                <option value="1.33">Default UP (1.33)</option>
                 <option value="1.5" selected>Effect UP (1.5)</option>
                 <option value="2">Effect Super UP (2)</option>
                 <option value="3">Effect Super UP (3)</option>
@@ -839,7 +839,6 @@
             </div>
           </div>
 
-
           <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
             <label
               for="MiscGimmick1"
@@ -855,7 +854,6 @@
               />
             </div>
           </div>
-
 
           <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
             <label
@@ -873,7 +871,6 @@
             </div>
           </div>
 
-
           <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
             <label
               for="MiscGimmick3"
@@ -890,8 +887,7 @@
             </div>
           </div>
 
-
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+          <!-- <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
             <label
               for="hiddenMultiplier"
               class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
@@ -906,10 +902,10 @@
                 <option value="1" selected>1</option>
               </select>
             </div>
-          </div>
+          </div> -->
 
           <hr class="my-4 border-t border-gray-300" />
-        </section> -->
+        </section>
 
         <button
           type="button"
@@ -964,6 +960,7 @@
               element.id === 'monSpot2' ||
               element.id === 'monSpot3'
             ) {
+              //this part allows non-integer values to get ignored. "40hello123" will become 40
               const attackValue = parseInt(value)
               if (!isNaN(attackValue) && Number.isInteger(attackValue)) {
                 //baseAttack = attackValue
@@ -1042,7 +1039,6 @@
               key === 'wpEnhance' ||
               key === 'defDown' ||
               key === 'criticalHit' ||
-              key === 'swordItem' ||
               key === 'customUnit1' ||
               key === 'customUnit2' ||
               key === 'customUnit3'
@@ -1064,6 +1060,7 @@
             } else if (
               key === 'AttributeEffect' ||
               key === 'bossRage' ||
+              key === 'swordItem' ||
               key === 'hiddenMultiplier' ||
               key === 'MiscGimmick1' ||
               key === 'MiscGimmick2' ||
@@ -1133,8 +1130,21 @@
         const finalDuringSSFollowUp =
           finalUnitMultipliers * finalBadgeMultipliers * followUp
 
+        //multipliers with stage.
         const finalStageCombined =
           finalUnitMultipliers * finalBadgeMultipliers * finalStageMultipliers
+
+        const finalStageCombinedDuringSS =
+          finalUnitMultipliers *
+          finalBadgeMultipliers *
+          finalStageMultipliers *
+          powerUp
+
+        const finalStageCombinedDuringSSFollowUp =
+          finalUnitMultipliers *
+          finalBadgeMultipliers *
+          finalStageMultipliers *
+          followUp
 
         // //attack with unit
         // if (typeof baseAttack === 'number') {
@@ -1158,26 +1168,86 @@
         const finalDamageAfterUnitBadgeSSFollowup =
           baseAttack * finalUnitMultipliers * finalBadgeMultipliers * followUp
 
-        let summaryText = `Damage Calculation:`
+        //stage attack
+        const finalDamageStage =
+          baseAttack *
+          finalUnitMultipliers *
+          finalBadgeMultipliers *
+          finalStageMultipliers
+
+        const finalDamageStageDuringSS =
+          baseAttack *
+          finalUnitMultipliers *
+          finalBadgeMultipliers *
+          finalStageMultipliers *
+          powerUp
+
+        const finalDamageStageDuringSSFollowup =
+          baseAttack *
+          finalUnitMultipliers *
+          finalBadgeMultipliers *
+          finalStageMultipliers *
+          followUp
+
+        let summaryText = `<b>Attack Calculation:</b>`
         //summaryText += `Damage Calculation: `
-        summaryText += `<br>Base Attack Stat: ${baseAttack}`
-        summaryText += `<br>Attack after unit multipliers: ${finalDamageAfterUnit.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
-        summaryText += `<br>Attack after unit and badge multipliers: ${finalDamageAfterUnitBadge.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
-
-        summaryText += `<br><br>During SS: ${finalDamageAfterUnitBadgeSS.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
-        summaryText += `<br>During SS followup: ${finalDamageAfterUnitBadgeSSFollowup.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
-
-        //attack during ss
-        //attack during ss followup
+        summaryText += `<br>Attack: ${baseAttack}`
+        if (finalUnitMultipliers != 1) {
+          summaryText += `<br>Attack after unit multipliers: ${finalDamageAfterUnit.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`
+        }
+        if (finalBadgeMultipliers != 1) {
+          summaryText += `<br>Attack after unit and badge multipliers: ${finalDamageAfterUnitBadge.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`
+        }
+        if (!isNaN(finalDuringSS)) {
+          summaryText += `<br>Attack During SS: ${finalDamageAfterUnitBadgeSS.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`
+        }
+        if (!isNaN(finalDuringSSFollowUp)) {
+          summaryText += `<br>Attack During SS followup: ${finalDamageAfterUnitBadgeSSFollowup.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`
+        }
 
         //Multipiliers
-        summaryText += `<br><br>Multiplers Only`
-        summaryText += `<br>Unit Multipliers Only: ${finalUnitMultipliers.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
-        summaryText += `<br>Badge Multipliers  Only: ${finalBadgeMultipliers.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
-        summaryText += `<br>During SS power up, total Multipliers: ${finalDuringSS.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
-        summaryText += `<br>During SS follow up, total Multipliers: ${finalDuringSSFollowUp.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        summaryText += `<br><br><b>Multipliers only Calculation:</b>`
+        //summaryText += `<br><br>Multiplers Only`
+        if (finalUnitMultipliers != 1) {
+          summaryText += `<br>Unit only: ${finalUnitMultipliers.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        }
+        if (finalBadgeMultipliers != 1) {
+          summaryText += `<br>Badge only: ${finalBadgeMultipliers.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        }
+        if (!isNaN(finalDuringSS)) {
+          summaryText += `<br>During SS power up - all: ${finalDuringSS.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        }
+        if (!isNaN(finalDuringSSFollowUp)) {
+          summaryText += `<br>During SS follow up - all: ${finalDuringSSFollowUp.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+        }
 
-        summaryText += `<br><br>DISCLAIMER: Damage calculation is only for experimenting and may not be accurate.  These are not official numbers from mixi.`
+        //Stage Calculations
+        if (finalStageMultipliers != 1) {
+          summaryText += `<br><br><b>================================</b>`
+          summaryText += `<br><br><b>Attack Calculation with Stage:</b>`
+          summaryText += `<br>Attack after unit,badge,stage: ${finalDamageStage.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`
+          if (!isNaN(finalDamageStageDuringSS)) {
+            summaryText += `<br>Attack During SS: ${finalDamageStageDuringSS.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`
+          }
+          if (!isNaN(finalDamageStageDuringSSFollowup)) {
+            summaryText += `<br>Attack During SS followup: ${finalDamageStageDuringSSFollowup.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`
+          }
+        }
+
+        //Stage Multipiliers
+        if (finalStageMultipliers != 1) {
+          summaryText += `<br><br><b>Multipliers only Calculation with Stage:</b>`
+          summaryText += `<br>Stage only: ${finalStageMultipliers.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+          summaryText += `<br>Stage All: ${finalStageCombined.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+          if (!isNaN(finalStageCombinedDuringSS)) {
+            summaryText += `<br>During SS power up - all: ${finalStageCombinedDuringSS.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+          }
+          if (!isNaN(finalStageCombinedDuringSSFollowUp)) {
+            summaryText += `<br>During SS follow up - all: ${finalStageCombinedDuringSSFollowUp.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+          }
+        }
+
+        summaryText += `<br><br>DISCLAIMER: Damage calculation is only for experimenting and may not be accurate.  Not all values and calculations are from Mixi or GW.`
 
         resultsSummary.innerHTML = summaryText // Use innerHTML to render <br> tags
       }
