@@ -117,6 +117,23 @@
             </div>
           </div>
 
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <label
+              for="hasGauge"
+              class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
+              >Has Gauge</label
+            >
+            <div>
+              <input
+                type="checkbox"
+                id="hasGauge"
+                name="gauge"
+                class="form-input w-24 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:text-gray-700"
+                checked
+              />
+            </div>
+          </div>
+
           <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
             <label
               for="Berries"
@@ -794,9 +811,9 @@
                 name="AttributeEffect"
                 class="form-select block w-full rounded-md border-gray-300 bg-white text-gray-800 focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100"
               >
-                <option value="1" selected>No Element Advantage</option>
+                <option value="1" selected>No element advantage</option>
                 <option value="1.33">Default UP (1.33)</option>
-                <option value="1.5" selected>Effect UP (1.5)</option>
+                <option value="1.5">Effect UP (1.5)</option>
                 <option value="1.998">Effect Super UP (1.998)</option>
                 <option value="2.998">Effect Super UP (2.998)</option>
               </select>
@@ -827,7 +844,7 @@
             <label
               for="swordItem"
               class="mb-2 block text-sm font-bold text-gray-700 dark:text-gray-300"
-              >swordItem</label
+              >Sword Item</label
             >
             <div>
               <select
@@ -945,6 +962,7 @@
         const resultsDiv = document.getElementById('results')
         const resultsSummary = document.getElementById('resultsSummary')
         const verboseOutput = document.getElementById('verboseOutput').checked
+        const hasGauge = document.getElementById('hasGauge').checked
         let multipliers = []
         let attackStat = []
         let baseAttack
@@ -1076,6 +1094,9 @@
 
         // attack
         baseAttack = attackStat.reduce((acc, curr) => acc + curr)
+        if (hasGauge) {
+          baseAttack = baseAttack * 1.2
+        }
         inputValues['Attack Stat'] = baseAttack
 
         // // Display individual input values
