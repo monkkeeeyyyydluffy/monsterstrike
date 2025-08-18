@@ -1,0 +1,117 @@
+Table of Contents
+=================
+
+* Intro
+* Tower
+* Tenma
+* Astral Mausoleum
+
+
+Intro
+=====
+
+* I am creating a text file to share quick notes.  Much easier to update text file than a full website.
+* Can be for misc notes that may not be worth dedicating a web page to.
+* Note - using markdown syntax
+
+
+Tower
+=====
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/15540
+
+
+* the best monthly content in the game.  low difficulty to clear, 68 orbs every month.
+
+* floors 1-40 (classic)
+** anyone can skip floors 1-19
+
+* seasons
+** you can clear 5 (slightly harder) stages to completely clear classic floor 31-40
+
+* 1st season
+** get winners mark
+** does NOT unlock barter function.
+
+* 2nd season
+** another set of 5 (slightly harder) stages to completely clear classic floor 31-40
+** same as above pretty much.
+** get barter function (trade shitier items for better)
+** only the LATEST season unlocks barter function.
+
+* if you win extreme tournament, can skip floors 1-29
+
+
+* if playing classic, there is a rare chance upon completing a stage, to completely clear all classic floors.
+
+
+
+
+Tenma
+=====
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* tenma castle end game
+* aka tenma no kojou
+* aka the demon's castle
+* aka Castle of the Heavenly Demons
+* 空中庭園 aka Kūchū teien aka hanging gardens aka sky gardens
+* 試練の間 aka shiren no ma aka room of trials aka chamber
+* Tenma no kojō (ten ma nokoji ~you)
+* 天魔 -> literally tenma - google says "demonic"
+* の孤城 -> no kojo -> lonely castle
+* all together -> 天魔の孤城 -> the demons castle aka tenma no kojo
+* discord castle == c1 c2 c3...
+* discord garden == g1 g2 g3...
+
+* High difficulty (15+), end game content (2021-2023).
+
+
+
+Astral Mausoleum
+================
+
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* astral mausoleum
+* aka  Tomb of the Destruction Star
+* aka starburial of ruin
+* aka starburial of destruction
+* aks star grave of destruction
+* aka Starburst of Ruin
+* aka destruction stargrave
+* aka 星墓
+* aka 破界の星墓3 (m3)
+* aka Yabu-kai no hoshi haka
+* aka 破界の星墓
+* aka holy mother of destruction
+* aka holy mother
+* aka virgin of destruction
+
+* https://www.monster-strike.com/news/20250724_4.html
+* https://www.monster-strike.com/news/20250724_5.html
+
+
+* High difficulty (15+), end game content (2025).
+
+* 10 quests
+** step1 pick 1of3 quests
+** clear 1 battle, unlock 3 more
+** clear 5 battles, unlock 3 more
+** clear 10 battles, unlock last 1
+
+* rewards
+** every 3 battles random reward
+** on 30 battles. 20 orbs
+** on 60 battles. 4th berry scroll. great ableberry scroll
+** all 10 battle 1 clear - gacha-dama shard
+** all 10 battle 2 clear - gacha-dama shard
+** all 10 battle 3 clear - gacha-dama shard
+
+* gacha pull guaranteed 2024+
+* general pool. earn on 3rd, 6, 9, 15, 18 ,21st shard
+* gen pool + limited. earn on 12th shard
+* limited guaranteed. earn on 24th shard aka 8 months of grind
+
