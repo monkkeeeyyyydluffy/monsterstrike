@@ -1,63 +1,318 @@
 Table of Contents
 =================
 
-* Intro
-* Tower
-* Tenma
-* Astral Mausoleum
+* !Intro
+* !General Beginner
+* !Events
+* !Tower
+* !Abyss
+* !Zetsus Tournament
+* !Uncharted Sand Dunes
+* !Tenma
+* !Astral Mausoleum
+* !Scramble Universe
+* !Guardian Beast Forest
+* !Playgrounds
+* !Sacred Grounds
+* !Historical
+* !Uncharted Lands
+* !Temple of heroes
+* !Berry Cage
+* !Striker Records
+* !Treasure 9
+* !Gacharido Lab
+* !Striker Navigation
+* !Luck Shop
+* !Medal Shop
+* !MonSpot
+* !MonstDay (MS Day)
+* !Gouzetsu Points
+* !Monpass
+* !Soul Badge
+* !Units
+* !Bias Types (Balanced/Power/Speed/Blast)
+* !Luck and max lucks
+* !Lucky Bonus
+* !Lucky Monster of the Week
+* !Gimmicks, Hazards and misc.
+* !Quest Difficulties
+* !Rank/Experience farming
+* !State of the game
+* !Game Mechanics
+* !Common team comps
+* !Player Goals
+* !Glossary (Misc Terms)
+* !Useful Links
 
-
-Intro
+!Intro
 =====
 
-* I am creating a text file to share quick notes.  Much easier to update text file than a full website.
+* I am creating a text file to share notes.  Much easier to update text file than a full website.
 * Can be for misc notes that may not be worth dedicating a web page to.
 * Note - using markdown syntax
 
+* I will *try* to adhere to this organization
+** General beginner
+** first events/modes
+** then ableberry/temple advice
+** then other common parts of UI
+** then general beginner advice
+** then exp/normal related topics
+** then game mechanics
+** then miscellanious tips
 
-Tower
+* Shameless plug
+* my page, misc monst stuff
+* https://monkkeeeyyyydluffy.github.io/monsterstrike/
+* my youtube
+* https://www.youtube.com/@monkeyluffy-i3n
+* feel free to msg/ping/DM me anywhere.  i have similar user names on reddit/youtube/discord
+
+
+!General Beginner
+================
+
+
+* I have a github page for a very brief quick start.  It is not comprehensive.
+* my beginner quick start page
+* https://monkkeeeyyyydluffy.github.io/monsterstrike/src/pages/beginner.html
+
+* Please read "Monster Strike Introductory Guide" from  #ms-guide on discord
+** is updated often and detailed. it will cover many topics i do not.
+** discord invite link: https://discord.gg/QWvbWAj
+** discord #ms-guide link: https://discord.com/channels/267853822003642369/778379677660217365
+
+
+* I liked this blog post by silverwilver.  Updated 2025; may go out of date depending when you read this.
+* https://monster-strike-enjp.fandom.com/wiki/User_blog:Silverwilver/general_guide_draft
+
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/385789
+
+
+!Events
+======
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/385789
+* GW article above summarizes all the events in one table, also showing rewards.
+
+* Monthly events:
+** Astral Mausoleum: 1st to 21st of each month
+** Tenma resets 1st of each month
+** Tower 7th to 25th of each month
+** Uncharted Dunes 14th to 29th of each month
+** Abyss 21st to 8th of each month
+** Zetsus Tournament 26th to 6th of each month
+
+* Permanent events in Challenge mode
+** Sacred Grounds (Sanctuary of the Divine Beasts)
+** Uncharted Lands
+** Playgrounds (Flash of inspiration)
+** Historical
+
+
+!Tower
 =====
 
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/15540
 
 
-* the best monthly content in the game.  low difficulty to clear, 68 orbs every month.
+* monthly game mode, containing 40 floors (in classic mode)
+* low difficulty to clear, 68 orbs every month (the highest in game).
+* icon looks like tower with lightning clouds.
+** best monthly content in the game.
+* see GW link or check in game for full rewards list
+* released in 2015
 
 * floors 1-40 (classic)
 ** anyone can skip floors 1-19
 
 * seasons
 ** you can clear 5 (slightly harder) stages to completely clear classic floor 31-40
-
-* 1st season
-** get winners mark
-** does NOT unlock barter function.
+** to unlock seasons, must clear zetsus tournament
+** new seasons will come out periodically (every few months?)
+*** older seasons archived and not playable anymore.
+** earn winners mark, a currency to be traded for useful items.
+*** each season has its own individual cap on how many winners mark you can earn.
+** only the LATEST season unlocks barter shop.
+*** barter shop allows you to one-time trade "less useful" items for more useful items such as orbs.
 
 * 2nd season
 ** another set of 5 (slightly harder) stages to completely clear classic floor 31-40
-** same as above pretty much.
-** get barter function (trade shitier items for better)
-** only the LATEST season unlocks barter function.
+** not the newest season; does NOT unlock barter function.
+
+* 3rd season
+** another set of 5 (slightly harder) stages to completely clear classic floor 31-40
+** latest season; WILL UNLOCK barter function (trade shitier items for better)
+
+
+* archived seasons.
+** 1st season (archived when season3 released. cannot play it anymore.)
+
 
 * if you win extreme tournament, can skip floors 1-29
-
+* to unlock seasons, must clear extreme tournament
 
 * if playing classic, there is a rare chance upon completing a stage, to completely clear all classic floors.
 
+* normally held from 7th of each month to 25th.  new years and other holidays may cause differences.
 
 
-
-Tenma
+!Abyss
 =====
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/105857
+* https://monster-strike-enjp.fandom.com/wiki/Forbidden_Abyss
+
+
+* monthly game mode, containing 30 quests; second best monthly content in the game.
+* second best monthly content in the game.
+* icon looks like red cave/dungeon.
+* early stages low difficulty, later stages higher difficulty to clear, 55 orbs every month.
+* see GW link or check in game for full rewards list
+* released in 2018
+
 
 * Related terms or synonyms you may see
 ** discord, auto translate via browser/youtube, etc..
-* tenma castle end game
+* 禁忌
+* kinki no goku.
+* aka forbidden abyss
+* aka forbidden prison
+* aka kinki
+* aka taboo prison
+* aka kinki dungeon
+* aka chamber of secrets
+* aka prison
+* aka deep abyss aka shinen
+
+
+* deep abyss/shinen, looks like a purple cave icon
+* reward is skipping 25 out of 30 stages. (the exact 25 is randomized)
+** the entire player base will have the same set of stages skipped each month.
+
+* The information in eng wiki is up to date (as of Dec 2025). Can also refer to it.
+
+* There are EX/invade quests on certains abyss floors, and on shinen clears.
+* wiki has breakdown.
+* There are certain (speculated?) ways to increase appearance rate. See discord help channel pinned messages.
+
+* each floor has an A-side and B-side. clearing either counts as clearing the floor.  Pick the side that you have units for.
+
+* To unlock abyss, clear 15 impossibles(chouzetsu) or 5 colossals (bakuzetsu) or 1 rogue (gouzetsu)
+
+
+
+* There are skipping floor functions in abyss based on previous clear count, floors reached, or if completed shinen the previous month.
+* See wiki for full breakdown.
+
+
+
+
+!Zetsus Tournament
+==================
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/344384
+
+* monthly game mode, low to high difficulty to clear. 30 orbs every month.
+** The icon with red and blue monster heads.
+** The difficulty is based on which randomized zetsu quests are selected this month.
+* see GW link or check in game for full rewards list
+
+* every month is random selection of four zetsus quests (ie chouzetsu) to clear
+* chance for tournament opponent to forfeit. higher luck then higher chance to forfeit.
+* if it is your first time clearing, there will be no gouzetsu quests, but quests can be replaced if you have cleared in previous months.
+** IE. After clearing 5 times, there is a chance for 5 quests to replaced with more difficult quests.
+** See GW article for full details.
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* aka Tournament
+* aka Extreme tournament
+* aka 絶級トーナメント
+
+* completing tournament, can skip to 30F in tower
+
+* Tournament is divided into preliminary tournament and a main tournament.
+* Must win preliminary before going to main tournament
+* If you completed main tournament the previous month, then preliminary tournament is skipped.
+
+
+* To unlock, have 5 or more ML
+
+
+!Uncharted Sand Dunes
+====================
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/465418
+* https://monster-strike-enjp.fandom.com/wiki/Uncharted_Dunes
+
+* monthly game mode, low to high difficulty to clear. 10 orbs every month.
+* icon looks like sand like building in desert.
+* see GW link or check in game for full rewards list
+* released oct 2024
+
+* You must have at least 5 Max Lucks to gain access to this area.
+
+* In each occurrence of the Uncharted Dunes, you will be able to play 10 dungeons, or Areas.
+** If you have cleared all 10 Areas in this month's Uncharted Dunes, for example, Area 1 to Area 10, the next month's Uncharted Dunes will start at Area 2 instead. However, you still can only go through 10 Areas, i.e. Areas 2 to 11.
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* aka 未開の砂宮
+* aka Mikai no suna miya
+* sand dunes
+* aka dunes
+* aka unexplored sand palace
+* aka uncharted desert
+
+
+* note, this mode is basically the successor of "Uncharted Lands", which went from Area1 to Area 60.  So might go up to Area 60.
+
+* casual/low difficulty player hack.
+**  can "cheat" the game and only clear areas 1 through 9, SKIPPING area 10, obtaining 10 orbs every month via easy quests.
+** If you do this, you will not get the super scrolls (white scrolls) or soul keys.
+
+
+!Tenma
+======
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/351632
+
+* Monthly game mode, consists of two sections, Castle and Gardens
+** Castle released in 2021; set of 10 dungeons for end game
+** Gardens released in 2023; set of 10 dungeons for end game.
+** High difficulty (15+), end game content.
+* see GW link or check in game for full rewards list
+
+* There are multiple reward systems
+* tenma rewards are based on battles cleared
+** IE in castle there are 10 quests, each have 6 battles each. Thus 60 battles in Castle. Similarly, 60 battles in Gardens.
+** IE. one quest has 6 battles, if you clear 3/6 battles then lose, you will earn +3 battles cleared.
+** Repeatedly clearing the same battle 1 will not count until month is reset
+
+* Monthly battle cleared rewards
+** There are rewards along the way as you clear 60 battles.
+** The monthly rewards will be ceased sometime near August 2026 (TODO fact check date)
+** battles cleared can be earned through Castle OR Gardens
+
+* Total cumulative battle cleared rewards
+** Full rewards earned at 1000 total cumulative battles cleared.
+** seperate for Castle and Gardens
+** This is lifetime battle clears, does not reset every month
+** IE. If clearing 60/60 every month, it will take 17 months to reach 1000 cumulative clears.
+
+*  See GW link for full list of rewards
+
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* tenma castle
 * aka tenma no kojou
 * aka the demon's castle
 * aka Castle of the Heavenly Demons
 * 空中庭園 aka Kūchū teien aka hanging gardens aka sky gardens
-* 試練の間 aka shiren no ma aka room of trials aka chamber
+* 試練の間 aka shiren no ma aka room of trials aka chamber aka trial hall.
 * Tenma no kojō (ten ma nokoji ~you)
 * 天魔 -> literally tenma - google says "demonic"
 * の孤城 -> no kojo -> lonely castle
@@ -65,12 +320,47 @@ Tenma
 * discord castle == c1 c2 c3...
 * discord garden == g1 g2 g3...
 
-* High difficulty (15+), end game content (2021-2023).
+* At first only the first quest (c1 or g1) are unlocked.
+* c2-c9 and g2-g9 are unlocked based on battles cleared, see GW link for details.
+* c10 and g10 basically only unlock once you clear previous 9 quests.  (you can workaround this if you can find a friend to leech)
 
 
+* To challenge, you must do ONE of the following: clear 15 chouzetsus (impossible) or clear 5 bakuzetsus (colossal) or clear 1 gouzetsu (rogue)
 
-Astral Mausoleum
-================
+* No lucky bonus for Castle or Gardens
+* No lending (karimon) for Gardens
+
+
+* Receive 1 tenma seal for each quest you complete.
+** Basically a tradeable token, trade it for delmostel or vilady unit.
+
+
+* Clearing gardens once unlocks an additional Berry bank slot.
+
+* EX invade quests, with ways to increase probability
+
+* EX Archilet, clear Castle 10 (c10) for chance of invade
+** From discord chat, around 1% rate.  Theory it is tied to speed turn count, but all modern teams should clear in sufficient turns.
+
+
+* EX Cortina, Clear g10 for chance of invade
+** Clearing g1-g10 without losing once increases probability.
+*** "0 death 2%, 1-3 death 1.5%; if you die 4 times in g1-g10 its 0.5%."  (source: discord chat, no official source.)
+*** once you clear all 10 quests the rate is fixed for the rest of the month. even you die in g10 after
+
+
+* There is an eng wiki, but has never been updated for Gardens.
+** https://monster-strike-enjp.fandom.com/wiki/Castle_of_the_Heavenly_Demons
+
+
+!Astral Mausoleum
+=================
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/351632
+
+* Monthly game mode
+* High difficulty (15+), end game content, released aug 2025.
+* icon looks like a giant star or spiky (deathstar) planet.
 
 
 * Related terms or synonyms you may see
@@ -94,8 +384,6 @@ Astral Mausoleum
 * https://www.monster-strike.com/news/20250724_5.html
 
 
-* High difficulty (15+), end game content (2025).
-
 * 10 quests
 ** step1 pick 1of3 quests
 ** clear 1 battle, unlock 3 more
@@ -115,3 +403,1192 @@ Astral Mausoleum
 * gen pool + limited. earn on 12th shard
 * limited guaranteed. earn on 24th shard aka 8 months of grind
 
+* See GW link for full rewards
+
+
+!Scramble Universe
+==================
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/456997
+
+* Game mode where it is a time attack battle with 8 people online (or bots) and race to finish first.
+* Limited time event, the latest iteration is L season: November 11, 2025 to December 31, 2025
+* Each season, there are three different quests that rotate
+* Each quest has fixed team comps you can pick
+* Has a ranking system, from rank D up to rank SS.  Keep winning to reach rank SS.
+* Can pick up and use special items while playing.
+
+* Rewards
+* Note - no unit in rewards, so not missing out on any ML.
+* Farm coins (tradeable scramble universe token), trade for items and others
+** Striker card (cosmetic) purchaseable after spending 100k coins
+* Cosmetic title available after reaching SS rank. Provides border around your name in lobbies.
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* スクランブルユニバース
+* aka mario kart mode
+
+!Guardian Beast Forest
+======================
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/252646
+
+* Game mode to unlock guardian beasts and farm shards to level up guardian beasts
+* forest looking icon
+
+* Guardian beasts have skill that can be used once per game
+** Skills can include but not limited to: delay, paralyze, healing, increased attack, etc..
+
+* 500 shards to level up guardian beast from level 1 to level 10
+* Tip: Very low drop rate on shards, difficult to farm. Only level up when needed.
+
+
+* My personal recommendations:
+* S tier
+** Shark (paralyze), Puck (delay; collab so not obtainable anymore.)
+* Top tier and available
+** Shark, fonfon
+* Top tier, but collab/not available anymore:
+** Puck, Star platinum, Halo, Great Sage/King of Wisdom
+
+
+!Playgrounds
+============
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/91369
+
+* Game mode in the challenge section. Interesting puzzle type of quests.
+* 0 stamina to play, clear orbs.
+* Released as sets of five, the first 1-3 in each set is easy. 4-5 can be very tricky and need to look up a guide. Can play this if you have spare time.
+
+* icon looks like five colored circles (red, blue, green, yellow, purple)
+
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* aka Playground of Enlightenment
+* aka Inspiration Playground
+* aka Flash of inspiration
+* 閃きの遊技場
+
+
+
+!Sacred Grounds
+===============
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/57274
+
+* Game mode in the challenge section. Can farm hunters unit and divine beast units.
+* Some clear orbs available, but units farmed through here are outdated and not useful.
+* released 2017 (?? TODO: confirm release date)
+* icon looks like a colosseum with some steps leading up to the entrance
+
+* very specific team strategy to defeat boss stages.
+* there are farmable hunter units that have the slayer abilities needed
+* some quests (the final secret quest??) will require the farmable hunter units to damage the mobs.
+* recommended to use team comp of 3 hunters 1 gacha
+
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* 神獣の聖域
+* aka sacred grounds
+* aka Sanctuary of the Divine Beasts
+* aka Sanctuary of Beasts
+
+!Historical
+===========
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/214666
+
+* Game mode in the challenge section.
+* Play high difficulty quests using the teams when quest was first released.
+
+
+
+* No stamina to play, no boss drops. This is a pure challenge mode.
+* Each quest has three teams.
+** Level 1 team is easier, while Level 3 team is the hardest.
+* Very minimal rewards compared to effort; 20 orbs for full clearing.
+* Some medal items available as well.
+
+
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* aka battlefield remains
+* aka Remains of veteran battles
+
+
+!Uncharted Lands
+================
+
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/208130
+
+* Game mode in the challenge section.
+* 60 quests to clear, full clearing grants you a gacha ball.
+** Very minimal rewards compared to effort; more of a challenge mode
+
+* This was replaced by Uncharted Sand dunes and migrated to Challenge section; hence very low rewards now.
+
+
+
+!Temple of heroes
+=================
+
+* Game mode to farm ableberries
+
+
+* General berry advice and descriptions
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/6672
+* One punch strategies on the temple stages
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/6704
+
+* See #ms-guide in the discord, click into the Google doc.
+** has many sections, including "Temple of Heroes" section
+** HIGHLY recommended you go to #ms-guide and review details there.  It is comprehensive guide.
+
+* https://monster-strike-enjp.fandom.com/wiki/Temple_of_Heroes
+* https://monster-strike-enjp.fandom.com/wiki/Ableberries
+
+* Will be brief, theres a lot of resources covering ableberries already
+
+* Ableberries can be equipped to your mon
+* Effects include, but not limited to: increase bump combo dmg, shave enemy HP, increase stats, and more...
+* Eng resources may call the ableberry grades: S, S+, S++, XL
+* JP calls ableberry grades: S, M, L, EL
+
+* Use the ableberry board to farm efficiently.
+
+* Farm efficiently: one shot team comps, bell for berry rate up, during monday, etc..
+
+* Most people will farm Dark TT2, Light TT1, or Fire TT1 because of the popuar one shot team comps (as of 2025).
+
+* Please understand how berries stack and apply to the team.
+** IE. A Class Attack L (+3000) berry on a Bird class mon, will ONLY AFFECT BIRD class units on the team.
+** Most berries of identical name do not stack, IE you cannot equip multiple genius berries (+65% exp), they do not stack. It only takes highest EXP berry
+** But.. IE. A Class Attack L (+3000) berry on a Bird class mon and Class Attack L on demihuman class mon are considered different.  First berry provides +3000 to any Bird class,  latter provides +3000 to any demihuman class.
+** Do not use knockout (KO) berries.  Only for a select few veterans and if you really understand the negatives of KO.
+
+* For a serious player, common to equip attack berries like this. in sets of three.
+** First unit has 3 L berries for Class attack:  +3000atk, +2000atk+2000hp, +2000atk+26.6spd
+*** When you add up the three class atks total above, its 7000.
+** Second unit has 3 L berries for sling style: +1500atk, +1000atk+1000hp, +1000atk+13.2spd
+*** When you add up the three sling atks total above, its 3500
+** Similarly, third unit has 3 L berries for bias. its the same numbers as sling: +1500atk, +1000atk+1000hp, +1000atk+13.2spd
+** If these three units share same class,sling,bias; then in total there is +14,000atk
+** You need to consider your entire TEAMS class,sling,bias when building the perfect set of atk berries for the team.
+
+* In 2025 they released another temple, "Primordial Temple", for farming EL berries
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/522881
+* GW states tested drop rate is 0.38%
+
+
+
+!Berry Cage
+===========
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/507621
+
+* A feature to put ableberries into a cage as storage
+** one berry per cage
+** can store berries from temple result screen
+** can store berries from your own unit AFTER taking a different berry from temple result screen
+** can go through menu screens to transfer berry from your units to cage, at no cost.
+
+* It costs 1 berry wand to transfer berry OUT of cage onto a unit.
+
+
+* Up to 7 berry cages (as of December 2025)
+* Very first cage is free
+* Unlock additional cage with (can only unlock ONCE per task):
+** use 1000 gouzetsu points
+** full clear Tenma Gardens
+** spend 5 orbs for a cage
+** reach rank 500
+** login 100 days
+** full clear Abyss
+
+
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* aka berry cage
+
+
+* note - you CAN overwrite berry in cage by placing another berry
+** can use this to overwrite berries you do not want
+
+!Striker Records
+================
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/465417
+* Mission event - A collection of missions that provide rewards
+* Currently on third event;   October 2, 2025 to April 1, 2026
+* First event released in 2024
+
+* The missions are related to various parts of the game, such as but not limited to:
+** Farming luck (max lucks)
+** Farming specific units (IE. during 2025 mission event, it will ask you to farm some units released in 2025)
+** Playing certain difficulty levels (lethal, gouzetsu, reizetsu, etc....)
+*** Can farming luck, max luck certain unit, or just clearing quest.
+** Playing/completing certain events (Sand dunes, Tower, Abyss, etc.....)
+** Farming berries
+** Farming guardian beast forest
+** and more....
+
+
+* Scotts Youtube here can explain the system in general
+* https://www.youtube.com/watch?v=Yt-dzk8-Aa0
+* 16:30 minutes mark.
+* WARNING- they keep changing the UI every few months... but the overall missions are very similar and have not changed.
+* 5 categories, 30 missions each.
+* As you clear more missions, you rank up from 1 up to 10 in EACH category.
+
+
+* Rewards
+* Rewards based on maximum rank from any category
+* Rewards based on average rank from all categories
+
+
+* 5 categories
+** max lucks
+** mastery (uncharted desert, tower, abyss)
+** zetsu (tournament, chouzetsu+bakuzetsu, gouzetsu)
+** high difficulty (tenma, abyss depths, star grave, reizetsu)
+** characters (evolving, temple, guardian beasts)
+
+* points required for each rank
+** 2 - 20
+** 3 - 50
+** 4 - 80
+** 5 - 110
+** 6 - 140
+** 7 - 180
+** 8 - 220
+** 9 - 260
+** 10 - 300
+
+
+
+* Personal tips
+** If you want to do complete missions, GW voters usually recommend reaching rank 10 in "max luck" category as it is easiest difficulty wise.
+** Doing above gets you max rank 10
+** Then raise rank in various other categories until you reach average rank 6
+** It is very difficult to start event late, and "catch up", due to nature of some missions.
+
+
+!Treasure 9
+===========
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/246648
+
+
+* A limited time mission related to clearnig the latest bakuzetsu quest.
+** Shooting is latest treasure 9 running from December 26, 2025 to February 24, 2026
+
+* There are 9 rewards: misc in game items.
+
+* Clear the quest, then after result screen, you can shoot 1 of the random targets.
+* It starts with 9 targets, and targets reduce by 1 each time you shoot.
+* One of the targets will instantly clear all targets and you receive all rewards.
+
+
+!Gacharido Lab
+==============
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/491334
+
+* Gacharido Lab is the free monthly pull that you will see on left side of home screen.
+** It replaced the former mondama flipping cards, and before that the mondama system.
+
+
+
+* TLDR: idle game, click to collect energy, spend 300 energy to summon
+unit, get 1 free unit per month.
+
+* Similar to idle clicker, go into lab and it auto-collects energy.
+* Energy generates over time and maxes out at 30/30 roughly every
+9hours.
+* Gouzetsu points to raise cap to 40/40 (update v29.6).
+* On MSday you can collect 50 energy for each element.
+* Spend 300 energy of an element to summon a unit.
+* Can summon up to 10 units, pick 1 unit for free pull (12 summons if
+monpass).
+* Has a mechanic that once you collect X amount of total cumulative
+energy, you generate more (rare) energy.
+** This first starts after you collect 500 cumulative energy, and again at
+1000, and again at 2000.
+
+* My Personal Tip - if your cap is 40/40, then collect twice a day, morning and night,
+for max efficiency. if cap 30/30 then collect 3 times a day, morning,
+midday and night.
+
+
+* Official site:
+** https://www.monster-strike.com/news/20250327_3.html
+* My youtube on lab
+** https://www.youtube.com/watch?v=LQb69QpbZSU
+
+* Version 29.6
+** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/511755
+
+
+!Striker Navigation
+===================
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/198539
+
+* Feature to help show you which quests you can clear for orbs
+** A compass looking icon on middle, right side of home screen.
+
+
+
+
+* Theres two tabs
+** The left tab is time limited clear orbs
+** Right tab for non-time limited clear orbs
+
+
+
+* Note a very brand new account may have three tabs.  IIRC it is related to step up missions or some other beginner function.
+
+
+!Luck Exchange Shop
+===================
+
+* Luck shop can be accessed through menus on home screen
+* Trade luck for items
+
+* On monster day, more valuable items are available to be exchanged (one time per item)
+
+
+!Medal Shop
+===========
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/36024
+
+* Medal and magic stones are currency you can use to purchase helper items before a quest starts
+* Can also purchase a unit, but units usually weak.
+
+* Helper items purchased via medals include:
+** Chest item adds two treasure chests drops to result screen
+** Max HP item +10,000 to maximum HP
+** Gauge item for always gauge successful
+** HP Cut item for 10% HP cut on all enemies at start of each battle map
+** Small heart item generates a small heart at start of each battle map
+** Gold berry guarantees gold berry drop during Temple of Heroes quest
+** Special items (only available on certain quests)
+
+
+* Special items are for certain quests and can greatly reduce difficulty of said quest
+** IE a quest with very high enemy damage may have special item that doubles maximum HP
+** There are many special item effects
+
+
+!MonSpot
+========
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/110850
+
+* MonSpot is a feature to equip powers to provide in game buffs
+** in Japan, many monspot antennas (look like towers) placed on a real world GPS map.
+** Outside of japan, everyone allowed to place a "my spot" antenna at their current location
+
+* Go to discord #bot-playground and type ".monspot" for very helpful graphic.
+** Discord bot playground: https://discord.com/channels/267853822003642369/299343162244202507/1350815140559323216
+** Discord invite link: https://discord.gg/QWvbWAj
+
+* Power effects list:
+** king spot - All powers activated at the same time - monpass premium only (real money subscription)
+** chest spot - increased chance of additional reward box
+** luck (skill) spot - increased luck skill activation rate
+** Element Spot (Ie. Fire spot) - increased attack/hp/speed for this element
+** Soul skill spot - increase soul skill level
+** Exp spot - increase exp earned
+** Medal spot - increase medals earned
+** Stamina spot - Some stamina returned after clearing quest
+** Luck Bonus spot - Additional luck added to your units at reward screen.
+
+* There are two circles for monspot power as host, and as guest.
+* Guest power also referred to as "sub spot"
+
+* Each power may also be "plus +".
+** IE. exp spot+ and exp sub spot+
+** Monpass users (real money subscription) have all powers as +
+
+* Monpass Premium users (real money subscription) have king spot+
+** King spot - all powers are activated simultaneously. This is extremely powerful.
+
+* FREE DAILY ORB!! when you have 100 orb shards, it will convert to an orb
+** when on monspot screen; collect orb shards and other items when near monspot (or your "myspot" antenna)
+** can use auto-collection ON (green ON button). then it auto collects every 10minutes.
+
+* Rarely a balloon can be seen on monspot screen, click to pop balloon for random rewards.
+
+* Monspot is accessible via a button near bottom left area of home scren
+** need to click a button around top right area of monspot UI to place myspot antenna
+
+
+
+!MonstDay (MS Day)
+=================
+
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/148272
+
+* Campaign that runs every 10th, 20th, and 30th, at 12am japan time.
+** Gacha units act as MaxLuck in select areas (events, library, temple, materials)
+** Temple time-clear bonus chest gives 2 berries
+** Luck exchange shop has more valuable limited items for trade
+** Special 1 stamina material quest (can only host once; unlimited joins as guest)
+
+
+* Go to discord #bot-playground and type ".monstday" for very helpful graphic.
+** Discord bot playground: https://discord.com/channels/267853822003642369/299343162244202507/1350815140559323216
+** Discord invite link: https://discord.gg/QWvbWAj
+
+
+* Personal Tip
+** farming with team of 4 gacha units can significantly speed up max luck farming.
+** Online co-op will be active during MS day, take advantange of it
+** Lucky mon of the week is useful to farm
+** Can also farm harder quests on monst day.
+
+
+!Gouzetsu Points
+================
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/111439
+
+* Gouzetsu points can be used to provide very useful in game benefits
+** Earn gouzetsu points by clearing gouzetsu difficulty quests
+** Can level up each benefit to level 10 using gouzetsu points
+
+* In game benefits include, but not limited to:
+** Receive 5 orbs periodically (every 7-14 days)
+** Receive 3000 soul points periodically (every 7-14 days)
+** Discount medal/luck shop (up to 30%)
+** Receive items periodically (theres 3 different item sets, so 3 different bonuses)
+** Raise energy cap on Gacharido lab from 30 to 40.
+** Unlock additional berry cage slot
+** Stat limit increase on gouzetsu mons (IMO not useful)
+** Monspot antenna range increase (Japan Only; IMO not useful)
+
+* Can earn up to 990 points per quest
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* aka gouzetsu bonus
+* aka gougen bonus
+* aka gougen points
+
+
+* My personal tip
+** gouzetsu points are extremely useful, make this a priority for new accounts
+** first level up these skills to level 1: orb, soul points, the three item generations.
+** It is best value to level each to 1, to start receiving rewards.
+** My priority for level 10 would be:
+*** Orb, gachrido lab or medal shop, then its debatable for item generation/soul point/berry cage
+** I would skip stat limit increase and monspot antenna range increase.
+* there are more gouzetsu points available than places to spend... I may have 30,000 points left unused.
+
+
+!Monpass
+========
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/68227
+* https://monster-strike-enjp.fandom.com/wiki/Monpass
+
+* Monpass is a real money subscription per month
+
+* I wrote the eng wiki for monpass, of course with reference to discord help.. so I will copy paste it here....
+
+* Monpass has two tiers, regular and premium.
+** The regular monpass is 480 yen per month.
+** The monpass premium is 1980 yen per month.
+
+
+* Regular monpass includes
+** True Shin material inventory limit raised to 3000.
+** Gain increased EXP from playing multiplayer (5% of quest value, both hosted and joined)
+** All monspot powers become "+"
+** Can recover stamina once a day
+** Daily soul point limit increased from 1000 to 1500
+** Summon limit for Gacha Lab increased from 10 to 12.
+** Cosmetic borders around your name in multiplayer lobbies
+** For every month of continued subscription
+** Monthly freebie for transcending units (you won’t need to use materials to transcend a unit)
+** Monthly freebie for changing Soul Badge wielders (usually costs 5000 soul points to change once a wielder has been assigned)
+** For every third month of continued subscription
+** 1 gacha ball to allow to draw guaranteed new 5* unit
+
+
+* Monpass premium includes:
+** All of the above benefits of regular tier
+** Your personal monspot will always be King spot+ - this activates all monspot powers simultaneously
+** Can guarantee lucky result (once used, goes on a two week cooldown)
+** +1 your number of lucky mons of the week (If you only have two lucky mons of the week, it is treated same as 3 lucky mons)
+** Able to purchase special monthly bargain pack for 980 yen
+** Increases treasure chests in true shin materials quest from 3 to 5
+** True shin materials inventory limit increased from 2000 to 3000
+** For every 6 month of continued subscription
+** 1 Gacha ball that can be usesd to guarantee a featured character from any banner.
+** For the very first month of continued subscription (lifetime of account), receive above gacha ball at 1month mark.
+** For every month of continued subscription
+** Receive 30 Commercial skip tickets
+
+
+!Soul Badge
+===========
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/71333
+* https://monster-strike-enjp.fandom.com/wiki/Soul_Badges
+* Eng wiki is very informative, only missing a few of the newer soul badge powers.
+
+* Soul badges is a system to (greatly!) enhance your units power
+** unlocking soul skills (abilities) for purchase is tied to luck per element (so farm a lot of max lucks)
+** purchasing soul skills and equipping them is by spending "soul spirits"
+** up to three badge slots per element, equipping a badge to a unit requires spending "soul spirits"
+
+
+* Please see GW for a complete list of soul skill effects (eng wiki has the older ones)
+* Some of the most powerful and commonly seen soul skill effects are:
+** VS. "element" (IE. VS. Dark) - up to +25% damage on enemies of that element
+** VS. weak point - up to +10% damage on weak points
+** VS. Boss - up to 10% damage against bosses
+** VS. Mobs - up to 10% damage against mobs and mid bosses (non-boss)
+
+* Also some very difficult quests gimmicks can be completely countered via soul badges
+** IE. a quest with needle panels can be countered by equipping the 99% needle panel damage reduction
+** There are soul skills to counter many gimmicks, such as SS delay, bump combo lock, ability lock, contagious fog, fire pillars, and many more.
+
+
+* Common question - What is the gold border around unit portrait I see in multiplayer?
+** Gold border around unit portrait means it is equipped with soul badges
+
+
+
+!Units
+======
+
+* General information on each unit
+
+* Please read "Monster Strike Introductory Guide" from  #ms-guide on discord
+** Google document; Section 3 is all about units and extremely detailed. Section 2 is about evolution trees
+** discord invite link: https://discord.gg/QWvbWAj
+** discord #ms-guide link: https://discord.com/channels/267853822003642369/778379677660217365
+
+
+
+* Bounce/Pierce sling type - unit will bounce off enemies or pierce through enemies.
+* Class - unit will have a class, this affects your Class ableberries and also if enemies have slayer abilities.
+* Bias type - Bias type can be Balanced or Power or Speed or Blast. This affects Bias type berries and has many other effects. See the "Bias Types" section
+
+* Strike shot (SS) - special attack that can be used when fully charged
+** to charge, waiting turns or using SS rotation related abilities
+** For SS with stage 1 and stage 2 (aka gear1 and gear2), using stage2 will be stronger
+*** IE. a 16+8 SS will have stage1 ready after 16 turns, then stage2 ready after an additional 8 turns.
+
+* Bump combos (friendship combo) - hitting allies will trigger their bump combo, can also be triggered indirectly via blast-type bump combos
+* Ableberry (Wakuwaku) - can equip up to 4 ableberries
+** 3 slots are more common, 4 slots is constrained by a very rare item (As of Dec 2025)
+* Luck Skill - A unit can have one of four luck skills, critical/shield/bump combo crit/guide. Activates by chance and chance increases based on luck of unit, luck spot (monspot), and soul badge skill.
+* Luck - increases rewards at the end of the mission and also effects activation rate of your Luck Skill
+
+
+* Evolution trees
+** Base form 5*
+** Evolution or Ascension
+** Transcension
+** Trancension Kai
+** True Transcension (Shin Div)
+
+
+* Kai (Trancension Kai) monsters have connect skills
+** Connect skills must be activated by passing the activation condition
+** Common question - what is the gold chain or silver chain on unit portrait?
+*** When Kai unit has connect skill activated, it will show a gold or silver chain.
+*** If connect skill is inactivate, it is greyed out.
+** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/171373
+
+* Shin or True Transcension monsters have shot skills and assist skills
+** Shot skill activated when you shoot, but does NOT activate during SS
+** Assist skill only affects non-Shin monsters
+** Personal note - shot and assist skills vary greatly in their effects. If you are an older returning player, S-skill/A-skill can have big impact on team building.
+
+
+
+
+* GW Luck Skill: https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/19278
+
+
+* Bias Types
+
+
+* Shout out to SilverWilver for inspiring this section
+** https://monster-strike-enjp.fandom.com/wiki/User_blog:Silverwilver/general_guide_draft#Units
+
+
+!Bias Types (Balanced/Power/Speed/Blast)
+=======================================
+
+
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/171376
+
+* A unit can have one of four bias types:  Balanced/Power/Speed/Blast
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* aka battle style
+* artillery type (aka blast type)
+
+* Balanced
+* has balanced stats
+* Super balanced:
+** Increases effect of heart items by +20%
+** Increases elemental advantage by +20%
+** Increases elemental bump combo damage advantage by +20%
+*** Note - not all bumps have elements. some are non-elemental
+** IMPORTANT  - many higher difficulty quests have elemental advantage UP (which itself has 3 levels), super balanced element effect is adjusted based on this
+*** x1.269
+*** x1.401
+*** x1.537
+
+* Power
+* has higher attack stat
+* Super Power:
+** Sword item effect +20%
+** Attack damage on first hit +20%
+** Decreased deceleration rate when hitting enemy
+
+* Speed
+* has higher speed stat
+* Super speed
+** Shoe item effect +20%
+** Speed up on first wall hit
+
+* Blast
+* high bump combo damage
+* Super blast
+** Hourglass item reduces SS by 4 turns
+** Indirect bump combo activation power increased from 50% to 100%
+
+
+* This is NOT commonly mentioned, but power has worst deceleration rate vs other types.
+** Gomuhimo youtube: https://www.youtube.com/watch?v=3Kwu2F9hIAw
+** 0m 44s mark
+** Balanced/Speed/Blast have same decel rate. Bounce 20% and Pierce 40%
+** Power type. Bounce 30% and pierce 50%
+** Super Power type. Bounce 22% and Pierce 43%
+
+
+!Luck and max lucks
+===================
+
+
+* Read #ms-guide for full details... but...
+* In short, farming max luck is a critical part of the gameplay that helps you:
+** increase your Lucky Bonus (number of ML)
+** unlock soul badge skills
+** unlock third chest drop from Lucky Monster of the week
+
+
+* Please read "Monster Strike Introductory Guide" from  #ms-guide on discord
+** is updated often and detailed. it will cover many topics i do not.
+** discord invite link: https://discord.gg/QWvbWAj
+** discord #ms-guide link: https://discord.com/channels/267853822003642369/778379677660217365
+
+
+
+!Lucky Bonus
+============
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/145506
+
+
+* Bonus system based on number of ML you have
+** Rewards orbs, soul points, and some permanent bonuses
+
+* Theses permanent bonuses help you directly in game and make quests easier
+** HP recovery when map clears (maxed at 290 ML)
+** SS Full throttle start (maxed at 490 ML)
+
+* Other permanent bonuses
+** Chance at stamina recovery (max at 135 ML)
+** Chance at automatic continue-min (max at 270 ML)
+** Helper item increased inventory limit (max at 460 ML)
+** Medal increased inventory limit (max at 525 ML)
+** Experience point increase (max at 675 ML)
+
+
+!Lucky Monster
+==============
+
+
+* Every week, 8 monsters are designated as Lucky Monsters
+** Get bonuses when up to 3/8 are ML
+** 1/8 as ML, 10% discount on luck exchange shop
+** 2/8 as ML, +60 library points
+** 3/8 as ML, +1 bonus chest
+
+* Using lucky monster as your first monster in team, automatically get +1 bonus chest
+
+
+* aka lucky monster of the week
+
+!Gimmicks, Hazards and misc.
+============================
+
+
+* Gimmicks and hazards on quests
+** At low difficulty, ignoring gimmicks are a mere nuisance and will not stop you from clearing quest
+** Higher the difficulty, gimmicks may deal fatal instant death damage, or prevent you from dealing any damage. Must counter gimmicks with NULL abilities or understand how to play with gimmick, and pick the right team.
+
+* Common gimmicks with NULL abilities
+** gravity barrier. slows you down.
+** damage wall. damages you if touched.
+** warp. warps you if touched, hindering movement.
+** mines. explodes and inflicts damage if touched.
+** magic circle. transform you into (WEAK) chicken state if touched.
+** wind. displaces units either inwards or away from wind source. in some stages this wind spreads infectious virus.
+** speed down wall. basically stops you (heavy slow down) if touched.
+** transferwall transport wall. transports (warps) you if touched
+** slowdown floor. Greatly slows down a unit when touched.
+
+* My page has pictures and descriptions for gimmicks and stage effects
+* https://monkkeeeyyyydluffy.github.io/monsterstrike/src/pages/gimmicks_and_stage_effects.html
+
+* GW page for always up to date gimmicks. They also include unit status effects, stage items, and more.
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/6170
+
+
+* My personal notes
+* There are more gimmicks than I can count... they continually create new gimmicks as new quests come out.
+* A very common theme is...
+* You must do "something" in order to deal damage, or else deal nearly 0 damage.
+* IE. You must defense down enemies or attack up your allies to do damage.
+** IE. touch 3 allies to increase attack gimmick
+** IE. use photons to trigger enemy defense down (photons gimmick varies per quest)
+* Theres also the, you must do "something" in order to not die from fatal enemy damage.
+* Newer Quests can require 3 NULL abilities to counter gimmicks
+
+
+* Common question: I'm a new player. Why did I randomly die?
+** Watch if any attack on your unit occurs... Higher difficulties have elemental attacks that will deal fatal instant death damage if you do not bring entire team with correct element.  (IE. must bring 4 water units to a fire quest)
+** May have run into a damage wall, or mine.
+
+
+* Notes:
+* I am using terms loosely and interchangeably.. gimmick, hazard, stage effect, etc...
+* the ENG wiki is more strict on the terms.. defines hazards as hazards that can be countered with NULL abilities, such as gravity barriers.
+* Gimmicks would be other gimmicks within quest such as using photons, touch allies to increase attack, and etc...
+
+
+* Inspired from state of game notes from https://monster-strike-enjp.fandom.com/wiki/User_blog:Silverwilver/general_guide_draft#Units
+
+
+!Quest Difficulties
+==================
+
+
+* all zetsus (chouzetsu, bakuzetsu, gouzetsu)
+* all quests
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/21559
+
+
+
+* chouzetsus (impossible) - way back in 2014ish,these were the hardest quest in the game.  nowadays its 5-9*/15 difficulty and much easier.  IMO, minimal benefit to farming these
+* No dedicated GW page afaik
+
+* bakuzetsu (colossal) - 8-13* difficulty,  can farm these to get EX invades. EX invade mon are strong units to have.
+* No dedicated GW page afaik
+
+
+* gouzetsu (rogue) - 12-15* difficulty. can be useful ML units. can farm 990 gouzetsu points per quest. units here have trancension forms.
+** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/110048
+** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/466310
+
+* reizetsu - 15+* difficulty. some of the hardest content in the game. difficult to max luck due to a win streak system. units here have shin div forms.
+** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/421311
+** NO drops from reward chests
+** Only 1 to 3 direct drops from boss
+** and a win streak system - +2 drops for 2 win streak, +3 drops for 3+ win streak.
+** no soul badges, no berries, no lending mon (karimon)
+
+* insidious - 8-15* difficulty, usually closer to gouzetsu level.
+* there are many variants of insidous, such as: insidious sai, insidious ketsu, etc...
+** insidious ketsu is the battle ticket system (Seele, Chernobog)
+* each collab has insidious quest(s)
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/161892
+
+
+* chouzetsu/bakuzetsu ranked based on difficulty (not updated often?)
+* typically a very old quest is much easier
+** thus even the oldest gouzetsu may be as easy as a modern chouzetsu
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/22464
+
+
+* My page on quest difficulties
+* I try to put icons of recognizible quest on the right hand side so you can find it in library.
+* https://monkkeeeyyyydluffy.github.io/monsterstrike/src/pages/difficulties.html
+
+
+
+!Rank/Experience farming
+========================
+
+* For those saving 1 stamina quests from normals..
+* See my copy pasta
+
+
+    TLDR get at least the first 3 before doing 1stamina quests:
+    1- genius (学びの力) ableberry :Lberry: (+60%) or :BerryEL: (+65%)
+    2- exp monspot+ (+75%) or exp monspot (+50%)
+    3- activate :bell~1: for 3x exp for 1 hour.
+    4- use Seele in team  (+50%)... BUT this mon was only available if you played November 2024-April2025... can add seele friend instead. trick for unlimited friend usage listed below...
+
+    When ready, clear 1staminaquests starting from the top.
+
+    Going more detailed...
+    for the 1stamina quests, depending on your setup, should reach somewhere between rank 400-500~, if starting from rank80~ ish.
+    Setup details:
+
+    1- get genius (学びの力) ableberry :Lberry: (+60%) or :BerryEL: (+65%).   FYI to new players... grab the M berry :berrys: if it drops, then use :wakumin: to upgrade it to :Lberry:
+    2- exp monspot+ (+75%) or exp monspot (+50%) .  type ".monspot" in #bot-playground chat to see how it works.  unless you live in japan, getting exp spot is RNG and you have to try daily.  can also use real money and purchase monpass premium (1980yen  ;  https://monster-strike-enjp.fandom.com/wiki/Monpass  )
+    3- activate :bell~1: for 3x exp for 1 hour.  if willing to spend real money, subscribe to monpass premium for 1980 yen and you get kingspot (all monspot powers activated).
+    4- use Seele in team  (+50%)... can add a friend with Seele if you dont have your own.  As you use a friend helper, they cannot be used again until certain amount of time passes, or you use friendmin :friendmin: item to refresh friend list.   The trick to avoid using :frienditem: items is to remove all other friends. if you only have one friend in your friendlist, you can use their Seele unlimited number of times.  if your friends seele has genius berry, you dont need to farm your own right now.  (wiki calls it "Zeele"    https://monster-strike-enjp.fandom.com/wiki/Zeele  )
+
+
+    There are two more ways to get EXP, a ML lucky bonus (+5% at 675ML; new player wont be able to get this anytime soon), and monpass +5% when playing coop (but dont do coop, it slows down your runs)
+
+
+* For those specifically wanting to rank farm
+* Farm normals, the latest set has base 40,000 experience per clear
+* With the right setup, it goes up to nearly 545,000 experience per clear, with almost <1 minute clear times.
+* Caveats - those trying to reach max rank 2500, will not have enough bells to always get ideal setup.  Will have to use other events, or farm the 2x experience events.
+* GW normals guide
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/6978
+
+
+* There are other exp events, such as collab 50x skill, and a rabbit (keiusa) exp event
+
+* GW recommended quest for 50x collab skill (slime) (limited time only)
+* Seems this collab skill comes back every so often.
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/485641
+
+
+
+* I have an EXP calculator here:
+* It's based on playing normals with (40,000 base experience) or the latest set of 1 stamina stages.
+* https://monkkeeeyyyydluffy.github.io/monsterstrike/src/pages/tools/exp.html
+
+
+
+
+* My personal notes
+** The game always "power creeps" the experience farming for those chasing, ie max rank is 2500 now.
+** IE. it is significantly easier and faster to reach rank 1000 today
+
+!State of the game
+==================
+
+* Just misc notes from my opinions
+
+* The game isn't linear in any way, it's more about collecting monsters than progression.
+
+* you can choose how to play, whether casual, low difficulty only, high difficulty/high grinding time investment. and each style is viable.
+** the easiest event, has the highest orb rewards (tower); so devs do look out for the casual playerbase.
+
+* if you want to have unlimited things to do, theres more things to do in the game than you have time (probably).
+** Some of the most extremely time consuming things in this game:
+** ML high difficulty EX stages.. amnedia, cortina, archilet
+** reach max rank 2500
+*** Farm even further for the eventual max rank 3000
+** Farm 99+ win streak on reizetsus.
+** Farm significant usage count on your favorite mons. (think over 25,000 usage count on a mon)
+
+* or you can be casual
+* only login for free stuff
+* only single clear for orbs and a single drop.
+* skip all higher difficulty content (no insidious or zetsus), only play lower difficulty quests (extreme and lower)
+
+
+
+* very common pattern of slowly power creeping a higher difficulty quest
+* common for new higher difficulty content to need new gacha units because the game wants you to roll the gacha.
+** on first release session, suitable units will be very narrow.
+** first release may only have super old units or general pool units as suitable. It will be very hard with these weaker units.
+** release a new gacha unit that is "OK" powered for this quest. Definitely stronger than the general pools.  May even be released in the elemental banners (on average, it is a weaker banner, but one or two units stand out)
+** After a bit of time (weeks, few months?), release a collab unit that is quite strong for this quest
+** Then maybe, after a bit more time, release either another collab, or alpha, or legends/guardians for this quest that is ridiculously strong for this quest
+** After year++, release new forms for older units or a general pool unit that is also ridiculously strong for this quest.
+** Sometimes the units become so OP, you ignore the gimmicks and bump combo for the win.
+
+
+* The highest skilled players clear quests on the very session, and max luck very quickly.
+** The quests power creep very quickly as of 2025, so skill requirement drops very quickly.
+
+* For the more average skilled players or box-checked players... If you can be patient, wait for power creep, do not have to wait long in order to clear quests more comfortably.
+
+* There are still so many free pulls, being given out.  I almost never roll elemental banners, yet I have some of the best mons from these banners for free. It will take time for free pulls to make a difference (think 1+ year old account)
+
+
+* From the pattern of their power creeping, they are quite nice to average skilled/box checked players, as long as you can be patient and wait a bit for power creep.
+* Also, if the first release session for higher difficulty quests is not hard, no one will roll the gachas, and they cannot make money and the game will EOS.
+
+* I played during NA and a lot in 2019... the game is significantly easier to play now
+** can leech games quickly via quick online multiplayer
+** so many more AI translation tools, android phones can instantly translate and overlay on the screen
+** youtube has auto-translate and dub
+** every 24 hours, the set of quests rotate.  No longer does a quest schedule into 6-8am time slot and you must wake up at 6am to play it.
+** Way back then there wasn't monst day, bump combos that obliterate stages, so making max lucks for lucky bonus/soul badge is much easier today.
+** They even (basically) gave away a ML that can obliterate stages  ( https://monster-strike-enjp.fandom.com/wiki/Troimerai ).  No farming a quest was needed, just invite two new strikers
+
+* There are monthly collabs now, IMO collabs are some of the most fun content in the game.
+
+* Inspired (or directly copied :] ) from
+** state of game notes from https://monster-strike-enjp.fandom.com/wiki/User_blog:Silverwilver/general_guide_draft#Units
+**  https://www.reddit.com/r/MonsterStrike/comments/br3d3g/help_for_those_that_have_been_long_time_players/
+** https://www.reddit.com/r/MonsterStrike/comments/85lbrt/similar_game_to_monster_strike/
+** https://www.reddit.com/r/MonsterStrike/comments/6u801u/new_player_questions/
+
+
+
+!Game Mechanics
+===============
+
+For notes I have no other place to put...
+
+
+* hitboxes are NOT circular
+** hit allows ireban (irregular bounce) and match shot/hitstops
+** Game Devs. confirmed they aren't circles. one of the dev deep dive videos, they're actually jagged
+** https://www.youtube.com/shorts/gg88Z5klURo
+** full video. 21minute mark
+** https://www.youtube.com/watch?v=ZGlpcnt12xM
+
+
+* Buggy behaviour when unit moves too fast... it appears game only evaluates at X number of frames.. so if you say require a "glow bomb" to explode then your attack increases.. if your unit explodes bomb then hits enemy too quicky,  the game did not yet resolve that it needs to increase your units attack.
+** I've heard (auto translate) Choko or Arisu(Alicey) say this occurs near healing wall if your unit moves within 1frame and theres a mine or something.  It may calculate healing wall first, then mine damage, so you die.
+
+* Theres a shotroute on g6, b4, where you hit energy container, go through mid boss, exit midboss with energy still being held, then hit slow panel and then hit mid boss WP (now you consume the energy).
+** its funky because you may think you will consume energy while going through mid boss, but you dont.
+** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/434257
+
+
+* enemies can have internal hidden WP, where you deal more damage. Despite WP not being revealed.
+** Shot route on c10, b1, where kirinji basically attacks mid bosses crotch area... it deals more damage at that spot.
+** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/354193
+
+
+
+* Bump aiming usually are one of:
+** no aim (like scramble laser, energy circle)
+** Dunk (along path of your shot)
+** Target weakest enemy
+** Target closest enemy
+** Target wp
+** Target all enemy
+** Follows your unit around
+** Unless specified wp all the targeting ones go after centers of respective targets
+
+
+* IE. Kuon bump combo aims via
+** 3second delay.
+** shoot nearest enemy to you.
+** lasers on wall go in X position (old version went in W; trident)
+** aims for center of boss. if you land near boss.
+
+
+* frieren, mystery, trident raypod laser thing
+** Looks like about a 30deg triangle to nearest enemy
+** Pods shoot toward nearest I believe
+** And afterwards it shoots at the enemy nearest the unit you shot where you stopped
+
+
+!Common team comps
+==================
+
+* My personal notes on team patterns I see..
+
+* 3 attackers, 1 support
+* 4 attackers
+* 2 attackers, 2 support
+** 2bump 2copy
+
+* attackers can include units with:
+** very high stats
+** balanced (bias type) -- this is especially strong in quests with elemental advantage UP
+** multiple slayer/killer abilities
+*** IE. attack turn slayer, weak point slayer, dark (or another element) slayer, etc....
+** strikeshots with high multipliers and/or strong follow up attacks
+** and more..
+
+* support can be a variety of things such as:
+** increase SS rotation (ss time bullets, ss bound charge, ss charge, etc...)
+** buff SS (increases allies attack)
+** variety of useful bump combos such as...
+** speed up
+** attack up (or other bump combos such as attack charge, power field, etc...)
+** def up
+** bump combo up
+** bubbly gift
+** healing related (healing bound charge, healing bomb throw, etc...)
+
+* 2bump 2copy
+** two units with strong bump combo, may be wrong element for the quest, think neo, masamune, pangu
+** two units with copy, with right element for the quest, usually with killer abilities.
+** NOTE - do not put sidekick berry on the unit with only copy bump combo, it does not increase damage of the copied ability. It will increase the damage of literally copy bump combo, which has a damage of 0, thus doing nothing. You want sidekicks on the unit with the strong bump combo.
+
+
+
+
+
+* Some units are hybrid of attacker/support, usually this is a strong (broken) unit.
+** masamune pierce form has strong healing, strong bump, strong ss.
+** suletta (gundam) has strong healing, durability, strong percent SS.
+
+
+
+* many more types when diving further
+** wanpan (one punch) units
+*** often carried through quest by other 3, then one punched boss to skip bars and win (if strong enough, skip all bars and instantly win).
+** poison ss... IE. Pandora's stage 2 ss can deal 104% damage in perfect conditions.
+** delay ss - delay breaks revival loops, mechanics where enemies heal to full HP, and greatly helps in quests with short OHKO counters
+** L (2025 new year mon) the attack UP sharing slave; common to bring her only for her assist skill of sharing attack up; even if she is completely gimmick incompatible for a quest.
+
+
+
+* fixed shot teams
+** each unit can have very specific task
+** can be for speed farming easy quests (normals, temple, easy event quests)
+** or for some of the hardest quests in the game, that need to be farmed endlessly, IE. g10 m10...
+*** IE. p1 p2 useful for clearing b1;  p3 useful for b5; p4 for wanpan on boss1 (b6)
+** the fixed shot teams for high difficulty may be unstable due to precise shots, starting position, precise requirements for speed stat so you always land in precise location, etc..
+
+* Speed farming can include literally weaker and slower units, alongside a unit to wanpan
+* IE. speed farming temple solo with Lucy can be
+** p1 is unit you want to put berry
+** p2,p3 use kuriboh (slow speed so turn ends faster, no gauge so faster to shoot, pierce easier to aim and avoid ireban)
+** p4 lucy, trigger her bump combo to wanpan
+
+
+
+!Player Goals
+=============
+
+* My personal notes
+* Player Goals or what do I do next? What do I do in this game
+
+* Farm more ML.
+* Clear more quests/content
+* Keep up with latest events/collabs
+
+* Farm orbs to roll gachas
+* Farm rank
+* Farm usage count
+* Farm affinity (play coop with ingame friends, filled up a meter daily, eventually earn orb tickets)
+
+* Learn different shots
+** pinches
+** bounce off wall into a pinch
+** Diamond
+** figure 8
+** "Corner looping shot" (IDK what to call it)
+** The different shapes.. N shot, Z shot, W shot, M shot
+** Try to accurately follow route trajectory for multiple bounces
+
+* Keep playing more quests to learn different units, gimmicks, shots, team comps.
+
+* ML related
+** Lucky bonus caps at 700ML
+** Soul badge skills caps at 10,000 power per element
+*** Could be worded as 500ML, 100ML per element.
+** Lucky mons of the week requires 3/8 every week;  The more ML you have the better.
+
+
+!Glossary
+=========
+
+
+* My personal notes on misc terms in the game
+
+* Some background...
+* The game was released in north america back around 2014 (?), so some terms have official english translation.
+* NA server went EOS around 2017 (?), thus newer in game terms have no official translation.
+* Thus newer english terms will just be terms from Scott, English Wiki, or discord chat.
+
+* Most other resources will NOT include auto translate terms via browser/youtube, but I will have them here.
+** I use Google Chrome browser for auto translate. Terms will differ based on auto translate tool.
+
+
+* punch/direct hit/puncher
+    - when you directly hit an enemy, it can be called punching (so NOT bump combo damage)
+* friendship/bump combo/hot friend attack
+    - when you directly hit (bump) an ally, it triggers their bump combo. auto translate commonly calls this friendship
+* small fry/mobs
+    - non boss enemies are called mobs or small fry
+* mid boss
+    - mid bosses have large health bar at top of screen, but appear before the boss stages
+
+* super ultimate/ultimate/extreme/blast/roaring
+    - if you are coming here from auto translate, i have bad news.  Monster strike difficulty names are horrible when they become auto translated and you cannot differentiate them. you have to read them in the japanese form. If you come to discord and ask what is Super Ultimate; none of us will know whether its reizetsu, insidious, lethal, or something else.
+
+* EX/invade
+    - some quests only appear when clearing a different quests, granting you a chance to play a "secret" quest.  IIRC the "EX" is for "EX"tra quest
+
+* stall
+    - purposely try to not clear a battle, thus stalling. Often for charging up SS, or growing items, or entering next battle on a specific players turn.
+
+* pinch
+    - when two enemies have a small gap, and you get shoot inbetween the gap to get "stuck" or pinch between the enemies.
+
+* cancan
+    - IIRC japanese speakers may say "cancan" and this is for when you directly attack between a wall and enemy, hitting them many times.  Usually a narrow angle shot so you get more "stuck" and do not bounce out.
+
+* hit stop/mach shot
+    - sometimes when you shoot, your unit will be moving then it hits the enemy and abruptly stops, and the direct hit counter increases rapidly.  You can get up to 20-100+ hits in an instant when this happens and inflict substantial damage.  I do not know the secret to this shot, but highly skilled players can intentionally aim for this shot.
+
+* ireban/irregular bounce
+    - sometimes when your unit is moving and hits enemy, it will bounce off in a completely "random" direction.  This is because the hitbox is not a circle, but a lot of jagged edges. You are essentially hitting a corner.
+
+* SS/strike shot
+    - special attack that must be charged up, and when ready you see an "OK" on your unit portrait. Tap unit and it says "GO", then shoot to use your special attack.
+
+* Bash SS
+    - SS that sticks to the first hit enemy. Will not bounce off enemy, it literally sticks to enemey.
+
+* "Something" Don SS: IE. Wall Don SS/Enemy Don SS/Warp Don SS
+    - SS that increases in attack according to the "Don" in the name. So a wall don SS grows stronger the number of times you hit the wall, an enemy don SS grows stronger the more enemies you hit, etc...
+
+* Grand command SS
+    - SS that shoots all your allies in same direction as current unit.
+
+* Motivate/Lead SS
+    - SS that will move your allies when you directly hit them. The direction of the allies movement is dependent on the direction when they were hit.
+
+* SS Follow up
+    - Many modern SS have a follow up mechanic, where after unit shoots and stops moving, another follow up special attack occurs.  The follow up can have different targetting mechanics: follow up on boss, follow up on first hit enemy, follow up on nearby enemy, follow up on entire screen.
+
+* Percent SS
+    - SS that deals percentage damage.  This can be percentage of maximum HP, or percentage of remaining HP.
+
+* "something"mara.. IE. amumara
+    - marathoning (farming) for an EX quest. amumara would be marathoning paranovia, to farm Amnedia EX quest.  If someone says they are doing amumara, they are farming paranovia to try to get Amnedia EX
+
+
+
+
+!Useful Links
+=============
+
+
+* gamewith (GW)
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/
+
+* Blog by silverwilver.  Updated 2025; may go out of date but was useful when I checked.
+* https://monster-strike-enjp.fandom.com/wiki/User_blog:Silverwilver/general_guide_draft
