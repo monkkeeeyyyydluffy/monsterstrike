@@ -1,4 +1,4 @@
-Table of Contents
+aTable of Contents
 =================
 
 * !Intro
@@ -18,6 +18,7 @@ Table of Contents
 * !Uncharted Lands
 * !Temple of heroes
 * !Berry Cage
+* !Items
 * !Striker Records
 * !Treasure 9
 * !Gacharido Lab
@@ -36,6 +37,7 @@ Table of Contents
 * !Lucky Monster of the Week
 * !Gimmicks, Hazards and misc.
 * !Quest Difficulties
+* !Battle Tickets
 * !Rank/Experience farming
 * !State of the game
 * !Game Mechanics
@@ -43,6 +45,11 @@ Table of Contents
 * !Player Goals
 * !Glossary (Misc Terms)
 * !Useful Links
+* !2026 reroll and rank 600 on new account
+* !Rinne NY unit 2026
+* !Chernobog (+3 direct drops unit)
+
+
 
 !Intro
 =====
@@ -53,13 +60,14 @@ Table of Contents
 
 * I will *try* to adhere to this organization
 ** General beginner
-** first events/modes
-** then ableberry/temple advice
-** then other common parts of UI
-** then general beginner advice
-** then exp/normal related topics
-** then game mechanics
-** then miscellanious tips
+** events/modes
+** ableberry/temple advice
+** misc parts of game (gacharido lab, treasure 9, mon day, gouz points, etc....)
+** general beginner advice
+** exp/normal related topics
+** game mechanics
+** miscellanious
+
 
 * Shameless plug
 * my page, misc monst stuff
@@ -365,8 +373,10 @@ Table of Contents
 
 * Related terms or synonyms you may see
 ** discord, auto translate via browser/youtube, etc..
-* astral mausoleum
-* aka  Tomb of the Destruction Star
+* aka 破界の星墓
+* aka hakai no seibo
+* aka astral mausoleum
+* aka Tomb of the Destruction Star
 * aka starburial of ruin
 * aka starburial of destruction
 * aks star grave of destruction
@@ -374,8 +384,6 @@ Table of Contents
 * aka destruction stargrave
 * aka 星墓
 * aka 破界の星墓3 (m3)
-* aka Yabu-kai no hoshi haka
-* aka 破界の星墓
 * aka holy mother of destruction
 * aka holy mother
 * aka virgin of destruction
@@ -391,7 +399,7 @@ Table of Contents
 ** clear 10 battles, unlock last 1
 
 * rewards
-** every 3 battles random reward
+** every 3 battles random reward from a set list
 ** on 30 battles. 20 orbs
 ** on 60 battles. 4th berry scroll. great ableberry scroll
 ** all 10 battle 1 clear - gacha-dama shard
@@ -620,6 +628,99 @@ Table of Contents
 
 * note - you CAN overwrite berry in cage by placing another berry
 ** can use this to overwrite berries you do not want
+
+!Items
+======
+
+
+* GW list of items. and example of where to obtain
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/142043
+* levelscroll/superscroll and who should use it.
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/171375
+
+* https://monster-strike-enjp.fandom.com/wiki/Items
+
+
+* Rarest items in the game
+** Book of great heroes (unlocks fourth ableberry slot)
+
+
+
+Items to use with Caution
+Refill Dice Icon    [Extra Dice]
+Get additional rewards for each dice rolled
+
+    レベルの書
+    :levelscroll: Increases level to 120 and increases stats slighty(tba 5%) and bump damage (tba 15%)
+    戦型の書
+    :superscroll: Enhances your bias to super levels.
+
+    【英雄の書】
+    hero scroll: grant ableberry slot (heros proof) to any monster aka scroll of heroes
+
+    【フエールビスケット】
+    Biscuit: consume double stamina, but double treasure chest reward
+
+    【エラベルベル】
+    Bell: select one campaign and hold it for 1hour
+
+    【ミラクルミン】
+    Miracle-min: Can continue stage even in no-continue stages.
+
+    【わくわくステッキ】
+    Waku-waku Stick: Transfer ableberries to another monster
+
+    【紋章チェンジャー】
+    Soul badge (crest) changer: Monpass only. change soul badge without using soul spirits.
+
+    :travelbell: new bell lets you play any quest that has appeared in the past 24hr. Note if you want to play coop all coop players need to use be
+
+Items frequently obtained.
+    【わくわくミン】
+    Waku waku min: upgrades grade of berry (Waku-Waku nut (わくわくの実))
+
+    【コンテニュミン】
+    Continue-min: revive in regualr stage
+
+    【スタミナミン】
+    stamina-min: refill stam
+
+    【助っ人ミン】
+    helper-min: reset friend helper timer
+
+Evolution mats.
+    【降神玉】
+    ascension-sharl: ascend monsters without mats (monster mats)
+
+    【獣竜玉】
+    transcend-sharl: transcend monsters without mats (divine dragons/mats)
+
+    【獣神竜(各属性)】
+    divine dragons: transcend mats
+
+    【獣神玉】
+    divine sharl: evolution and transcend mat
+
+
+x
+    "The Choice Bell lets players choose the following effects that will last for 1 hour. You can use this during co-op and it will affect all players!
+
+    - 3x Normal Quest EXP
+    - 2.5x Gold Temple Drops
+    - No-Continue Clear Guarantees 2 Ableberries
+    - Combination of both [30 minutes only]
+
+    - Boss Drops at 2x Rates
+    - 2x Library Drops (doesn't affect Impossibles)
+    - Sacred grounds Boss Drops at 2x Rates
+
+    #- 5x Divines / Dragon Gems
+
+
+x
+    The cookie lets you spend 2x your stamina, to let you get 2x the drops
+
+
 
 !Striker Records
 ================
@@ -981,8 +1082,6 @@ midday and night.
 ** discord invite link: https://discord.gg/QWvbWAj
 ** discord #ms-guide link: https://discord.com/channels/267853822003642369/778379677660217365
 
-
-
 * Bounce/Pierce sling type - unit will bounce off enemies or pierce through enemies.
 * Class - unit will have a class, this affects your Class ableberries and also if enemies have slayer abilities.
 * Bias type - Bias type can be Balanced or Power or Speed or Blast. This affects Bias type berries and has many other effects. See the "Bias Types" section
@@ -1196,21 +1295,22 @@ midday and night.
 
 
 * all zetsus (chouzetsu, bakuzetsu, gouzetsu)
-* all quests
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/21559
 
 
-
-* chouzetsus (impossible) - way back in 2014ish,these were the hardest quest in the game.  nowadays its 5-9*/15 difficulty and much easier.  IMO, minimal benefit to farming these
+* chouzetsus (impossible) - way back in 2014ish,these were the hardest quest in the game.  nowadays its 5-9*/15 difficulty and much easier.
+* Some (newer) chouzetsu series have EX invades. EX invade mon are strong units to have.
 * No dedicated GW page afaik
 
-* bakuzetsu (colossal) - 8-13* difficulty,  can farm these to get EX invades. EX invade mon are strong units to have.
+* bakuzetsu (colossal) - 8-13* difficulty
+* Some (newer) bakuzetsu series have EX invades. EX invade mon are strong units to have.
 * No dedicated GW page afaik
 
 
 * gouzetsu (rogue) - 12-15* difficulty. can be useful ML units. can farm 990 gouzetsu points per quest. units here have trancension forms.
 ** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/110048
 ** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/466310
+** cannot use miraclemin on newest gouzetsu quest
 
 * reizetsu - 15+* difficulty. some of the hardest content in the game. difficult to max luck due to a win streak system. units here have shin div forms.
 ** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/421311
@@ -1218,6 +1318,7 @@ midday and night.
 ** Only 1 to 3 direct drops from boss
 ** and a win streak system - +2 drops for 2 win streak, +3 drops for 3+ win streak.
 ** no soul badges, no berries, no lending mon (karimon)
+** for Library only - can use miraclemin to continue game, thus saving your win streak.
 
 * insidious - 8-15* difficulty, usually closer to gouzetsu level.
 * there are many variants of insidous, such as: insidious sai, insidious ketsu, etc...
@@ -1225,16 +1326,68 @@ midday and night.
 * each collab has insidious quest(s)
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/161892
 
-
 * chouzetsu/bakuzetsu ranked based on difficulty (not updated often?)
 * typically a very old quest is much easier
 ** thus even the oldest gouzetsu may be as easy as a modern chouzetsu
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/22464
 
+* EX/invade
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/525865
+* EX quest has chance to appear when clearing certain quests.
+* Only drops via direct drop
+* most modern EX quests will show up as a stocked quest you have 24 plays to play.
+* Some older EX quests you must play immediately with same party. IIRC the "EX" is for "EX"tra quest
+
+
+* Battle ticket system (Insidious Ketsu)
+* See "battle ticket" section below for full details
+* Buy tickets using orbs, then use tickets to farm the quest.
+* essentially pay ORBS to play.
+* aka 超究極傑 aka cho kyukyoku ketsu
+
 
 * My page on quest difficulties
 * I try to put icons of recognizible quest on the right hand side so you can find it in library.
 * https://monkkeeeyyyydluffy.github.io/monsterstrike/src/pages/difficulties.html
+
+
+
+
+!Battle Tickets
+=================================
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/474563
+
+* Battle ticket system where you essentially pay ORBS to play.
+* Buy tickets, then use tickets to farm the quest.
+
+* Insidious Ketsu difficulty (超究極傑 aka cho kyukyoku ketsu)
+* Quest can only be played by trading in battle tickets. battle tickets cost orbs to purchase.
+* no continues. If you lose, no refund on tickets.
+
+* Every day, your first ticket of the day can be purchased for 1 orb.
+* After first ticket of the day, tickets cost 5 orbs each.
+* Tip: To save orbs used, login daily and purchase first ticket of the day for 1 orb.
+
+* Direct drop only
+* Spend 5 tickets to play quest where boss direct drops 5 eggs
+* Similarly, 4 tickets will direct drop 4
+* 3 tickets for 3
+* 2 tickets for 2
+* 1 ticket for 1
+
+
+* Quest screen will show five quests, but all quests are exactly the same, except for ticket cost and direct drops at the end.
+
+* Tickets do not expire, you may purchase ticket and hold onto them indefinitely.
+* Sale of battle tickets for limited time only (usually around 6 months)
+
+* Seele and Chernobog are from battle tickets
+
+* My personal tips:
+** You pay ORBS to play, make sure you understand system so you do not waste orbs.
+** if you do not have units nor an OP team, you may hold tickets until the quest is power crept/you pull better units.
+** if you can include ML chernobog in your team, you can ML using 25 tickets instead of 99.  Because chernobog increases +3 drops, you can save on 74 tickets (74 orbs). Read the GW strategy page for Chernobog for all the details and teams used.
 
 
 
@@ -1374,6 +1527,7 @@ For notes I have no other place to put...
 
 * Buggy behaviour when unit moves too fast... it appears game only evaluates at X number of frames.. so if you say require a "glow bomb" to explode then your attack increases.. if your unit explodes bomb then hits enemy too quicky,  the game did not yet resolve that it needs to increase your units attack.
 ** I've heard (auto translate) Choko or Arisu(Alicey) say this occurs near healing wall if your unit moves within 1frame and theres a mine or something.  It may calculate healing wall first, then mine damage, so you die.
+** Can even go so fast you phase through enemy and deal no damage.
 
 * Theres a shotroute on g6, b4, where you hit energy container, go through mid boss, exit midboss with energy still being held, then hit slow panel and then hit mid boss WP (now you consume the energy).
 ** its funky because you may think you will consume energy while going through mid boss, but you dont.
@@ -1539,7 +1693,7 @@ For notes I have no other place to put...
     - if you are coming here from auto translate, i have bad news.  Monster strike difficulty names are horrible when they become auto translated and you cannot differentiate them. you have to read them in the japanese form. If you come to discord and ask what is Super Ultimate; none of us will know whether its reizetsu, insidious, lethal, or something else.
 
 * EX/invade
-    - some quests only appear when clearing a different quests, granting you a chance to play a "secret" quest.  IIRC the "EX" is for "EX"tra quest
+    - EX/invade quest has chance to appear when clearing certain quests. most modern EX quests will show up as a stocked quest you have 24 plays to play.  Some older EX quests you must play immediately with same party. IIRC the "EX" is for "EX"tra quest
 
 * stall
     - purposely try to not clear a battle, thus stalling. Often for charging up SS, or growing items, or entering next battle on a specific players turn.
@@ -1551,7 +1705,7 @@ For notes I have no other place to put...
     - IIRC japanese speakers may say "cancan" and this is for when you directly attack between a wall and enemy, hitting them many times.  Usually a narrow angle shot so you get more "stuck" and do not bounce out.
 
 * hit stop/mach shot
-    - sometimes when you shoot, your unit will be moving then it hits the enemy and abruptly stops, and the direct hit counter increases rapidly.  You can get up to 20-100+ hits in an instant when this happens and inflict substantial damage.  I do not know the secret to this shot, but highly skilled players can intentionally aim for this shot.
+    - sometimes when you shoot, your unit will be moving then it hits the enemy and abruptly stops, and the direct hit counter increases rapidly.  You can get up to 20-100+ hits in an instant when this happens and inflict substantial damage.  I do not know the secret to this shot, but highly skilled players can intentionally aim for this shot.   see Alicey vid from 9 years ago.. https://www.youtube.com/watch?v=Sg4GcBGMxQg
 
 * ireban/irregular bounce
     - sometimes when your unit is moving and hits enemy, it will bounce off in a completely "random" direction.  This is because the hitbox is not a circle, but a lot of jagged edges. You are essentially hitting a corner.
@@ -1592,3 +1746,66 @@ For notes I have no other place to put...
 
 * Blog by silverwilver.  Updated 2025; may go out of date but was useful when I checked.
 * https://monster-strike-enjp.fandom.com/wiki/User_blog:Silverwilver/general_guide_draft
+
+
+
+!2026 reroll and rank 600 on new account
+=============
+
+watch this video with auto translate on. up to date as of 2026/01/01
+
+https://www.youtube.com/watch?v=_U3BPPuvZ_o
+
+
+!Rinne NY unit 2026
+===================
+
+Rinne is the New year unit for January 1 2026.
+
+https://monster-strike-enjp.fandom.com/wiki/Rinne
+
+
+Rinne is completely breaking many quests
+Her first impression after 1 day of release is quite amazing.
+
+
+Her pierce/power form. Very strong at direct hits with weak point slayer L, power aura, shot skill for critical hits, and 52011 attack w/gauge.
+Extremely high dmg multiplier on her bash SS - based on wall hits, IE. 3 wall hits up to 15x dmg, 4 wall hits up to 25x dmg.
+
+
+Her blast/bounce form. very fast SS rotation, on percentage dmg ss... so any boss will melt to pct dmg. no matter what their HP or gimmick is.
+Bump combo damage at 1,181,250 - breaking many quests despite not being suitable element or gimmick compatible.
+Unit kit was designed to be able to handle gimmicks she technically should not be able to.
+Can handle all gimmicks that inflict damage, has resurrection barrier to mitigate elemental attacks.
+High SS rotation rate, on an high percentage dmg SS.
+High percentage damage SS allows her to handle many different quests and ignore gimmicks.
+
+
+
+
+
+!Chernobog (+3 direct drops unit)
+=================================
+
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/519111
+* https://monster-strike-enjp.fandom.com/wiki/Chernobog
+
+* chernobog at ML adds +3 to direct drop quests
+* Can only be farmed via battle tickets which are sold for a limited time only.
+* See "Battle Tickets" section for details
+* Chernobog ticket sales end April 20, 2026. If you are reading this earlier than March 1, 2026 you have a chance to buy tickets daily and have enough tickets to max luck. If 100% win rate you only need 25 tickets, but may be difficult for new players to get 100% win rate.
+
+
+* Works in temple, EX quest, collab daily drop quest
+
+* Does not work in New year (NY) coin  quest
+
+* Typical drop rates
+** EX series 1 at mini boss, 1-5 boss drop
+** Chouz EX 3-5 boss drop
+** Reiz 1-3 boss drop
+** Source is discord chat. TODO fact check with GW.
+
+* With above drop rates, you can see how adding ML cherno for +3 drops can significantly reduce runs required to ML a unit.
+
