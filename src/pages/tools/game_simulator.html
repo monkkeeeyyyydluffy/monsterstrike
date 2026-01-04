@@ -1,0 +1,243 @@
+<!doctype html>
+
+
+<!-- https://stackoverflow.com/questions/17890673/calculate-random-bounce-angles -->
+<!-- https://stackoverflow.com/a/17924942 -->
+<!-- Fork of SO answer. adjusted for MS 8:9 ratio dimensions.  -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berry Simulator Tool</title>
+
+  </head>
+  <body
+
+  >
+      <canvas id='example' width="670px" height="750px" style="margin:10px;">
+
+    </canvas>
+
+    <button id="button1" onclick="buttonClick()">Find next coordinate</button>
+
+    <button id="button2" onclick="reloadGame()">Reload Game</button>
+    <div id="info"></div>
+
+    <script>
+        var canvas = document.getElementById("example");
+        var context = canvas.getContext("2d");
+
+        function drawLine(x1,y1,x2,y2)
+        {
+
+            context.fillStyle = '#000';
+            context.strokeStyle = '#000';
+
+            context.beginPath();
+            context.moveTo(x1, y1);
+            context.lineTo(x2, y2);
+            context.lineWidth = 1;
+            context.stroke();
+            context.closePath();
+        }
+
+        // 8 : 9
+        // width x height
+        // 500 x 200
+        //1280×1440
+        //640x720
+        drawLine(0,0,0,720);
+        drawLine(0,0,640,0);
+        drawLine(0,720,640,720);
+        drawLine(640,0,640,720);
+
+        var width = 640;
+        var height = 720;
+        var extra = 0;
+        var a;
+        var b;
+        var x;
+        var y;
+        var angle;
+        var n;
+        var m;
+        var quadrant;
+        var horizontal;
+        var vertical;
+        var alpha;
+        var side;
+        var topbottom;
+        var sides;
+        var i = 1;
+
+          var txt=document.getElementById("info");
+          txt.innerHTML="x: "+a+"<br>y: "+b+"<br>angle: "+angle+"<br>quadrant: "+quadrant;
+
+        function reloadGame()
+        {
+          context.clearRect(0, 0, canvas.width, canvas.height);
+
+          drawLine(0,0,0,720);
+          drawLine(0,0,640,0);
+          drawLine(0,720,640,720);
+          drawLine(640,0,640,720);
+
+          var width = 640;
+          var height = 720;
+          var extra = 0;
+          var a;
+          var b;
+          var x;
+          var y;
+          var angle;
+          var n;
+          var m;
+          var quadrant;
+          var horizontal;
+          var vertical;
+          var alpha;
+          var side;
+          var topbottom;
+          var sides;
+          var i = 1;
+
+          var txt=document.getElementById("info");
+          txt.innerHTML="x: "+a+"<br>y: "+b+"<br>angle: "+angle+"<br>quadrant: "+quadrant;
+        }
+        function buttonClick()
+        {
+          if (i == 1)
+          {
+            a = 75;
+            b = 75;
+            //determine first angle randonmly
+            angle = Math.floor((Math.random()*360)+1);;
+          } else
+          {
+            a = xcoord();
+            b = ycoord();
+          }
+          var oldAngle = angle;
+          angle = findNewCoordinate(a, b, angle);
+
+          sides = hitWhere();
+
+          var txt=document.getElementById("info");
+            txt.innerHTML="x: "+a+"<br>y: "+b+"<br>horizontal: "+horizontal+"<br>vertical: "+vertical+"<br>n: "+n+"<br>m: "+m+"<br>angle: "+oldAngle+"<br>alpha: "+alpha+"<br>quadrant: "+quadrant+"<br>side: "+topbottom+side+"<br>"+sides+"<br>"+i;
+            i++;
+        }
+
+        function findNewCoordinate(a, b, angle)
+        {
+            if (angle >= 0 && angle < 90) { quadrant = 1; horizontal = width-a; vertical = b; alpha = (90 - angle); }
+            else if (angle >= 90 && angle < 180) { quadrant = 4; horizontal = width-a; vertical = height-b; alpha = (angle-90);  }
+            else if (angle >= 180 && angle < 270) { quadrant = 3; horizontal = a; vertical = height-b; alpha = (270-angle);  }
+            else if (angle >= 270 && angle <= 360) { quadrant = 2; horizontal = a; vertical = b; alpha = (angle-270);  }
+
+
+               var cosa = Math.cos(alpha * Math.PI / 180);
+               var sina = Math.sin(alpha * Math.PI / 180);
+               var tana = Math.tan(alpha * Math.PI / 180);
+
+               var cost = Math.cos(angle * Math.PI / 180);
+               var sint = Math.sin(angle * Math.PI / 180);
+               var tant = Math.tan(angle * Math.PI / 180);
+
+               n = horizontal/cosa;
+               m = vertical/sina;
+
+
+            switch (quadrant)
+            {
+                case 1:
+                    if (m >= n) //hit at side
+                    {
+                        y = b - horizontal*tana; //done
+                        x = width;               //done
+                        angle = 270+alpha;       //done
+                    } else
+                    {
+                        y = 0;                   //done
+                        x = a + vertical*tant;   //done
+                        angle = 180-angle;       //done
+                    }
+                    side = "right side"; topbottom = "top";
+                    break;
+                case 2:
+                    if (m >= n)  //hit at side
+                    {
+                        y = b-horizontal*tana;   //done
+                        x = 0;                   //done
+                        angle = 90-alpha;        //done
+                    } else
+                    {
+                        y = 0;                   //done
+                        x = a - vertical/tana;   //done
+                        angle = 270-alpha;       //done
+                    }
+                    side = "left side"; topbottom = "top";
+                    break;
+                case 3: side = "left side"; topbottom = "bottom";
+                    if (m >= n)  //hit at side
+                    {
+                        x = 0;                   //done
+                        y = b + tana*horizontal; //done
+                        angle = 90+alpha;        //done
+                    } else
+                    {
+                        y = height;              //done
+                        x = a - vertical/tana;   //done
+                        angle = 270+alpha;       //done
+                    } break;
+                case 4: side = "right side"; topbottom = "bottom";
+                    if (m >= n)  //hit at side
+                    {
+                        y = b+horizontal*tana; //done
+                        x = width;             //done
+                        angle = 270-alpha;     //done
+                    } else
+                    {
+                        y = height;            //done
+                        x = a + vertical/tana; //done
+                        angle = 90-alpha;      //done
+                    } break;
+            }
+
+
+            angle += extra;
+
+            context.beginPath();
+            context.arc(a, b, 5, 0, Math.PI*2, true);
+            context.stroke();
+            context.closePath();
+            context.fill();
+
+            drawLine(a,b,x,y);
+
+            return angle;
+        }
+
+        function xcoord()
+        {
+            return x;
+        }
+
+        function ycoord()
+        {
+            return y;
+        }
+
+        function hitWhere()
+        {
+            if (n >= m)
+            {
+               return "Hit at top or bottom";
+            } else
+            {
+               return "Hit at a side";
+            }
+        }
+    </script>
+  </body>
+</html>
+
