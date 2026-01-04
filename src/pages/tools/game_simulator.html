@@ -14,13 +14,14 @@
   <body
 
   >
-      <canvas id='example' width="670px" height="750px" style="margin:10px;">
+      <canvas id='example' width="350px" height="410px" style="margin:10px;">
 
     </canvas>
+    <br />
+    <button id="button1" onclick="buttonClick()" style="text-align: left;  padding: 12px 70px; font-size: 16px">Find next coordinate</button>
 
-    <button id="button1" onclick="buttonClick()">Find next coordinate</button>
-
-    <button id="button2" onclick="reloadGame()">Reload Game</button>
+    <br />
+    <button id="button2" onclick="reloadGame()" style="text-align: left;  padding: 12px 70px; font-size: 16px">Reload Game</button>
     <div id="info"></div>
 
     <script>
@@ -46,13 +47,14 @@
         // 500 x 200
         //1280×1440
         //640x720
-        drawLine(0,0,0,720);
-        drawLine(0,0,640,0);
-        drawLine(0,720,640,720);
-        drawLine(640,0,640,720);
+        //320x360
+        drawLine(0,0,0,360);
+        drawLine(0,0,320,0);
+        drawLine(0,360,320,360);
+        drawLine(320,0,320,360);
 
-        var width = 640;
-        var height = 720;
+        var width = 320;
+        var height = 360;
         var extra = 0;
         var a;
         var b;
@@ -77,13 +79,13 @@
         {
           context.clearRect(0, 0, canvas.width, canvas.height);
 
-          drawLine(0,0,0,720);
-          drawLine(0,0,640,0);
-          drawLine(0,720,640,720);
-          drawLine(640,0,640,720);
+          drawLine(0,0,0,360);
+          drawLine(0,0,320,0);
+          drawLine(0,360,320,360);
+          drawLine(320,0,320,360);
 
-          var width = 640;
-          var height = 720;
+          var width = 320;
+          var height = 360;
           var extra = 0;
           var a;
           var b;
