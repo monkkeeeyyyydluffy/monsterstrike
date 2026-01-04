@@ -11,6 +11,47 @@
     <title>Berry Simulator Tool</title>
 
   </head>
+<style>
+.all-news-btn {
+
+  background: #666666;
+
+  background-image: -webkit-linear-gradient(top, #666666, #333333);
+  background-image: -moz-linear-gradient(top, #666666, #333333);
+  background-image: -ms-linear-gradient(top, #666666, #333333);
+  background-image: -o-linear-gradient(top, #666666, #333333);
+  background-image: linear-gradient(to bottom, #666666, #333333);
+
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+
+  font-family: Arial !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  padding: 7px 8px 7px 7px;
+  text-decoration: none;
+  margin-left: 3px;
+
+  min-width: 100px;
+  min-height: 30px;
+  display: inline;
+}
+
+.all-news-btn:hover {
+  background: #666666;
+  background-image: -webkit-linear-gradient(top, #666666, #000000);
+  background-image: -moz-linear-gradient(top, #666666, #000000);
+  background-image: -ms-linear-gradient(top, #666666, #000000);
+  background-image: -o-linear-gradient(top, #666666, #000000);
+  background-image: linear-gradient(to bottom, #666666, #000000);
+  text-decoration: none;
+}
+
+ @media only screen and (max-width:480px) {
+  .all-news-btn {width: 100%; font-size: 4.25em; }
+}
+</style>
   <body
 
   >
@@ -18,10 +59,10 @@
 
     </canvas>
     <br />
-    <button id="button1" onclick="buttonClick()" style="text-align: left;  padding: 12px 70px; font-size: 16px">Find next coordinate</button>
+    <button id="button1" onclick="buttonClick()" class="bt">Find next coordinate</button>
 
     <br />
-    <button id="button2" onclick="reloadGame()" style="text-align: left;  padding: 12px 70px; font-size: 16px">Reload Game</button>
+    <button id="button2" onclick="reloadGame()" class="bt">Reload Game</button>
     <div id="info"></div>
 
     <script>
