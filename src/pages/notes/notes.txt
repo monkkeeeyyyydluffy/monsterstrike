@@ -1,4 +1,4 @@
-aTable of Contents
+Table of Contents
 =================
 
 * !Intro
@@ -48,7 +48,9 @@ aTable of Contents
 * !2026 reroll and rank 600 on new account
 * !Rinne NY unit 2026
 * !Chernobog (+3 direct drops unit)
-
+* !Beginner Tips
+* !Easter Eggs
+* !I have not played in a few years
 
 
 !Intro
@@ -1564,6 +1566,19 @@ For notes I have no other place to put...
 ** And afterwards it shoots at the enemy nearest the unit you shot where you stopped
 
 
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/444058
+** it says super ADW and wall boost does not apply to follow up attacks.  Is this frieren specific or for all follow ups?
+
+* TODO: add choko spreadsheet here
+* this screenshot choko breakdowns the Ipecti quest (reizetsu)
+** there are multipliers for main body, direct hit, weak point, bump combo.
+** there are 0.01x multipliers
+** the boss itself has 20x direct hit, 10x weak point, and 30x for defense down. TODO:confirm numbers.
+** this showcases the different multipliers that stage designers can use.
+
+
+
+
 !Common team comps
 ==================
 
@@ -1744,6 +1759,12 @@ For notes I have no other place to put...
 * gamewith (GW)
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/
 
+* English Wiki
+* https://monster-strike-enjp.fandom.com/wiki/Monster_Strike_Wiki
+
+* discord invite link: https://discord.gg/QWvbWAj
+* discord #ms-guide link: https://discord.com/channels/267853822003642369/778379677660217365
+
 * Blog by silverwilver.  Updated 2025; may go out of date but was useful when I checked.
 * https://monster-strike-enjp.fandom.com/wiki/User_blog:Silverwilver/general_guide_draft
 
@@ -1808,4 +1829,77 @@ High percentage damage SS allows her to handle many different quests and ignore 
 ** Source is discord chat. TODO fact check with GW.
 
 * With above drop rates, you can see how adding ML cherno for +3 drops can significantly reduce runs required to ML a unit.
+
+
+!Beginner Tips
+==============
+
+
+* tip - quest is usually easy if lucy/masamune in top5 usage; use bump combos to clear.
+
+
+
+!Easter Eggs
+==============
+
+
+* Random easter eggs found in the game, such as hidden abilities on some units, quirky SS damage formulas, and more...
+
+* 7ds escanor - buff at noon
+* nanami (jjk) buff over time
+* luffy (one piece) - immune to lightning, a hidden ability, not listed on ability page.
+
+
+* kaguya (love is war) ss damage formula is very complicated
+** relies on last 2 digits of number of hits, last 2 digits of remaining hp, last 2 digits on usage count.
+** https://x.com/ATLAS_XD/status/1645042874965463042
+        ▷ Student Council Vice President Kaguya Shinomiya
+        [1st Stage] 15 Turns
+        ・Buffs self: ATK x1.2x, SP x5x
+        ・Percentage: 0.08n%
+        *Minimum: 12%, Max: 27%
+        [2nd Stage] 19 Turns
+        ・Buffs self: ATK x1.5x, SP x10x
+        ・Percentage: 0.12n%
+        *Minimum: 20%, Max: 45%
+
+        n=2(a+b)+c
+
+        a=Last 2 digits of number of hits
+        b=Last 2 digits of remaining HP
+        c=Last 2 digits of number of uses
+
+        Percentage is based on enemy's maximum HP
+
+** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/394570
+    GW will simply say 20% to 45%, but does not get detailed into how it works.
+
+
+    https://x.com/ATLAS_XD/status/1645042937699635201
+
+    {Additional information about Kaguya's rate specifications} *Example of calculation for the second stage: If the number of hits is 261 and HP is 90848, the rate will be (61+48)*2*0.12=26.16%. In addition, if there are usage counts, the number of usages * 0.12% will be added. For example, if it is used 99 times, the rate will be +11.88%. *Please note that the number of usages will not be reflected if it is a friend slot or borrowed item.
+
+
+
+!I have not played in a few years
+==================================
+
+
+* For returning players, wanted to write about only the most important things in the game
+** There will always be power creep with stronger units, stronger collabs, etc... so will not discuss those.
+
+TODO: *2026/01/23* still working on this section. its WIP.
+
+* 2025
+** Quests schedule and playtime completely revamped.
+*** Every 24 hours, all quests rotate at 12pm japan time (exceptions for debut quests and some others).
+*** So within 24 hour window, all quests are available, no more setting timers for 5am to play a quest.
+*** Each quest has its own timer for play time allowed (usually 2-3hr playtime). Similar to timer for S-rank, the timer only runs while player turn is active, NOT between map changes and other animations.
+***
+** Tenma permanently moved to challenge section. Monthly rewards will continue until July 2026, then discontinued August 2026.
+
+
+* 2023
+** Reizetsu quests debut;   now the highest difficulty (surpassing gouzetsu)
+
 
