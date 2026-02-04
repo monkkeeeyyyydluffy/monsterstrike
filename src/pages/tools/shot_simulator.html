@@ -117,6 +117,7 @@
         var topbottom;
         var sides;
         var firstangle = null;
+        var firstanglelog = null;
         var i = 1;
 
           var txt=document.getElementById("info");
@@ -210,10 +211,10 @@
             //other debugging.
             //a=0;
             //b=360;
-            // angle = 16.5043;
+            // angle = 45;
             // #MANUALLY DEBUG AND TEST
 
-            firstangle = angle;
+            firstanglelog = angle;
           } else
           {
             a = xcoord();
@@ -225,7 +226,7 @@
           sides = hitWhere();
 
           var txt=document.getElementById("info");
-            txt.innerHTML="x: "+a+"<br>y: "+b+"<br>horizontal: "+horizontal+"<br>vertical: "+vertical+"<br>n: "+n+"<br>m: "+m+"<br>firstangle: "+firstangle+"<br>angle: "+oldAngle+"<br>alpha: "+alpha+"<br>quadrant: "+quadrant+"<br>side: "+topbottom+side+"<br>"+sides+"<br>"+i;
+            txt.innerHTML="x: "+a+"<br>y: "+b+"<br>horizontal: "+horizontal+"<br>vertical: "+vertical+"<br>n: "+n+"<br>m: "+m+"<br>firstanglelog: "+firstanglelog+"<br>angle: "+oldAngle+"<br>alpha: "+alpha+"<br>quadrant: "+quadrant+"<br>side: "+topbottom+side+"<br>"+sides+"<br>"+i;
             i++;
         }
 
