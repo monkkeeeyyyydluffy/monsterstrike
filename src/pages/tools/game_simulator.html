@@ -3,12 +3,15 @@
 
 <!-- https://stackoverflow.com/questions/17890673/calculate-random-bounce-angles -->
 <!-- https://stackoverflow.com/a/17924942 -->
-<!-- Fork of SO answer. adjusted for MS 8:9 ratio dimensions.  -->
+<!-- Fork of SO answer. adjusted for MS 8:9 ratio dimensions.
+-->
+<!-- misc documentation -->
+<!-- the var "firstangle". 0 would be shooting directly vertical.  90 would be shooting at 3oclock. 180 at 6oclock. 270 at 9oclock. etc.. -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Berry Simulator Tool</title>
+    <title>Shot Simulator Tool</title>
 
   </head>
 <style>
@@ -97,6 +100,8 @@
         var width = 320;
         var height = 360;
         var extra = 0;
+        var firstx=75;
+        var firsty=75;
         var a;
         var b;
         var x;
@@ -111,10 +116,38 @@
         var side;
         var topbottom;
         var sides;
+        var firstangle = null;
         var i = 1;
 
           var txt=document.getElementById("info");
           txt.innerHTML="x: "+a+"<br>y: "+b+"<br>angle: "+angle+"<br>quadrant: "+quadrant;
+
+        // Get url parms. ?firstangle=42
+        const params = new URLSearchParams(window.location.search);
+
+        if (params.has('firstangle')) {
+          const value = parseFloat(params.get('firstangle'), 10);
+
+          if (!Number.isNaN(value)) {
+            firstangle = value;
+          }
+        }
+
+        // Get url parms firstx first y
+        if (params.has('firstx')) {
+          const value = parseInt(params.get('firstx'), 10);
+
+          if (!Number.isNaN(value)) {
+            firstx = value;
+          }
+        }
+        if (params.has('firsty')) {
+          const value = parseInt(params.get('firsty'), 10);
+
+          if (!Number.isNaN(value)) {
+            firsty = value;
+          }
+        }
 
         function reloadGame()
         {
@@ -151,10 +184,36 @@
         {
           if (i == 1)
           {
-            a = 75;
-            b = 75;
+            a = firstx;
+            b = firsty;
+
             //determine first angle randonmly
-            angle = Math.floor((Math.random()*360)+1);;
+            if (firstangle !== null){
+                angle = firstangle;
+            }
+            else{
+                angle = Math.floor((Math.random()*360)+1);;
+            }
+
+            // #MANUALLY DEBUG AND TEST
+            //#can randomize the starting position
+            // a = Math.floor((Math.random()*width)+1);;
+            // b = Math.floor((Math.random()*height)+1);;
+
+            //set the angle (loop, V, >, M, N)
+            // angle = 41.6335;
+            // angle = 23.9625;
+            // angle = 60.6423;
+            // angle = 12.5288;
+            // angle = 16.5043;
+
+            //other debugging.
+            //a=0;
+            //b=360;
+            // angle = 16.5043;
+            // #MANUALLY DEBUG AND TEST
+
+            firstangle = angle;
           } else
           {
             a = xcoord();
@@ -166,7 +225,7 @@
           sides = hitWhere();
 
           var txt=document.getElementById("info");
-            txt.innerHTML="x: "+a+"<br>y: "+b+"<br>horizontal: "+horizontal+"<br>vertical: "+vertical+"<br>n: "+n+"<br>m: "+m+"<br>angle: "+oldAngle+"<br>alpha: "+alpha+"<br>quadrant: "+quadrant+"<br>side: "+topbottom+side+"<br>"+sides+"<br>"+i;
+            txt.innerHTML="x: "+a+"<br>y: "+b+"<br>horizontal: "+horizontal+"<br>vertical: "+vertical+"<br>n: "+n+"<br>m: "+m+"<br>firstangle: "+firstangle+"<br>angle: "+oldAngle+"<br>alpha: "+alpha+"<br>quadrant: "+quadrant+"<br>side: "+topbottom+side+"<br>"+sides+"<br>"+i;
             i++;
         }
 
