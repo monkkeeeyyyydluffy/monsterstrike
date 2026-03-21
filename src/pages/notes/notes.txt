@@ -51,6 +51,9 @@ Table of Contents
 * !Beginner Tips
 * !Easter Eggs
 * !I have not played in a few years
+* !Web Shop
+* !Training Door
+* !Lucky Result
 
 
 !Intro
@@ -133,12 +136,22 @@ Table of Contents
 ** best monthly content in the game.
 * see GW link or check in game for full rewards list
 * released in 2015
+* Revised March 2026
 
-* floors 1-40 (classic)
-** anyone can skip floors 1-19
+
+* Revised March 2026
+** Scott YT 7min mark
+** https://www.youtube.com/watch?v=3-skhqWBGSg
+** from the classic floors, 1-40, they are removing the first 20
+** now floors named 1-20, but they will match the old 21-40. exactly same as quests for 21-40.
+** seperate section called tower of champions - beginnings.
+*** exactly same as classic floors
+*** can only be cleared once.
+
+* floors 1-20 (classic)
 
 * seasons
-** you can clear 5 (slightly harder) stages to completely clear classic floor 31-40
+** you can clear 5 (slightly harder) stages to completely clear classic floor 11-20
 ** to unlock seasons, must clear zetsus tournament
 ** new seasons will come out periodically (every few months?)
 *** older seasons archived and not playable anymore.
@@ -148,11 +161,11 @@ Table of Contents
 *** barter shop allows you to one-time trade "less useful" items for more useful items such as orbs.
 
 * 2nd season
-** another set of 5 (slightly harder) stages to completely clear classic floor 31-40
+** another set of 5 (slightly harder) stages to completely clear classic floor 11-20
 ** not the newest season; does NOT unlock barter function.
 
 * 3rd season
-** another set of 5 (slightly harder) stages to completely clear classic floor 31-40
+** another set of 5 (slightly harder) stages to completely clear classic floor 11-20
 ** latest season; WILL UNLOCK barter function (trade shitier items for better)
 
 
@@ -160,10 +173,10 @@ Table of Contents
 ** 1st season (archived when season3 released. cannot play it anymore.)
 
 
-* if you win extreme tournament, can skip floors 1-29
+* if you win extreme tournament, can skip floors 1-10
 * to unlock seasons, must clear extreme tournament
 
-* if playing classic, there is a rare chance upon completing a stage, to completely clear all classic floors.
+* if playing classic, there is a rare chance upon completing a stage, to get EX quest that will completely clear all classic floors.
 
 * normally held from 7th of each month to 25th.  new years and other holidays may cause differences.
 
@@ -290,8 +303,8 @@ Table of Contents
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/351632
 
 * Monthly game mode, consists of two sections, Castle and Gardens
-** Castle released in 2021; set of 10 dungeons for end game
-** Gardens released in 2023; set of 10 dungeons for end game.
+** Castle released in August 2022; set of 10 dungeons for end game
+** Gardens released in Feb 2024; set of 10 dungeons for end game.
 ** High difficulty (15+), end game content.
 * see GW link or check in game for full rewards list
 
@@ -362,6 +375,8 @@ Table of Contents
 * There is an eng wiki, but has never been updated for Gardens.
 ** https://monster-strike-enjp.fandom.com/wiki/Castle_of_the_Heavenly_Demons
 
+* citations
+** 5min mark. release dates. https://www.youtube.com/watch?v=tKGPICSrkOM
 
 !Astral Mausoleum
 =================
@@ -370,8 +385,18 @@ Table of Contents
 
 * Monthly game mode
 * High difficulty (15+), end game content, released aug 2025.
+* Revised March 2026!
 * icon looks like a giant star or spiky (deathstar) planet.
 
+* Revised March 27 2026!
+** quests 1-5 will be from selected from the original 10 from august 2025 set
+** quests 6-10 will be brand new quests
+** rewards revamped
+** gacha-dama shard gen2
+** special mission March 27 for 6 months - on 30 battles cleared, get great ableberry scroll (4th slot).
+** special mission March 27 - April 23. special title for first clear
+** Scott youtube 3m 30s
+** https://www.youtube.com/watch?v=DCGA1qHCyUs
 
 * Related terms or synonyms you may see
 ** discord, auto translate via browser/youtube, etc..
@@ -402,19 +427,28 @@ Table of Contents
 
 * rewards
 ** every 3 battles random reward from a set list
+** on 10 battles. 5 paranovia
+** on 20 battles. 5 paranovia
 ** on 30 battles. 20 orbs
+** on 40 battles. 5 melan & korin
+** on 50 battles. 5 melan & korin
 ** on 60 battles. 4th berry scroll. great ableberry scroll
 ** all 10 battle 1 clear - gacha-dama shard
 ** all 10 battle 2 clear - gacha-dama shard
 ** all 10 battle 3 clear - gacha-dama shard
 
-* gacha pull guaranteed 2024+
+* gen2 gacha pull guaranteed 2025+
 * general pool. earn on 3rd, 6, 9, 15, 18 ,21st shard
 * gen pool + limited. earn on 12th shard
 * limited guaranteed. earn on 24th shard aka 8 months of grind
+* gen1 gacha pull guaranteed 2024+
 
 * See GW link for full rewards
 
+
+* History
+* v1 maus August 1 2025 - March 20 2026
+* v2 maus March 27 2026 -
 
 !Scramble Universe
 ==================
@@ -626,6 +660,7 @@ Table of Contents
 * Related terms or synonyms you may see
 ** discord, auto translate via browser/youtube, etc..
 * aka berry cage
+* aka berry bank
 
 
 * note - you CAN overwrite berry in cage by placing another berry
@@ -1484,7 +1519,7 @@ midday and night.
 ** Sometimes the units become so OP, you ignore the gimmicks and bump combo for the win.
 
 
-* The highest skilled players clear quests on the very session, and max luck very quickly.
+* The highest skilled players clear quests on the very first session, and max luck very quickly.
 ** The quests power creep very quickly as of 2025, so skill requirement drops very quickly.
 
 * For the more average skilled players or box-checked players... If you can be patient, wait for power creep, do not have to wait long in order to clear quests more comfortably.
@@ -1569,14 +1604,16 @@ For notes I have no other place to put...
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/444058
 ** it says super ADW and wall boost does not apply to follow up attacks.  Is this frieren specific or for all follow ups?
 
-* TODO: add choko spreadsheet here
+* https://x.com/chokochoko128/status/2008826717251793264/photo/1
 * this screenshot choko breakdowns the Ipecti quest (reizetsu)
 ** there are multipliers for main body, direct hit, weak point, bump combo.
 ** there are 0.01x multipliers
-** the boss itself has 20x direct hit, 10x weak point, and 30x for defense down. TODO:confirm numbers.
+** the boss itself has 20x direct hit, 10x weak point, and 30x for defense down.
 ** this showcases the different multipliers that stage designers can use.
 
-
+* bump combos with same name differ in multipliers 5star vs 6star
+** https://www.youtube.com/watch?v=Y7Ns8tY0OcE
+** 8m 45s mark
 
 
 !Common team comps
@@ -1765,6 +1802,13 @@ For notes I have no other place to put...
 * discord invite link: https://discord.gg/QWvbWAj
 * discord #ms-guide link: https://discord.com/channels/267853822003642369/778379677660217365
 
+
+* monst 4aka Blog
+** misc jpn player, but good detailed reviews of units and guides on quests
+** its one of the best detailed written breakdowns of units I've seen
+** https://www.monst-4aka.com/
+
+
 * Blog by silverwilver.  Updated 2025; may go out of date but was useful when I checked.
 * https://monster-strike-enjp.fandom.com/wiki/User_blog:Silverwilver/general_guide_draft
 
@@ -1811,6 +1855,7 @@ High percentage damage SS allows her to handle many different quests and ignore 
 
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/519111
 * https://monster-strike-enjp.fandom.com/wiki/Chernobog
+* https://www.monst-4aka.com/2025/09/blog-post_69.html
 
 * chernobog at ML adds +3 to direct drop quests
 * Can only be farmed via battle tickets which are sold for a limited time only.
@@ -1886,20 +1931,102 @@ High percentage damage SS allows her to handle many different quests and ignore 
 
 
 * For returning players, wanted to write about only the most important things in the game
-** There will always be power creep with stronger units, stronger collabs, etc... so will not discuss those.
+* Will not cover the following:
+** power creep with stronger units, stronger collabs, etc...
+** UI changes; game is constantly changing UI (Quality of life, QoL)
+** one time only game events, ie lemuria dream event ran once, may never run again.
 
-TODO: *2026/01/23* still working on this section. its WIP.
+
+
+* summary
+* End game difficulty is reizetsu
+* end game monthly content is Astral Mausoleum (Hakai No Seibo)
+* the best banner overall is still legends/guardians
+** if patient, highest odds of rolling good units is when they combine collab banner with legends/guardians
+* Monster forms from highest to lowest: Shin Jushinka, Jushinka Kai, Jushinka, Shinka/Kamika(?)
+** In english terms: True transcension, trancension kai, transcension, evolution/ascension.
+* In terms of upgrading your unit/in-game strength:
+** Can go up to 4 berry slot (4th slot scroll via clearing Seibo or a rare event reward)
+** Soul badge
+** Lucky Bonus
+** Max stats/super bias type
+
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/132066
+** Latest update summary
+
+
+
+* 2026
+
 
 * 2025
 ** Quests schedule and playtime completely revamped.
 *** Every 24 hours, all quests rotate at 12pm japan time (exceptions for debut quests and some others).
 *** So within 24 hour window, all quests are available, no more setting timers for 5am to play a quest.
-*** Each quest has its own timer for play time allowed (usually 2-3hr playtime). Similar to timer for S-rank, the timer only runs while player turn is active, NOT between map changes and other animations.
-***
+*** Each quest has its own timer for "remaining play time" allowed (usually 2-3hr playtime). Similar to timer for S-rank, the timer only runs while player turn is active, NOT between map changes and other animations.
+*** Stocking quests function removed from game.
+** Bell effects switched to "remaining playtime format", siimlar to quests
+** Astral Mausoleum (Hakai No Seibo) is newest end game mode, released August 2025.  10 quests. Final reward is scroll to unlock fourth berry slot.
 ** Tenma permanently moved to challenge section. Monthly rewards will continue until July 2026, then discontinued August 2026.
+** EL temple released with (low) chance of dropping EL berries.
+** Berry cage introduced (details in "Berry Cage" section)
 
+
+* 2024
+** First battle ticket quest (insidious ketsu). Seele. Essentially must use orbs to play quest and farm unit (buy tickets with orbs, use ticket to play quest).
+*** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/474563
+** Quick-Multi added - auto join lobby, making ingame coop much easier.
+*** https://www.youtube.com/watch?v=SWfxSpSUjYk
+*** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/459332
+* Web Shop released.
+* Search for guides/videos via in game button that launches browser and does search on the quest.
+** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/446440
 
 * 2023
 ** Reizetsu quests debut;   now the highest difficulty (surpassing gouzetsu)
+** You can check in-game if allies touching gimmick
+** https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/378935
+** Shin Jushinka form? - shot skill and assist skills.  new material for evolving, shin mats.
+
+* 2021
+** Guardian beast forest added
+
+* 2019
+** Monster Strike Day (Monst Day) added
 
 
+TODO find out when each form was implemented. Monster forms from highest to lowest: Shin Jushinka, Jushinka Kai, Jushinka
+TODO continue going through
+https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/180040
+
+!Web Shop
+==========
+
+* https://webshop.monster-strike.com/
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/459547
+
+
+* monster strike has an official web site to purchase items using a credit card
+** mixi profits more from webshop versus paying through google or apple
+** it has many payment options including credit card, paypal, and many more.
+** earn points on each purchase
+
+* notes
+* no issues using credit cards from north america (and possibly no issues with any other countries)
+* Can avoid going through loopholes to pay viai google/apple
+
+
+!Training Door
+==============
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/180010
+* Not useful unless you live in japan.
+* Can park a monster at training door and increase level limit to 120 for free instead of using red scroll.
+
+
+!Lucky Result
+===============
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/245655
+* Very rarely all drops from treasure chests will be monster (or gold berry) drops
