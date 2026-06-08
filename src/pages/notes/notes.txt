@@ -16,6 +16,7 @@ Table of Contents
 * !Sacred Grounds
 * !Historical
 * !Uncharted Lands
+* !Shifting Ruins
 * !Temple of heroes
 * !Berry Cage
 * !Items
@@ -67,7 +68,7 @@ Table of Contents
 ** General beginner
 ** events/modes
 ** ableberry/temple advice
-** misc parts of game (gacharido lab, treasure 9, mon day, gouz points, etc....)
+** misc parts of game (gacharido lab, treasure 9, monst day, gouz points, etc....)
 ** general beginner advice
 ** exp/normal related topics
 ** game mechanics
@@ -104,13 +105,13 @@ Table of Contents
 
 
 !Events
-======
+=======
 
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/385789
 * GW article above summarizes all the events in one table, also showing rewards.
 
 * Monthly events:
-** Astral Mausoleum: 1st to 21st of each month
+** Astral Mausoleum: 27th to 21st of each month
 ** Tenma resets 1st of each month
 ** Tower 7th to 25th of each month
 ** Uncharted Dunes 14th to 29th of each month
@@ -125,7 +126,7 @@ Table of Contents
 
 
 !Tower
-=====
+======
 
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/15540
 
@@ -133,7 +134,7 @@ Table of Contents
 * monthly game mode, containing 40 floors (in classic mode)
 * low difficulty to clear, 68 orbs every month (the highest in game).
 * icon looks like tower with lightning clouds.
-** best monthly content in the game.
+** best monthly content in the game -- highest orbs, lowest difficulty
 * see GW link or check in game for full rewards list
 * released in 2015
 * Revised March 2026
@@ -188,8 +189,8 @@ Table of Contents
 * https://monster-strike-enjp.fandom.com/wiki/Forbidden_Abyss
 
 
-* monthly game mode, containing 30 quests; second best monthly content in the game.
-* second best monthly content in the game.
+* monthly game mode, containing 30 quests
+* second best monthly content in the game (second highest orbs; medium difficulty)
 * icon looks like red cave/dungeon.
 * early stages low difficulty, later stages higher difficulty to clear, 55 orbs every month.
 * see GW link or check in game for full rewards list
@@ -578,6 +579,56 @@ Table of Contents
 * This was replaced by Uncharted Sand dunes and migrated to Challenge section; hence very low rewards now.
 
 
+!Shifting Ruins
+===============
+
+* https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/562152
+* https://www.youtube.com/watch?v=TmWt6dgVeXo
+** 9minute mark scott youtube
+
+* Time limited Event
+* icon looks like a clock in ancient ruins. five clocks, one for each element.
+* Released 2026. first event runs from May 30, 2026 to September 1, 2026
+
+* Rewards
+** Various rewards via chest rewards
+** Can ML quest bosses via playing special quest by using keys
+** earn 10 orbs per quest boss ML (50 orbs total)
+
+* Related terms or synonyms you may see
+** discord, auto translate via browser/youtube, etc..
+* aka Ruins of the otherworld
+* aka Shifting time ruins
+* aka Ruins of the transmigration
+* aka Seas
+* aka 転界の遺跡
+* aka tenkai no iseki
+
+* event is similar to the former time limited event seas
+
+
+* 1 Pick a destination
+* 2 Begin the exploration
+* 3 Wait & Earn reward
+* 4 Play the special quest
+
+
+* 2 Explore with 4 max luck mon to maximize number of chest rewards
+** Must match requirements set by exploration (element, sling type, abilities, etc..)
+** Has convenient library button to filter on required mons.
+
+
+* 3 Chest rewards
+** Maximum wait time 48h for rewards -- reduced to 24h if full ML team.
+** total luck adjust number of chest rewards (3-10chests)
+** total luck of quest bosses increase chance of gold chest
+** Can watch CM once a day to reduce wait time.
+
+* 4 Play special quest by using keys
+** Do NOT need key to join as guest
+** all unused keys turn into soul points at end of event
+** play quest to ML the Quest Bosses
+
 
 !Temple of heroes
 =================
@@ -606,7 +657,7 @@ Table of Contents
 
 * Use the ableberry board to farm efficiently.
 
-* Farm efficiently: one shot team comps, bell for berry rate up, during monday, etc..
+* Farm efficiently: one shot team comps, bell for berry rate up, during monst day, etc..
 
 * Most people will farm Dark TT2, Light TT1, or Fire TT1 because of the popuar one shot team comps (as of 2025).
 
@@ -630,6 +681,11 @@ Table of Contents
 * GW states tested drop rate is 0.38%
 
 
+* EL temple one shot teams
+* https://www.youtube.com/watch?v=HoSbo_7imh8
+** Kurohige 2026 May vid showing EL temple one shot teams
+* https://www.youtube.com/watch?v=oGL5ECYaDic
+** Eshi
 
 !Berry Cage
 ===========
@@ -764,7 +820,7 @@ x
 
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/465417
 * Mission event - A collection of missions that provide rewards
-* Currently on third event;   October 2, 2025 to April 1, 2026
+* Currently on fourth event;   April 2, 2026 to October 1, 2026
 * First event released in 2024
 
 * The missions are related to various parts of the game, such as but not limited to:
@@ -781,7 +837,7 @@ x
 * Scotts Youtube here can explain the system in general
 * https://www.youtube.com/watch?v=Yt-dzk8-Aa0
 * 16:30 minutes mark.
-* WARNING- they keep changing the UI every few months... but the overall missions are very similar and have not changed.
+* WARNING- they keep changing the UI every few months... but the overall mission structure are very similar with minimal changes.
 * 5 categories, 30 missions each.
 * As you clear more missions, you rank up from 1 up to 10 in EACH category.
 
@@ -824,7 +880,7 @@ x
 * https://xn--eckwa2aa3a9c8j8bve9d.gamewith.jp/article/show/246648
 
 
-* A limited time mission related to clearnig the latest bakuzetsu quest.
+* A limited time mission related to clearing the latest bakuzetsu quest.
 ** Shooting is latest treasure 9 running from December 26, 2025 to February 24, 2026
 
 * There are 9 rewards: misc in game items.
@@ -1858,10 +1914,14 @@ High percentage damage SS allows her to handle many different quests and ignore 
 * https://www.monst-4aka.com/2025/09/blog-post_69.html
 
 * chernobog at ML adds +3 to direct drop quests
+* Tickets NOT AVAILABLE anymore (ran from 2025-09 to 2026-04), but may re-run in the future.
+
 * Can only be farmed via battle tickets which are sold for a limited time only.
 * See "Battle Tickets" section for details
-* Chernobog ticket sales end April 20, 2026. If you are reading this earlier than March 1, 2026 you have a chance to buy tickets daily and have enough tickets to max luck. If 100% win rate you only need 25 tickets, but may be difficult for new players to get 100% win rate.
 
+* ML with 25 tickets instead of 99
+** major flaws: need to mitigate 100k elemental attack with damage reduction, high hp, and HP recovery. also chernobog does NOT have anti slowdown floor
+** include ML chernobog in your team, you can ML using 25 tickets instead of 99.  Because chernobog increases +3 drops, you can save on 74 tickets (74 orbs). Read the GW strategy page for Chernobog for all the details and teams used.
 
 * Works in temple, EX quest, collab daily drop quest
 
@@ -1869,12 +1929,14 @@ High percentage damage SS allows her to handle many different quests and ignore 
 
 * Typical drop rates
 ** EX series 1 at mini boss, 1-5 boss drop
-** Chouz EX 3-5 boss drop
+** Chouz EX 3-5 boss drop  (confirmed i got 5drops once Baku EX)
 ** Reiz 1-3 boss drop
 ** Source is discord chat. TODO fact check with GW.
 
 * With above drop rates, you can see how adding ML cherno for +3 drops can significantly reduce runs required to ML a unit.
 
+* sonapasu timeline review of chernobog meta:
+* https://www.youtube.com/watch?v=hkTQAt8PvvI
 
 !Beginner Tips
 ==============
@@ -1958,6 +2020,7 @@ High percentage damage SS allows her to handle many different quests and ignore 
 
 
 * 2026
+** new time limited event - Shifting Ruins
 
 
 * 2025
@@ -1966,7 +2029,7 @@ High percentage damage SS allows her to handle many different quests and ignore 
 *** So within 24 hour window, all quests are available, no more setting timers for 5am to play a quest.
 *** Each quest has its own timer for "remaining play time" allowed (usually 2-3hr playtime). Similar to timer for S-rank, the timer only runs while player turn is active, NOT between map changes and other animations.
 *** Stocking quests function removed from game.
-** Bell effects switched to "remaining playtime format", siimlar to quests
+** Bell effects switched to "remaining playtime format", similar to quests
 ** Astral Mausoleum (Hakai No Seibo) is newest end game mode, released August 2025.  10 quests. Final reward is scroll to unlock fourth berry slot.
 ** Tenma permanently moved to challenge section. Monthly rewards will continue until July 2026, then discontinued August 2026.
 ** EL temple released with (low) chance of dropping EL berries.
